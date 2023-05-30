@@ -8,29 +8,40 @@ body.qh-local {
   color: white;
 }
 
+@media screen and (max-width: 960px) {
+  .App,
+  #popup-root {
+    font-size: 0.6em;
+  }
+}
+
 /** 1280px and smaller */
-@media screen and (max-width: 1280px) {
-  .App {
+@media screen and (min-width: 961px) and (max-width: 1280px) {
+  .App,
+  #popup-root {
     font-size: 0.8em;
   }
 }
 
 /** 1281 to 1920 */
-@media screen and (min-width: 1281) and (max-width: 1920px) {
-  .App {
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .App,
+  #popup-root {
     font-size: 1em;
   }
 }
 
 /** 1921 to 2560 */
 @media screen and (min-width: 1921px) {
-  .App {
+  .App,
+  #popup-root {
     font-size: 1.35em;
   }
 }
 
 @media screen and (min-width: 2561px) {
-  .App {
+  .App,
+  #popup-root {
     font-size: 1.5em;
   }
 }

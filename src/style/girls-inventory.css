@@ -40,14 +40,14 @@
   flex-direction: column;
   min-width: fit-content;
 
-  padding: 1rem;
+  padding-inline: 1rem;
 
   align-content: start;
   align-items: stretch;
 
   padding-right: 30px;
 
-  --icon-height: 30px;
+  --icon-height: 1.8em;
 }
 
 .girls-inventory-content > .girls-list > .item-slot,
