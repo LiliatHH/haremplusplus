@@ -7,8 +7,8 @@
 // @match        https://*.hentaiheroes.com/*
 // @match        https://nutaku.haremheroes.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=hentaiheroes.com
-// @updateURL    https://raw.githubusercontent.com/LiliatHH/haremplusplus/main/release/haremplusplus.user.js
-// @downloadURL  https://raw.githubusercontent.com/LiliatHH/haremplusplus/main/release/haremplusplus.user.js
+// @updateURL    https://raw.githubusercontent.com/LiliatHH/haremplusplus/mobile-layout/release/haremplusplus.user.js
+// @downloadURL  https://raw.githubusercontent.com/LiliatHH/haremplusplus/mobile-layout/release/haremplusplus.user.js
 // @grant        none
 // ==/UserScript==
 

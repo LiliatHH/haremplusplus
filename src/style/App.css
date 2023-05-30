@@ -91,7 +91,7 @@ body.qh-local {
 .blessings-summary > div {
   display: flex;
   flex-flow: column;
-  row-gap: 5px;
+  row-gap: 0.25em;
   padding: 1rem;
 }
 
@@ -112,9 +112,6 @@ body.qh-local {
 .filter-enabled {
   filter: drop-shadow(0px 0px 3px white);
   text-decoration: underline;
-  /* background-color: deepskyblue;
-  border-radius: 5px;
-  padding: 3px; */
 }
 
 .rare-blessing > span > .total {
@@ -247,7 +244,8 @@ li.nok {
 
 .App input,
 .App button {
-  padding: 5px;
+  padding-inline: 0.5em;
+  padding-block: 0.25em;
 }
 
 .action {

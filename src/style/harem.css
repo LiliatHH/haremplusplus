@@ -76,7 +76,7 @@
   background-image: url(https://hh2.hh-content.com/pictures/design/form/search_field_L.png);
   background-position: 100% 50%;
   background-repeat: no-repeat;
-  background-size: 40px;
+  background-size: 2.5em;
 
   width: 18em;
 
@@ -153,10 +153,6 @@
 
 .harem-toolbar > .spacer {
   margin-left: auto; /* Push to the end of the toolbar */
-}
-
-.harem-toolbar > .filter-sort-icon {
-  padding: 0.3rem;
 }
 
 .harem-toolbar > .filter-sort-icon.closed {
@@ -414,14 +410,7 @@
 @media screen and (max-width: 960px) {
   .clear-filters,
   .restore-default-filters,
-  .owned-gems-summary,
   .edit-teams {
     display: none;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .details-content > .details-section .qh-progress-bar {
-    width: 12rem;
   }
 }
