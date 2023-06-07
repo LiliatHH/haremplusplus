@@ -406,11 +406,3 @@
 .hide-tooltips > #harem-tooltip {
   display: none;
 }
-
-@media screen and (max-width: 960px) {
-  .clear-filters,
-  .restore-default-filters,
-  .edit-teams {
-    display: none;
-  }
-}

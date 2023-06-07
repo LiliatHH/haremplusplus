@@ -1,0 +1,43 @@
+.qh-hamburger-menu {
+  position: relative;
+}
+
+.qh-hamburger-menu > .menu-toggle {
+  display: none;
+}
+
+.toolbar-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+@media screen and (max-width: 1020px) {
+  .qh-hamburger-menu > .menu-toggle {
+    display: initial;
+  }
+
+  .toolbar-content {
+    flex-direction: column;
+  }
+
+  .qh-hamburger-menu > .menu-content {
+    /* display: inline-block; */
+
+    padding: 1em;
+
+    min-width: 30vw;
+    overflow: auto;
+    position: absolute;
+    top: 0px;
+    left: calc(100% + 1em);
+
+    background-color: slategrey;
+
+    z-index: 2;
+  }
+
+  .qh-hamburger-menu > .menu-content.closed {
+    display: none;
+  }
+}

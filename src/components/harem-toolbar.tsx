@@ -9,6 +9,7 @@ import { PulseLoader } from 'react-spinners';
 import { Filter } from '../data/filters/filter-api';
 import { BlessingAttributeDescription } from './summary';
 import { HaremMode } from './harem-widget';
+import { HamburgerMenu } from './hamburger-menu';
 
 export interface HaremToolbarProps {
   gameAPI: GameAPI;
@@ -70,71 +71,75 @@ export const HaremToolbar: React.FC<HaremToolbarProps> = ({
           value={searchText}
         />
       </div>
-      <div className="clear-filters quick">
-        <button
-          className="hh-action-button"
-          disabled={activeQuickFilters.length === 0}
-          onClick={clearQuickFilters}
-        >
-          Clear quick filters
-        </button>
-      </div>
-      <div className="restore-default-filter">
-        <button
-          className="hh-action-button"
-          disabled={isDefaultFilter}
-          onClick={restoreDefaultFilter}
-        >
-          Restore default filters
-        </button>
-      </div>
-      <div className="clear-filters">
-        <button
-          className="hh-action-button"
-          disabled={activeQuickFilters.length === 0 && filters.length === 0}
-          onClick={() => {
-            clearQuickFilters();
-            clearFilters();
-          }}
-        >
-          Clear all filters
-        </button>
-      </div>
-      <div className="quick-filters">
-        <p className="toggle0pose">
-          <label
-            htmlFor="0pose"
-            title="Show the 0-star pose for each girl. Can be used for screenshots, to avoid spoilers"
-          >
-            Show 0 Pose:{' '}
-          </label>
-          <input
-            id="0pose"
-            type="checkbox"
-            onChange={toggle0Pose}
-            checked={show0Pose}
-          />
-        </p>
-      </div>
-      <div className="owned-gems-summary">
-        <GemsCount gemsCount={gemsCount} />
-      </div>
-      <div className="edit-teams">
-        <button
-          className={`hh-action-button${
-            haremMode === 'edit-teams' ? ' active' : ''
-          }`}
-          onClick={() => {
-            if (haremMode === 'edit-teams') {
-              setHaremMode('standard');
-            } else {
-              setHaremMode('edit-teams');
-            }
-          }}
-        >
-          Edit teams
-        </button>
-      </div>
+      <HamburgerMenu>
+        <div className="toolbar-content">
+          <div className="clear-filters quick">
+            <button
+              className="hh-action-button"
+              disabled={activeQuickFilters.length === 0}
+              onClick={clearQuickFilters}
+            >
+              Clear quick filters
+            </button>
+          </div>
+          <div className="restore-default-filter">
+            <button
+              className="hh-action-button"
+              disabled={isDefaultFilter}
+              onClick={restoreDefaultFilter}
+            >
+              Restore default filters
+            </button>
+          </div>
+          <div className="clear-filters">
+            <button
+              className="hh-action-button"
+              disabled={activeQuickFilters.length === 0 && filters.length === 0}
+              onClick={() => {
+                clearQuickFilters();
+                clearFilters();
+              }}
+            >
+              Clear all filters
+            </button>
+          </div>
+          <div className="quick-filters">
+            <p className="toggle0pose">
+              <label
+                htmlFor="0pose"
+                title="Show the 0-star pose for each girl. Can be used for screenshots, to avoid spoilers"
+              >
+                Show 0 Pose:{' '}
+              </label>
+              <input
+                id="0pose"
+                type="checkbox"
+                onChange={toggle0Pose}
+                checked={show0Pose}
+              />
+            </p>
+          </div>
+          <div className="owned-gems-summary">
+            <GemsCount gemsCount={gemsCount} />
+          </div>
+          <div className="edit-teams">
+            <button
+              className={`hh-action-button${
+                haremMode === 'edit-teams' ? ' active' : ''
+              }`}
+              onClick={() => {
+                if (haremMode === 'edit-teams') {
+                  setHaremMode('standard');
+                } else {
+                  setHaremMode('edit-teams');
+                }
+              }}
+            >
+              Edit teams
+            </button>
+          </div>
+        </div>
+      </HamburgerMenu>
 
       <div className="spacer" />
       <RequestsMonitor
