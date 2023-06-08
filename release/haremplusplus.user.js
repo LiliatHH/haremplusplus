@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Harem++ (Temp.)
 // @namespace    https://github.com/LiliatHH/haremplusplus
-// @version      0.13.6
+// @version      0.13.6a
 // @description  Replace the original Harem page with a quicker, more dynamic version
 // @author       Liliat
 // @match        https://*.hentaiheroes.com/*
