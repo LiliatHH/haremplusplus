@@ -83,16 +83,19 @@
   font-size: 0.8em;
 }
 
-.harem-toolbar > .quick-filters {
-  margin-left: 60px;
+.toolbar-content > .hh-action-button,
+.harem-toolbar > .hh-action-button {
+  height: 1.5em;
+  min-width: 1.5em;
 }
 
-.harem-toolbar > .quick-filters > p {
-  padding: 0px;
-  margin: 0px;
+.harem-toolbar > .icon-action {
+  padding: 0.3em;
 }
 
-.harem-toolbar > .quick-filters > .toggle0pose {
+.toggle0pose {
+  margin-left: 4em;
+
   display: flex;
   flex-direction: row;
   gap: 0.5ch;
@@ -100,7 +103,11 @@
   font-size: 0.8em;
 }
 
-.harem-toolbar > .clear-filters > .hh-action-button {
+.qh-menu-toggle {
+  margin-right: 2em;
+}
+
+.toolbar-content > .hh-action-button.clear-filters {
   width: 10em;
   padding: 5px;
 }
@@ -144,11 +151,6 @@
       rgba(60, 60, 60, 0.7) 0,
       rgba(10, 10, 10, 0.9) 100%
     );
-}
-
-.harem-toolbar > .hh-action-button {
-  height: 1.5em;
-  width: 1.5em;
 }
 
 .harem-toolbar > .spacer {
