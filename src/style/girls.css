@@ -127,25 +127,46 @@
     inset 0 0 8px rgba(55, 30, 103, 0.4);
 }
 
+.girlTile.placeholder {
+  width: var(--image-size);
+  height: var(--image-size);
+  border: var(--border-width) solid #fff;
+  margin-inline: 10px;
+  --header-font-size: 1em;
+  /** Top: 1em + 5px */
+  margin-top: calc(var(--header-font-size) + 5px);
+  margin-bottom: calc(1em + 18%);
+}
+
+.girlTile.placeholder.not-owned {
+  margin-top: 5px;
+}
+
 .girlTile.starting > .avatar-area > .lazyload-wrapper > .tile-avatar,
-.girlTile.common > .avatar-area > .lazyload-wrapper > .tile-avatar {
+.girlTile.common > .avatar-area > .lazyload-wrapper > .tile-avatar,
+.girlTile.placeholder.starting,
+.girlTile.placeholder.common {
   background-color: #8d8e9f;
 }
 
-.girlTile.rare > .avatar-area > .lazyload-wrapper > .tile-avatar {
+.girlTile.rare > .avatar-area > .lazyload-wrapper > .tile-avatar,
+.girlTile.placeholder.rare {
   background-color: #23b56b;
 }
 
-.girlTile.epic > .avatar-area > .lazyload-wrapper > .tile-avatar {
+.girlTile.epic > .avatar-area > .lazyload-wrapper > .tile-avatar,
+.girlTile.placeholder.epic {
   background-color: #ffb244;
 }
 
-.girlTile.legendary > .avatar-area > .lazyload-wrapper > .tile-avatar {
+.girlTile.legendary > .avatar-area > .lazyload-wrapper > .tile-avatar,
+.girlTile.placeholder.legendary {
   background-image: url(https://hh2.hh-content.com/legendary.png);
   background-color: #8e36a9;
 }
 
-.girlTile.mythic > .avatar-area > .lazyload-wrapper > .tile-avatar {
+.girlTile.mythic > .avatar-area > .lazyload-wrapper > .tile-avatar,
+.girlTile.placeholder.mythic {
   background-image: radial-gradient(
     closest-side at 50% 50%,
     #f5a866 0,
@@ -185,7 +206,8 @@
   border-radius: 10px;
 }
 
-.girlTile.not-owned > .avatar-area > .lazyload-wrapper {
+.girlTile.not-owned > .avatar-area > .lazyload-wrapper,
+.girlTile.placeholder.not-owned {
   opacity: 0.5;
 }
 

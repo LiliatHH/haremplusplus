@@ -198,7 +198,7 @@ const GirlInventoryEntry: React.FC<GirlsInventoryEntryProps> = ({
 
   return (
     <>
-      <BaseGirlTile girl={girl} onClick={girlOnClick} />
+      <BaseGirlTile girl={girl} onClick={girlOnClick} lazy={false} />
       {items.map((item, index) => {
         const selectedSlot = index + 1 === highlightSlot;
         const classNames = ['item-slot'];

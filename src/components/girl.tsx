@@ -151,7 +151,23 @@ export const BaseGirlTile: React.FC<BaseGirlTileProps> = ({
     }
   }, [selected]);
 
-  return (
+  const testPlaceholder = useMemo(() => Math.random() > 0.5, []);
+  const test = false;
+
+  if (testPlaceholder && test) {
+    return (
+      <div className="lazyload-wrapper">
+        <GirlTilePlaceholder
+          rarity={girl?.rarity || Rarity.common}
+          own={girl?.own ?? false}
+        />
+      </div>
+    );
+  }
+
+  const useLazy = lazy !== false; // True by default
+
+  const girlTile = (
     <div
       className={allClassNames.join(' ')}
       onClick={onClick}
@@ -171,7 +187,7 @@ export const BaseGirlTile: React.FC<BaseGirlTileProps> = ({
               className="tile-avatar placeholder"
             />
           }
-          lazy={lazy !== false} /* True by default */
+          lazy={useLazy}
         >
           <img
             src={icon}
@@ -184,6 +200,24 @@ export const BaseGirlTile: React.FC<BaseGirlTileProps> = ({
       </div>
       {bottom}
     </div>
+  );
+
+  return useLazy ? (
+    <LazyLoad
+      placeholder={
+        <GirlTilePlaceholder
+          rarity={girl?.rarity || Rarity.common}
+          own={girl?.own ?? false}
+        />
+      }
+      overflow={true}
+      offset={500}
+      unmountIfInvisible={true}
+    >
+      {girlTile}
+    </LazyLoad>
+  ) : (
+    <div className="lazyload-wrapper">{girlTile}</div>
   );
 };
 
@@ -200,13 +234,41 @@ const WrappedImage: React.FC<WrappedImageProps> = ({
 }) => {
   if (lazy) {
     return (
-      <LazyLoad placeholder={placeholder} overflow={true} offset={500}>
+      <LazyLoad
+        placeholder={placeholder}
+        overflow={true}
+        offset={500}
+        once={true}
+      >
         {children}
       </LazyLoad>
     );
   } else {
     return <div className="lazyload-wrapper">{children}</div>;
   }
+};
+
+interface GirlTilePlaceholderProps {
+  rarity: Rarity;
+  own: boolean;
+}
+
+/**
+ * A lightweight placeholder using a single div with rarity background.
+ * Use to hopefully improve performances when rendering many tiles on
+ * less powerful devices.
+ */
+const GirlTilePlaceholder: React.FC<GirlTilePlaceholderProps> = ({
+  rarity,
+  own
+}) => {
+  return (
+    <div
+      className={`girlTile placeholder rarity ${Rarity[rarity]} ${
+        own ? 'owned' : 'not-owned'
+      }`}
+    ></div>
+  );
 };
 
 export interface HaremGirlTileProps extends GirlTileProps {
