@@ -140,12 +140,7 @@ export const HaremToolbar: React.FC<HaremToolbarProps> = ({
       </div>
 
       <div className="spacer" />
-      <Popup
-        trigger={<button className={`qh-menu-toggle icon-action`} />}
-        position="bottom right"
-      >
-        <div className={`hamburger-menu-content`}>{toolbarContent}</div>
-      </Popup>
+
       <RequestsMonitor
         gameAPI={gameAPI}
         error={() => (
@@ -166,6 +161,12 @@ export const HaremToolbar: React.FC<HaremToolbarProps> = ({
           </div>
         )}
       </RequestsMonitor>
+      <Popup
+        trigger={<button className={`qh-menu-toggle icon-action`} />}
+        position="bottom right"
+      >
+        <div className={`hamburger-menu-content`}>{toolbarContent}</div>
+      </Popup>
       <button
         className={`hh-action-button icon-action filter-sort-icon ${
           isOpenTab ? 'open' : 'closed'
