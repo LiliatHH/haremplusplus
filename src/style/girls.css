@@ -48,6 +48,21 @@
   padding: 5px 10px 0px 10px;
 }
 
+.girlTile.placeholder {
+  width: var(--image-size);
+  height: var(--image-size);
+  border: var(--border-width) solid #fff;
+  margin-inline: 10px;
+  --header-font-size: 1em;
+  /** Top: 1em + 5px */
+  margin-top: calc(var(--header-font-size) + 5px);
+  margin-bottom: calc(1em + 18%);
+}
+
+.girlTile.placeholder.not-owned {
+  margin-top: 5px;
+}
+
 .tile-avatar {
   border: var(--border-width) solid white;
   width: var(--image-size);
@@ -125,21 +140,6 @@
   background-size: cover;
   box-shadow: 0 0 5px 1px rgba(52, 0, 15, 0.75),
     inset 0 0 8px rgba(55, 30, 103, 0.4);
-}
-
-.girlTile.placeholder {
-  width: var(--image-size);
-  height: var(--image-size);
-  border: var(--border-width) solid #fff;
-  margin-inline: 10px;
-  --header-font-size: 1em;
-  /** Top: 1em + 5px */
-  margin-top: calc(var(--header-font-size) + 5px);
-  margin-bottom: calc(1em + 18%);
-}
-
-.girlTile.placeholder.not-owned {
-  margin-top: 5px;
 }
 
 .girlTile.starting > .avatar-area > .lazyload-wrapper > .tile-avatar,
@@ -223,6 +223,10 @@
   .girlTile > .avatar-area {
     padding: 0.3em 0.5em 0px 0.5em;
   }
+
+  .girlTile.placeholder {
+    margin-inline: 0.5em;
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -235,6 +239,10 @@
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000,
       1px -1px 0 #000;
     font-size: 0.8em;
+  }
+
+  .girlTile.placeholder {
+    margin-top: 0.3em;
   }
 
   .girlTile > .avatar-area > .equipment-decorators {
