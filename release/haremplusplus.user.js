@@ -7,8 +7,8 @@
 // @match        https://*.hentaiheroes.com/*
 // @match        https://nutaku.haremheroes.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=hentaiheroes.com
-// @updateURL    https://raw.githubusercontent.com/LiliatHH/haremplusplus/mobile-layout/release/haremplusplus.user.js
-// @downloadURL  https://raw.githubusercontent.com/LiliatHH/haremplusplus/mobile-layout/release/haremplusplus.user.js
+// @updateURL    https://raw.githubusercontent.com/LiliatHH/haremplusplus/main/release/haremplusplus.user.js
+// @downloadURL  https://raw.githubusercontent.com/LiliatHH/haremplusplus/main/release/haremplusplus.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -148,7 +148,7 @@
         'use strict';
         n.d(t, {
           dR: function () {
-            return q;
+            return Z;
           },
           vJ: function () {
             return D;
@@ -160,7 +160,7 @@
             return L;
           },
           H2: function () {
-            return Z;
+            return q;
           },
           ZD: function () {
             return d;
@@ -636,13 +636,13 @@
               className: 'endurance-icon'
             });
           },
-          Z = function () {
+          q = function () {
             return (0, c.jsx)('img', {
               src: 'https://hh2.hh-content.com/caracs/ego.png',
               className: 'ego-icon'
             });
           },
-          q = function () {
+          Z = function () {
             return (0, c.jsx)('img', {
               src: 'https://hh2.hh-content.com/caracs/damage.png',
               className: 'attack-icon'
@@ -672,124 +672,151 @@
         'use strict';
         n.d(t, {
           Ad: function () {
-            return I;
+            return Z;
           },
           Af: function () {
-            return N;
+            return T;
           },
           Bp: function () {
             return a;
           },
           CO: function () {
-            return p;
+            return x;
           },
           DJ: function () {
-            return c;
-          },
-          EP: function () {
-            return j;
-          },
-          FA: function () {
-            return E;
-          },
-          Fx: function () {
-            return f;
-          },
-          Ho: function () {
-            return o;
-          },
-          JR: function () {
-            return P;
-          },
-          Jt: function () {
-            return z;
-          },
-          Po: function () {
-            return W;
-          },
-          QX: function () {
-            return s;
-          },
-          Tq: function () {
-            return U;
-          },
-          UI: function () {
             return g;
           },
-          Uv: function () {
-            return q;
+          EP: function () {
+            return f;
           },
-          VO: function () {
-            return A;
+          FA: function () {
+            return P;
           },
-          W_: function () {
-            return d;
-          },
-          XU: function () {
-            return M;
-          },
-          Xc: function () {
-            return _;
-          },
-          a: function () {
-            return F;
-          },
-          bI: function () {
-            return L;
-          },
-          eK: function () {
-            return h;
-          },
-          es: function () {
+          Fx: function () {
             return y;
           },
-          gx: function () {
-            return Z;
+          Ho: function () {
+            return p;
           },
-          it: function () {
-            return C;
+          JR: function () {
+            return N;
           },
-          iy: function () {
-            return B;
+          Jt: function () {
+            return H;
           },
-          lK: function () {
-            return l;
+          PB: function () {
+            return E;
           },
-          lh: function () {
-            return D;
+          Po: function () {
+            return $;
           },
-          mt: function () {
+          QX: function () {
+            return h;
+          },
+          Tq: function () {
+            return W;
+          },
+          UI: function () {
+            return _;
+          },
+          Uv: function () {
+            return M;
+          },
+          VO: function () {
+            return R;
+          },
+          W_: function () {
+            return b;
+          },
+          XU: function () {
             return G;
           },
+          Xc: function () {
+            return c;
+          },
+          a: function () {
+            return A;
+          },
+          bI: function () {
+            return B;
+          },
+          eK: function () {
+            return w;
+          },
+          es: function () {
+            return j;
+          },
+          gx: function () {
+            return L;
+          },
+          it: function () {
+            return F;
+          },
+          iy: function () {
+            return z;
+          },
+          lK: function () {
+            return m;
+          },
+          lh: function () {
+            return I;
+          },
+          mt: function () {
+            return U;
+          },
           ri: function () {
-            return v;
+            return S;
           },
           uq: function () {
             return r;
           },
           w8: function () {
-            return H;
+            return V;
           },
           wT: function () {
-            return i;
+            return d;
           },
           wg: function () {
-            return O;
+            return q;
           },
           xu: function () {
-            return T;
+            return O;
           }
         });
         var r,
           a,
-          i,
-          o,
-          s,
-          l,
-          u,
-          c,
-          f,
-          d,
+          i = n(7762),
+          o = n(1413),
+          s = n(5273),
+          l = n(1275),
+          u = n(5468);
+        function c(e) {
+          return r[e];
+        }
+        function f(e) {
+          return !0;
+        }
+        !(function (e) {
+          (e[(e.starting = 0)] = 'starting'),
+            (e[(e.common = 1)] = 'common'),
+            (e[(e.rare = 2)] = 'rare'),
+            (e[(e.epic = 3)] = 'epic'),
+            (e[(e.legendary = 4)] = 'legendary'),
+            (e[(e.mythic = 5)] = 'mythic');
+        })(r || (r = {})),
+          (function (e) {
+            function t(e) {
+              return r[e];
+            }
+            (e.toString = t),
+              (e.fromString = function (e) {
+                return r[e];
+              }),
+              (e.toDisplayString = function (e) {
+                return (0, s.Z5)(t(e));
+              });
+          })(a || (a = {}));
+        var d,
           p,
           h,
           m,
@@ -797,87 +824,99 @@
           g,
           y,
           b,
-          x = n(7762),
-          w = n(5273),
-          k = n(1275),
-          S = n(5468);
-        function _(e) {
-          return r[e];
-        }
-        function j(e) {
-          return !0;
-        }
-        function C() {
+          x,
+          w,
+          k,
+          S,
+          _,
+          j,
+          C,
+          E = (0, o.Z)(
+            (0, o.Z)(
+              {},
+              {
+                hardcore: 0,
+                charm: 0,
+                knowhow: 0,
+                ego: 0,
+                attack: 0,
+                defense: 0
+              }
+            ),
+            {},
+            { rEgo: 0, rDef: 0, rAtk: 0, totalStats: 0 }
+          );
+        function F() {
           var e,
             t = [],
-            n = (0, x.Z)(p.values());
+            n = (0, i.Z)(x.values());
           try {
             for (n.s(); !(e = n.n()).done; ) {
               var r,
                 a = e.value,
-                i = p.getEnumType(a),
-                o = (0, x.Z)(
-                  Object.keys(i).filter(function (e) {
+                o = x.getEnumType(a),
+                s = (0, i.Z)(
+                  Object.keys(o).filter(function (e) {
                     return !isNaN(Number(e));
                   })
                 );
               try {
-                for (o.s(); !(r = o.n()).done; ) {
-                  var s = r.value;
-                  t.push({ blessing: a, blessingValue: Number(s) });
+                for (s.s(); !(r = s.n()).done; ) {
+                  var l = r.value;
+                  t.push({ blessing: a, blessingValue: Number(l) });
                 }
-              } catch (l) {
-                o.e(l);
+              } catch (u) {
+                s.e(u);
               } finally {
-                o.f();
+                s.f();
               }
             }
-          } catch (l) {
-            n.e(l);
+          } catch (u) {
+            n.e(u);
           } finally {
             n.f();
           }
           return t;
         }
-        function E(e, t) {
+        function P(e, t) {
           var n,
             r = 1,
-            a = (0, x.Z)(t);
+            a = (0, i.Z)(t);
           try {
             for (a.s(); !(n = a.n()).done; ) {
-              var i = n.value;
-              A(e, i) && (r *= 1 + i.blessingBonus / 100);
+              var o = n.value;
+              R(e, o) && (r *= 1 + o.blessingBonus / 100);
             }
-          } catch (o) {
-            a.e(o);
+          } catch (s) {
+            a.e(s);
           } finally {
             a.f();
           }
           return r;
         }
-        function F(e, t) {
+        function A(e, t) {
           var n =
             arguments.length > 2 && void 0 !== arguments[2] && arguments[2];
           return e.filter(function (e) {
-            return A(e, t, n);
+            return R(e, t, n);
           });
         }
-        function P(e, t) {
+        function N(e, t) {
           return t.some(function (t) {
-            return A(e, t);
+            return R(e, t);
           });
         }
-        function A(e, t) {
+        function R(e, t) {
           var n =
               arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
-            a = p.getBlessingValue(e, t.blessing);
+            a = x.getBlessingValue(e, t.blessing);
           return (
             (!n ||
-              t.blessing === o.Rarity ||
+              t.blessing === p.Rarity ||
               (e.rarity !== r.starting &&
                 e.rarity !== r.common &&
                 e.rarity !== r.rare)) &&
-            ((t.blessing === o.Rarity &&
+            ((t.blessing === p.Rarity &&
               t.blessingValue === r.common &&
               e.rarity === r.starting) ||
               ('number' === typeof a
@@ -888,53 +927,53 @@
                   })))
           );
         }
-        function N(e, t, n) {
-          var r = E(e, n);
+        function T(e, t, n) {
+          var r = P(e, n);
           return {
             hardcore: Number((t.hardcore * r).toFixed(2)),
             charm: Number((t.charm * r).toFixed(2)),
             knowhow: Number((t.knowhow * r).toFixed(2))
           };
         }
-        function R(e) {
+        function D(e) {
           return e.hardcore + e.charm + e.knowhow;
         }
-        function T(e, t, n, r) {
+        function O(e, t, n, r) {
           var a = 1 + 0.3 * n,
             i = 1 + 0.3 * r;
-          return (R(e) / t / a) * i;
+          return (D(e) / t / a) * i;
         }
-        function D(e, t) {
+        function I(e, t) {
           var n,
             r = e.stats;
           if (void 0 === r) return 0;
           var a =
-            T(
+            O(
               r,
               null !== (n = e.level) && void 0 !== n ? n : 1,
               e.stars,
               e.maxStars
-            ) * E(e, t);
-          return (0, k.d)(a);
+            ) * P(e, t);
+          return (0, l.d)(a);
         }
-        function O(e, t) {
+        function q(e, t) {
           var n = e.stats;
           if (void 0 === n) return 0;
-          var r = R(n) * E(e, t);
-          return (0, k.d)(r);
+          var r = D(n) * P(e, t);
+          return (0, l.d)(r);
         }
-        function I(e, t) {
+        function Z(e, t) {
           return (
             e.blessing === t.blessing && e.blessingValue === t.blessingValue
           );
         }
-        function Z(e, t) {
+        function L(e, t) {
           var n = e.findIndex(function (e) {
             return e !== t && e.id === t.id;
           });
           n > -1 && (e[n] = t);
         }
-        function q(e, t) {
+        function M(e, t) {
           var n = e.lastIndexOf('/'),
             r = e.substring(0, n + 1),
             a = e.substring(n + 1),
@@ -944,19 +983,19 @@
             r + a.substring(0, a.length - 1) + ''.concat(t, '.png')
           );
         }
-        function L(e) {
+        function B(e) {
           return void 0 !== e && 'book' === e.type;
         }
-        function M(e) {
+        function G(e) {
           return void 0 !== e && 'gift' === e.type;
         }
-        function B(e) {
-          return L(e) ? e : void 0;
-        }
-        function G(e) {
-          return M(e) ? e : void 0;
-        }
         function z(e) {
+          return B(e) ? e : void 0;
+        }
+        function U(e) {
+          return G(e) ? e : void 0;
+        }
+        function H(e) {
           switch (e) {
             case 'Anniv':
               return 'Anniversary';
@@ -1011,30 +1050,10 @@
           }
         }
         !(function (e) {
-          (e[(e.starting = 0)] = 'starting'),
-            (e[(e.common = 1)] = 'common'),
-            (e[(e.rare = 2)] = 'rare'),
-            (e[(e.epic = 3)] = 'epic'),
-            (e[(e.legendary = 4)] = 'legendary'),
-            (e[(e.mythic = 5)] = 'mythic');
-        })(r || (r = {})),
-          (function (e) {
-            function t(e) {
-              return r[e];
-            }
-            (e.toString = t),
-              (e.fromString = function (e) {
-                return r[e];
-              }),
-              (e.toDisplayString = function (e) {
-                return (0, w.Z5)(t(e));
-              });
-          })(a || (a = {})),
-          (function (e) {
-            (e[(e.Hardcore = 0)] = 'Hardcore'),
-              (e[(e.Charm = 1)] = 'Charm'),
-              (e[(e.Knowhow = 2)] = 'Knowhow');
-          })(i || (i = {})),
+          (e[(e.Hardcore = 0)] = 'Hardcore'),
+            (e[(e.Charm = 1)] = 'Charm'),
+            (e[(e.Knowhow = 2)] = 'Knowhow');
+        })(d || (d = {})),
           (function (e) {
             (e[(e.Rarity = 0)] = 'Rarity'),
               (e[(e.HairColor = 1)] = 'HairColor'),
@@ -1042,7 +1061,7 @@
               (e[(e.Zodiac = 3)] = 'Zodiac'),
               (e[(e.Pose = 4)] = 'Pose'),
               (e[(e.Element = 5)] = 'Element');
-          })(o || (o = {})),
+          })(p || (p = {})),
           (function (e) {
             (e[(e.pink = 0)] = 'pink'),
               (e[(e.red = 1)] = 'red'),
@@ -1062,7 +1081,7 @@
               (e[(e.black = 15)] = 'black'),
               (e[(e.grey = 16)] = 'grey'),
               (e[(e.golden = 17)] = 'golden');
-          })(s || (s = {})),
+          })(h || (h = {})),
           (function (e) {
             (e[(e.pink = 0)] = 'pink'),
               (e[(e.blue = 1)] = 'blue'),
@@ -1077,7 +1096,7 @@
               (e[(e.black = 10)] = 'black'),
               (e[(e.unknown = 11)] = 'unknown'),
               (e[(e.purple = 12)] = 'purple');
-          })(l || (l = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.aries = 0)] = 'aries'),
               (e[(e.taurus = 1)] = 'taurus'),
@@ -1091,7 +1110,7 @@
               (e[(e.capricorn = 9)] = 'capricorn'),
               (e[(e.aquarius = 10)] = 'aquarius'),
               (e[(e.pisces = 11)] = 'pisces');
-          })(u || (u = {})),
+          })(v || (v = {})),
           (function (e) {
             (e[(e.unknown = 0)] = 'unknown'),
               (e[(e.doggie = 1)] = 'doggie'),
@@ -1106,33 +1125,33 @@
               (e[(e.suspended = 10)] = 'suspended'),
               (e[(e.splitting = 11)] = 'splitting'),
               (e[(e.bridge = 12)] = 'bridge');
-          })(c || (c = {})),
+          })(g || (g = {})),
           (function (e) {
             function t(e) {
-              return c[e];
+              return g[e];
             }
             (e.toString = t),
               (e.toDisplayString = function (e) {
                 switch (e) {
-                  case c.doggie:
+                  case g.doggie:
                     return 'Doggie style';
-                  case c.indian:
+                  case g.indian:
                     return 'Indian Headstand';
-                  case c.sixnine:
+                  case g.sixnine:
                     return '69';
-                  case c.splitting:
+                  case g.splitting:
                     return 'Splitting Bamboo';
-                  case c.suspended:
+                  case g.suspended:
                     return 'Suspended Congress';
-                  case c.nosedive:
+                  case g.nosedive:
                     return 'Nose Dive';
-                  case c.jackhammer:
+                  case g.jackhammer:
                     return 'Jack Hammer';
                   default:
-                    return (0, w.Z5)(t(e));
+                    return (0, s.Z5)(t(e));
                 }
               });
-          })(f || (f = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.red = 0)] = 'red'),
               (e[(e.blue = 1)] = 'blue'),
@@ -1142,32 +1161,32 @@
               (e[(e.purple = 5)] = 'purple'),
               (e[(e.white = 6)] = 'white'),
               (e[(e.dark = 7)] = 'dark');
-          })(d || (d = {})),
+          })(b || (b = {})),
           (function (e) {
             function t(e) {
               switch (e) {
-                case o.HairColor:
-                  return s;
-                case o.Rarity:
+                case p.HairColor:
+                  return h;
+                case p.Rarity:
                   return r;
-                case o.EyeColor:
-                  return l;
-                case o.Zodiac:
-                  return u;
-                case o.Pose:
-                  return c;
-                case o.Element:
-                  return d;
+                case p.EyeColor:
+                  return m;
+                case p.Zodiac:
+                  return v;
+                case p.Pose:
+                  return g;
+                case p.Element:
+                  return b;
               }
             }
             function n(e) {
-              return o[e];
+              return p[e];
             }
             function i(e, n) {
               return t(e)[n];
             }
             (e.values = function () {
-              return Object.values(o).filter(function (e) {
+              return Object.values(p).filter(function (e) {
                 return !isNaN(Number(e));
               });
             }),
@@ -1175,59 +1194,59 @@
               (e.toString = n),
               (e.toDisplayType = function (e) {
                 switch (e) {
-                  case o.HairColor:
+                  case p.HairColor:
                     return 'Hair Color';
-                  case o.EyeColor:
+                  case p.EyeColor:
                     return 'Eye Color';
                   default:
                     return n(e);
                 }
               }),
               (e.fromString = function (e) {
-                return o[e];
+                return p[e];
               }),
               (e.stringValue = i),
               (e.toDisplayString = function (e, t) {
                 switch (e) {
-                  case o.Zodiac:
-                    return v.toDisplayString(t);
-                  case o.EyeColor:
-                    return g.toDisplayString(t);
-                  case o.HairColor:
+                  case p.Zodiac:
+                    return S.toDisplayString(t);
+                  case p.EyeColor:
+                    return _.toDisplayString(t);
+                  case p.HairColor:
+                    return j.toDisplayString(t);
+                  case p.Pose:
                     return y.toDisplayString(t);
-                  case o.Pose:
-                    return f.toDisplayString(t);
-                  case o.Rarity:
+                  case p.Rarity:
                     return a.toDisplayString(t);
-                  case o.Element:
+                  case p.Element:
                   default:
                     return i(e, t);
                 }
               }),
               (e.getBlessingValue = function (e, t) {
                 switch (t) {
-                  case o.HairColor:
+                  case p.HairColor:
                     return e.hairColor;
-                  case o.Rarity:
+                  case p.Rarity:
                     return e.rarity;
-                  case o.EyeColor:
+                  case p.EyeColor:
                     return e.eyeColor;
-                  case o.Zodiac:
+                  case p.Zodiac:
                     return e.zodiac;
-                  case o.Pose:
+                  case p.Pose:
                     return e.pose;
-                  case o.Element:
+                  case p.Element:
                     return e.element;
                 }
               });
-          })(p || (p = {})),
-          ((m = h || (h = {})).values = function () {
-            return Object.values(d).filter(function (e) {
+          })(x || (x = {})),
+          ((k = w || (w = {})).values = function () {
+            return Object.values(b).filter(function (e) {
               return !isNaN(Number(e));
             });
           }),
-          (m.toString = function (e) {
-            return d[e];
+          (k.toString = function (e) {
+            return b[e];
           }),
           (function (e) {
             var t = (e.Symbols = [
@@ -1245,73 +1264,73 @@
               '\u2653\ufe0e'
             ]);
             (e.fromString = function (e) {
-              return u[e];
+              return v[e];
             }),
               (e.fromSymbol = function (e) {
                 switch (e) {
                   case '\u2648\ufe0e':
-                    return u.aries;
+                    return v.aries;
                   case '\u2649\ufe0e':
-                    return u.taurus;
+                    return v.taurus;
                   case '\u264a\ufe0e':
-                    return u.gemini;
+                    return v.gemini;
                   case '\u264b\ufe0e':
-                    return u.cancer;
+                    return v.cancer;
                   case '\u264c\ufe0e':
-                    return u.leo;
+                    return v.leo;
                   case '\u264d\ufe0e':
-                    return u.virgo;
+                    return v.virgo;
                   case '\u264e\ufe0e':
-                    return u.libra;
+                    return v.libra;
                   case '\u264f\ufe0e':
-                    return u.scorpio;
+                    return v.scorpio;
                   case '\u2650\ufe0e':
-                    return u.sagittarius;
+                    return v.sagittarius;
                   case '\u2651\ufe0e':
-                    return u.capricorn;
+                    return v.capricorn;
                   case '\u2652\ufe0e':
-                    return u.aquarius;
+                    return v.aquarius;
                   case '\u2653\ufe0e':
-                    return u.pisces;
+                    return v.pisces;
                 }
                 console.error('Unknown Zodiac symbol: ', e);
               }),
               (e.toDisplayString = function (e) {
-                var n = u[e];
-                return t[e] + ' ' + (0, w.Z5)(n);
+                var n = v[e];
+                return t[e] + ' ' + (0, s.Z5)(n);
               });
-          })(v || (v = {})),
+          })(S || (S = {})),
           (function (e) {
             function t(e) {
-              return l[e];
+              return m[e];
             }
             (e.toDisplayString = function (e) {
-              return e === l.darkPink ? 'Dark Pink' : (0, w.Z5)(t(e));
+              return e === m.darkPink ? 'Dark Pink' : (0, s.Z5)(t(e));
             }),
               (e.toString = t);
-          })(g || (g = {})),
+          })(_ || (_ = {})),
           (function (e) {
             function t(e) {
-              return s[e];
+              return h[e];
             }
             (e.toDisplayString = function (e) {
               switch (e) {
-                case s.darkBlond:
+                case h.darkBlond:
                   return 'Dark Blond';
-                case s.darkPink:
+                case h.darkPink:
                   return 'Dark Pink';
-                case s.strawberryBlond:
+                case h.strawberryBlond:
                   return 'Strawberry Blond';
                 default:
-                  return (0, w.Z5)(t(e));
+                  return (0, s.Z5)(t(e));
               }
             }),
               (e.toString = t);
-          })(y || (y = {})),
+          })(j || (j = {})),
           (function (e) {
             function t(e) {
               return (
-                !!(0, S.Mi)(e) &&
+                !!(0, u.Mi)(e) &&
                 'string' === typeof e.teamId &&
                 Array.isArray(e.girlIds) &&
                 e.girlIds.every(function (e) {
@@ -1324,10 +1343,10 @@
               (e.isArray = function (e) {
                 return Array.isArray(e) && e.every(t);
               });
-          })(b || (b = {}));
-        var U = 631,
-          H = 627,
-          W = { hardcore: 0, charm: 0, knowhow: 0 };
+          })(C || (C = {}));
+        var W = 631,
+          V = 627,
+          $ = { hardcore: 0, charm: 0, knowhow: 0 };
       },
       5468: function (e, t, n) {
         'use strict';
@@ -1630,35 +1649,49 @@
         'use strict';
         n.d(t, {
           AH: function () {
-            return s;
+            return u;
           },
           CS: function () {
-            return l;
-          },
-          e9: function () {
-            return d;
-          },
-          hE: function () {
-            return f;
-          },
-          nW: function () {
-            return o;
-          },
-          pp: function () {
             return c;
           },
-          sz: function () {
+          Fy: function () {
+            return b;
+          },
+          MN: function () {
+            return y;
+          },
+          QN: function () {
+            return g;
+          },
+          T_: function () {
+            return v;
+          },
+          e9: function () {
+            return h;
+          },
+          hE: function () {
             return p;
           },
+          nW: function () {
+            return l;
+          },
+          pp: function () {
+            return d;
+          },
+          sz: function () {
+            return m;
+          },
           yZ: function () {
-            return u;
+            return f;
           }
         });
-        var r = n(2982),
-          a = n(9964),
-          i = n(5840);
-        function o(e) {
-          return (0, r.Z)(e.items.values())
+        var r = n(7762),
+          a = n(2982),
+          i = n(1275),
+          o = n(9964),
+          s = n(5840);
+        function l(e) {
+          return (0, a.Z)(e.items.values())
             .filter(function (e) {
               return void 0 !== e;
             })
@@ -1674,9 +1707,9 @@
                 charm: e.charm + t.charm,
                 knowhow: e.knowhow + t.knowhow
               };
-            }, a.Po);
+            }, o.Po);
         }
-        function s(e) {
+        function u(e) {
           for (
             var t = [],
               n = function (n) {
@@ -1693,7 +1726,7 @@
             n(r);
           return t;
         }
-        function l(e, t) {
+        function c(e, t) {
           return (
             void 0 !== t &&
             void 0 !== e &&
@@ -1701,7 +1734,7 @@
             e.resonance.class === t.class
           );
         }
-        function u(e, t) {
+        function f(e, t) {
           return (
             void 0 !== t &&
             void 0 !== e &&
@@ -1709,7 +1742,7 @@
             e.resonance.element === t.element
           );
         }
-        function c(e, t) {
+        function d(e, t) {
           return (
             void 0 !== t &&
             void 0 !== e &&
@@ -1717,7 +1750,7 @@
             e.resonance.pose === t.pose
           );
         }
-        function f(e) {
+        function p(e) {
           switch (e) {
             case 1:
               return 'Head';
@@ -1735,25 +1768,25 @@
               return 'Slot';
           }
         }
-        function d(e, t, n) {
-          var a = (0, r.Z)(e.items).filter(function (e) {
+        function h(e, t, n) {
+          var r = (0, a.Z)(e.items).filter(function (e) {
               return e.slot !== n;
             }),
-            o = (0, i.R4)(t);
+            i = (0, s.R4)(t);
           return (
-            a.push.apply(
-              a,
-              (0, r.Z)(
-                o.items.filter(function (e) {
+            r.push.apply(
+              r,
+              (0, a.Z)(
+                i.items.filter(function (e) {
                   return e.slot === n;
                 })
               )
             ),
-            p(a),
-            { items: a }
+            m(r),
+            { items: r }
           );
         }
-        function p(e) {
+        function m(e) {
           e.sort(function (e, t) {
             return e.rarity !== t.rarity
               ? t.rarity - e.rarity
@@ -1763,6 +1796,67 @@
               ? e.slot - t.slot
               : e.uid - t.uid;
           });
+        }
+        function v(e, t) {
+          if (void 0 === t) return o.PB;
+          var n = void 0 === e || d(t, e),
+            r = void 0 === e || f(t, e),
+            a = void 0 === e || c(t, e);
+          return {
+            hardcore: t.stats.hardcore,
+            charm: t.stats.charm,
+            knowhow: t.stats.knowhow,
+            ego: t.stats.ego,
+            attack: t.stats.attack,
+            defense: t.stats.defense,
+            rEgo: a ? t.resonance.ego : 0,
+            rDef: r ? t.resonance.defense : 0,
+            rAtk: n ? t.resonance.attack : 0,
+            totalStats: t.stats.hardcore + t.stats.charm + t.stats.knowhow
+          };
+        }
+        function g(e, t) {
+          var n,
+            a = o.PB,
+            i = (0, r.Z)(t);
+          try {
+            for (i.s(); !(n = i.n()).done; ) {
+              a = y(a, v(e, n.value));
+            }
+          } catch (s) {
+            i.e(s);
+          } finally {
+            i.f();
+          }
+          return a;
+        }
+        function y(e, t) {
+          return {
+            attack: (0, i.d)(e.attack + t.attack),
+            defense: (0, i.d)(e.defense + t.defense),
+            ego: (0, i.d)(e.ego + t.ego),
+            hardcore: (0, i.d)(e.hardcore + t.hardcore),
+            charm: (0, i.d)(e.charm + t.charm),
+            knowhow: (0, i.d)(e.knowhow + t.knowhow),
+            totalStats: (0, i.d)(e.totalStats + t.totalStats),
+            rAtk: (0, i.d)(e.rAtk + t.rAtk),
+            rDef: (0, i.d)(e.rDef + t.rDef),
+            rEgo: (0, i.d)(e.rEgo + t.rEgo)
+          };
+        }
+        function b(e, t) {
+          return {
+            attack: (0, i.d)(e.attack - t.attack),
+            defense: (0, i.d)(e.defense - t.defense),
+            ego: (0, i.d)(e.ego - t.ego),
+            hardcore: (0, i.d)(e.hardcore - t.hardcore),
+            charm: (0, i.d)(e.charm - t.charm),
+            knowhow: (0, i.d)(e.knowhow - t.knowhow),
+            totalStats: (0, i.d)(e.totalStats - t.totalStats),
+            rAtk: (0, i.d)(e.rAtk - t.rAtk),
+            rDef: (0, i.d)(e.rDef - t.rDef),
+            rEgo: (0, i.d)(e.rEgo - t.rEgo)
+          };
         }
       },
       5840: function (e, t, n) {
@@ -2136,7 +2230,7 @@
                               hairColor: D(u),
                               eyeColor: O(u),
                               zodiac: I(u),
-                              element: Z(u),
+                              element: q(u),
                               missingAff: R(u, f),
                               currentAffection: u.own ? u.Affection.cur : 0,
                               upgradeReady: !0 === u.can_upgrade,
@@ -2144,7 +2238,7 @@
                               currentIcon: E(u.avatar),
                               salaryTime: u.own ? u.pay_time : void 0,
                               salary: u.own ? u.salary : void 0,
-                              missingGems: q(f, u.own ? u.level_cap : 250),
+                              missingGems: Z(f, u.own ? u.level_cap : 250),
                               quests: T(s, u),
                               fullName:
                                 null !== (t = u.ref.full_name) && void 0 !== t
@@ -2431,10 +2525,10 @@
             throw 'Unexpected zodiac value: "'.concat(e.ref.zodiac, '"');
           return n;
         }
-        function Z(e) {
+        function q(e) {
           return f(e.element);
         }
-        function q(e, t) {
+        function Z(e, t) {
           var n = Math.max(1, e);
           if (Number.isNaN(t)) return 1880 * n;
           switch (t) {
@@ -3779,7 +3873,7 @@
                                     this.postRequest(n)
                                   );
                                 case 3:
-                                  if (((r = e.sent), p.JR.is(r) && r.success)) {
+                                  if (((r = e.sent), p.sJ.is(r) && r.success)) {
                                     (a = []), (i = (0, s.Z)(t));
                                     try {
                                       for (i.s(); !(o = i.n()).done; )
@@ -5667,14 +5761,14 @@
               if ((C || A) && (e.name !== t.name || e.message !== t.message))
                 return !1;
               var I = o(e),
-                Z = o(t);
-              if (I !== Z) return !1;
-              if ((I || Z) && (e.source !== t.source || s(e) !== s(t)))
+                q = o(t);
+              if (I !== q) return !1;
+              if ((I || q) && (e.source !== t.source || s(e) !== s(t)))
                 return !1;
-              var q = u(e),
+              var Z = u(e),
                 L = u(t);
-              if (q !== L) return !1;
-              if ((q || L) && y(e) !== y(t)) return !1;
+              if (Z !== L) return !1;
+              if ((Z || L) && y(e) !== y(t)) return !1;
               if (n.strict && b && b(e) !== b(t)) return !1;
               if (v(e) !== v(t)) return !1;
               var M = O(e),
@@ -6910,8 +7004,8 @@
         }
         var O = n(4654),
           I = O.custom,
-          Z = G(I) ? I : null;
-        function q(e, t, n) {
+          q = G(I) ? I : null;
+        function Z(e, t, n) {
           var r = 'double' === (n.quoteStyle || t) ? '"' : "'";
           return r + e + r;
         }
@@ -7062,7 +7156,7 @@
               re < ne.length;
               re++
             )
-              te += ' ' + ne[re].name + '=' + q(L(ne[re].value), 'double', s);
+              te += ' ' + ne[re].name + '=' + Z(L(ne[re].value), 'double', s);
             return (
               (te += '>'),
               t.childNodes && t.childNodes.length && (te += '...'),
@@ -7103,7 +7197,7 @@
                   ' }';
           }
           if ('object' === typeof t && l) {
-            if (Z && 'function' === typeof t[Z] && O)
+            if (q && 'function' === typeof t[q] && O)
               return O(t, { depth: C - r });
             if ('symbol' !== l && 'function' === typeof t.inspect)
               return t.inspect();
@@ -7292,7 +7386,7 @@
               r = '... ' + n + ' more character' + (n > 1 ? 's' : '');
             return V(y.call(e, 0, t.maxStringLength), t) + r;
           }
-          return q(
+          return Z(
             b.call(b.call(e, /(['\\])/g, '\\$1'), /[\x00-\x1f]/g, $),
             'single',
             t
@@ -8334,8 +8428,8 @@
         }
         var O = Object.assign,
           I = Symbol.for('react.element'),
-          Z = Symbol.for('react.portal'),
-          q = Symbol.for('react.fragment'),
+          q = Symbol.for('react.portal'),
+          Z = Symbol.for('react.fragment'),
           L = Symbol.for('react.strict_mode'),
           M = Symbol.for('react.profiler'),
           B = Symbol.for('react.provider'),
@@ -8355,9 +8449,9 @@
           if ('function' === typeof e) return e.displayName || e.name || null;
           if ('string' === typeof e) return e;
           switch (e) {
-            case q:
-              return 'Fragment';
             case Z:
+              return 'Fragment';
+            case q:
               return 'Portal';
             case M:
               return 'Profiler';
@@ -8690,7 +8784,7 @@
               var e = ye.treeContext,
                 t = e.overflow;
               e = ((e = e.id) & ~(1 << (32 - pe(e) - 1))).toString(32) + t;
-              var n = Ze;
+              var n = qe;
               if (null === n) throw Error(a(404));
               return (
                 (t = Se++),
@@ -8707,8 +8801,8 @@
               return n();
             }
           },
-          Ze = null,
-          qe =
+          qe = null,
+          Ze =
             r.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
               .ReactCurrentDispatcher;
         function Le(e) {
@@ -8832,7 +8926,7 @@
                 case X:
                 case L:
                 case M:
-                case q:
+                case Z:
                 case H:
                   return void Xe(e, t, r.children);
                 case $:
@@ -9017,7 +9111,7 @@
             switch (n.$$typeof) {
               case I:
                 return void $e(e, t, n.type, n.props, n.ref);
-              case Z:
+              case q:
                 throw Error(a(257));
               case V:
                 var r = n._init;
@@ -9192,10 +9286,10 @@
         function nt(e) {
           if (2 !== e.status) {
             var t = ne,
-              n = qe.current;
-            qe.current = Ie;
-            var r = Ze;
-            Ze = e.responseState;
+              n = Ze.current;
+            Ze.current = Ie;
+            var r = qe;
+            qe = e.responseState;
             try {
               var a,
                 i = e.pingedTasks;
@@ -9249,7 +9343,7 @@
             } catch (p) {
               ze(e, p), Ue(e, p);
             } finally {
-              (Ze = r), (qe.current = n), n === Ie && le(t);
+              (qe = r), (Ze.current = n), n === Ie && le(t);
             }
           }
         }
@@ -9961,12 +10055,12 @@
         function I(e, t, n, r) {
           return t + ('s' === n ? '\\u0073' : '\\u0053') + r;
         }
-        function Z(e, t) {
+        function q(e, t) {
           return { insertionMode: e, selectedValue: t };
         }
-        var q = d('\x3c!-- --\x3e');
+        var Z = d('\x3c!-- --\x3e');
         function L(e, t, n, r) {
-          return '' === t ? r : (r && e.push(q), e.push(f(C(t))), !0);
+          return '' === t ? r : (r && e.push(Z), e.push(f(C(t))), !0);
         }
         var M = new Map(),
           B = d(' style="'),
@@ -10389,8 +10483,8 @@
           De = d('">'),
           Oe = d('</tbody></table>'),
           Ie = d('<table hidden><tr id="'),
-          Ze = d('">'),
-          qe = d('</tr></table>'),
+          qe = d('">'),
+          Ze = d('</tr></table>'),
           Le = d('<table hidden><colgroup id="'),
           Me = d('">'),
           Be = d('</colgroup></table>');
@@ -10633,11 +10727,11 @@
         var Ot = Math.clz32
             ? Math.clz32
             : function (e) {
-                return 0 === (e >>>= 0) ? 32 : (31 - ((It(e) / Zt) | 0)) | 0;
+                return 0 === (e >>>= 0) ? 32 : (31 - ((It(e) / qt) | 0)) | 0;
               },
           It = Math.log,
-          Zt = Math.LN2;
-        var qt =
+          qt = Math.LN2;
+        var Zt =
             'function' === typeof Object.is
               ? Object.is
               : function (e, t) {
@@ -10718,7 +10812,7 @@
               e: if (null === r) r = !1;
               else {
                 for (var a = 0; a < r.length && a < t.length; a++)
-                  if (!qt(t[a], r[a])) {
+                  if (!Zt(t[a], r[a])) {
                     r = !1;
                     break e;
                   }
@@ -10960,7 +11054,7 @@
                     try {
                       if (
                         (xn(e, t, r),
-                        c.lastPushedText && c.textEmbedded && c.chunks.push(q),
+                        c.lastPushedText && c.textEmbedded && c.chunks.push(Z),
                         (c.status = 1),
                         Sn(l, c),
                         0 === l.pendingTasks)
@@ -11058,26 +11152,26 @@
               (i.formatContext = (function (e, t, n) {
                 switch (t) {
                   case 'select':
-                    return Z(1, null != n.value ? n.value : n.defaultValue);
+                    return q(1, null != n.value ? n.value : n.defaultValue);
                   case 'svg':
-                    return Z(2, null);
+                    return q(2, null);
                   case 'math':
-                    return Z(3, null);
+                    return q(3, null);
                   case 'foreignObject':
-                    return Z(1, null);
+                    return q(1, null);
                   case 'table':
-                    return Z(4, null);
+                    return q(4, null);
                   case 'thead':
                   case 'tbody':
                   case 'tfoot':
-                    return Z(5, null);
+                    return q(5, null);
                   case 'colgroup':
-                    return Z(7, null);
+                    return q(7, null);
                   case 'tr':
-                    return Z(6, null);
+                    return q(6, null);
                 }
                 return 4 <= e.insertionMode || 0 === e.insertionMode
-                  ? Z(1, null)
+                  ? q(1, null)
                   : e;
               })(s, n, r)),
               xn(e, t, o),
@@ -11301,7 +11395,7 @@
                   At(o.context);
                   try {
                     yn(s, o, o.node),
-                      l.lastPushedText && l.textEmbedded && l.chunks.push(q),
+                      l.lastPushedText && l.textEmbedded && l.chunks.push(Z),
                       o.abortSet.delete(o),
                       (l.status = 1),
                       _n(s, o.blockedBoundary, l);
@@ -11449,7 +11543,7 @@
                     s(e, Ie),
                     s(e, t.segmentPrefix),
                     s(e, f(r.toString(16))),
-                    l(e, Ze)
+                    l(e, qe)
                   );
                 case 7:
                   return (
@@ -11477,7 +11571,7 @@
                 case 5:
                   return l(e, Oe);
                 case 6:
-                  return l(e, qe);
+                  return l(e, Ze);
                 case 7:
                   return l(e, Be);
                 default:
@@ -11694,7 +11788,7 @@
                   t ? t.bootstrapModules : void 0
                 ),
                 (function (e) {
-                  return Z(
+                  return q(
                     'http://www.w3.org/2000/svg' === e
                       ? 2
                       : 'http://www.w3.org/1998/Math/MathML' === e
@@ -11976,8 +12070,8 @@
             : null;
         }
         var I,
-          Z = Object.assign;
-        function q(e) {
+          q = Object.assign;
+        function Z(e) {
           if (void 0 === I)
             try {
               throw Error();
@@ -12059,18 +12153,18 @@
           } finally {
             (L = !1), (Error.prepareStackTrace = n);
           }
-          return (e = e ? e.displayName || e.name : '') ? q(e) : '';
+          return (e = e ? e.displayName || e.name : '') ? Z(e) : '';
         }
         function B(e) {
           switch (e.tag) {
             case 5:
-              return q(e.type);
+              return Z(e.type);
             case 16:
-              return q('Lazy');
+              return Z('Lazy');
             case 13:
-              return q('Suspense');
+              return Z('Suspense');
             case 19:
-              return q('SuspenseList');
+              return Z('SuspenseList');
             case 0:
             case 2:
             case 15:
@@ -12270,7 +12364,7 @@
         }
         function X(e, t) {
           var n = t.checked;
-          return Z({}, t, {
+          return q({}, t, {
             defaultChecked: void 0,
             defaultValue: void 0,
             value: void 0,
@@ -12358,7 +12452,7 @@
         }
         function re(e, t) {
           if (null != t.dangerouslySetInnerHTML) throw Error(i(91));
-          return Z({}, t, {
+          return q({}, t, {
             value: void 0,
             defaultValue: void 0,
             children: '' + e._wrapperState.initialValue
@@ -12520,7 +12614,7 @@
               (pe[t] = pe[e]);
           });
         });
-        var ge = Z(
+        var ge = q(
           { menuitem: !0 },
           {
             area: !0,
@@ -12675,16 +12769,16 @@
           }
         }
         var Ie = !1,
-          Ze = null,
-          qe = !1,
+          qe = null,
+          Ze = !1,
           Le = null,
           Me = {
             onError: function (e) {
-              (Ie = !0), (Ze = e);
+              (Ie = !0), (qe = e);
             }
           };
         function Be(e, t, n, r, a, i, o, s, l) {
-          (Ie = !1), (Ze = null), Oe.apply(Me, arguments);
+          (Ie = !1), (qe = null), Oe.apply(Me, arguments);
         }
         function Ge(e) {
           var t = e,
@@ -13005,7 +13099,7 @@
               null !== a && -1 === t.indexOf(a) && t.push(a),
               e);
         }
-        function Zt(e) {
+        function qt(e) {
           var t = ya(e.target);
           if (null !== t) {
             var n = Ge(t);
@@ -13027,7 +13121,7 @@
           }
           e.blockedOn = null;
         }
-        function qt(e) {
+        function Zt(e) {
           if (null !== e.blockedOn) return !1;
           for (var t = e.targetContainers; 0 < t.length; ) {
             var n = Xt(e.domEventName, e.eventSystemFlags, t[0], e.nativeEvent);
@@ -13039,13 +13133,13 @@
           return !0;
         }
         function Lt(e, t, n) {
-          qt(e) && n.delete(t);
+          Zt(e) && n.delete(t);
         }
         function Mt() {
           (Ct = !1),
-            null !== Ft && qt(Ft) && (Ft = null),
-            null !== Pt && qt(Pt) && (Pt = null),
-            null !== At && qt(At) && (At = null),
+            null !== Ft && Zt(Ft) && (Ft = null),
+            null !== Pt && Zt(Pt) && (Pt = null),
+            null !== At && Zt(At) && (At = null),
             Nt.forEach(Lt),
             Rt.forEach(Lt);
         }
@@ -13079,7 +13173,7 @@
           )
             (r = Tt[n]).blockedOn === e && (r.blockedOn = null);
           for (; 0 < Tt.length && null === (n = Tt[0]).blockedOn; )
-            Zt(n), null === n.blockedOn && Tt.shift();
+            qt(n), null === n.blockedOn && Tt.shift();
         }
         var zt = x.ReactCurrentBatchConfig,
           Ut = !0;
@@ -13306,7 +13400,7 @@
             );
           }
           return (
-            Z(t.prototype, {
+            q(t.prototype, {
               preventDefault: function () {
                 this.defaultPrevented = !0;
                 var e = this.nativeEvent;
@@ -13346,9 +13440,9 @@
             isTrusted: 0
           },
           cn = an(un),
-          fn = Z({}, un, { view: 0, detail: 0 }),
+          fn = q({}, un, { view: 0, detail: 0 }),
           dn = an(fn),
-          pn = Z({}, fn, {
+          pn = q({}, fn, {
             screenX: 0,
             screenY: 0,
             clientX: 0,
@@ -13385,12 +13479,12 @@
             }
           }),
           hn = an(pn),
-          mn = an(Z({}, pn, { dataTransfer: 0 })),
-          vn = an(Z({}, fn, { relatedTarget: 0 })),
+          mn = an(q({}, pn, { dataTransfer: 0 })),
+          vn = an(q({}, fn, { relatedTarget: 0 })),
           gn = an(
-            Z({}, un, { animationName: 0, elapsedTime: 0, pseudoElement: 0 })
+            q({}, un, { animationName: 0, elapsedTime: 0, pseudoElement: 0 })
           ),
-          yn = Z({}, un, {
+          yn = q({}, un, {
             clipboardData: function (e) {
               return 'clipboardData' in e
                 ? e.clipboardData
@@ -13398,7 +13492,7 @@
             }
           }),
           bn = an(yn),
-          xn = an(Z({}, un, { data: 0 })),
+          xn = an(q({}, un, { data: 0 })),
           wn = {
             Esc: 'Escape',
             Spacebar: ' ',
@@ -13466,7 +13560,7 @@
         function jn() {
           return _n;
         }
-        var Cn = Z({}, fn, {
+        var Cn = q({}, fn, {
             key: function (e) {
               if (e.key) {
                 var t = wn[e.key] || e.key;
@@ -13505,7 +13599,7 @@
           }),
           En = an(Cn),
           Fn = an(
-            Z({}, pn, {
+            q({}, pn, {
               pointerId: 0,
               width: 0,
               height: 0,
@@ -13519,7 +13613,7 @@
             })
           ),
           Pn = an(
-            Z({}, fn, {
+            q({}, fn, {
               touches: 0,
               targetTouches: 0,
               changedTouches: 0,
@@ -13531,9 +13625,9 @@
             })
           ),
           An = an(
-            Z({}, un, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 })
+            q({}, un, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 })
           ),
-          Nn = Z({}, pn, {
+          Nn = q({}, pn, {
             deltaX: function (e) {
               return 'deltaX' in e
                 ? e.deltaX
@@ -13559,8 +13653,8 @@
           On = null;
         c && 'documentMode' in document && (On = document.documentMode);
         var In = c && 'TextEvent' in window && !On,
-          Zn = c && (!Dn || (On && 8 < On && 11 >= On)),
-          qn = String.fromCharCode(32),
+          qn = c && (!Dn || (On && 8 < On && 11 >= On)),
+          Zn = String.fromCharCode(32),
           Ln = !1;
         function Mn(e, t) {
           switch (e) {
@@ -13612,7 +13706,7 @@
         var Wn = null,
           Vn = null;
         function $n(e) {
-          qr(e, 0);
+          Zr(e, 0);
         }
         function Xn(e) {
           if (V(xa(e))) return e;
@@ -13941,19 +14035,19 @@
           Ir = new Set(
             'cancel close invalid load scroll toggle'.split(' ').concat(Or)
           );
-        function Zr(e, t, n) {
+        function qr(e, t, n) {
           var r = e.type || 'unknown-event';
           (e.currentTarget = n),
             (function (e, t, n, r, a, o, s, l, u) {
               if ((Be.apply(this, arguments), Ie)) {
                 if (!Ie) throw Error(i(198));
-                var c = Ze;
-                (Ie = !1), (Ze = null), qe || ((qe = !0), (Le = c));
+                var c = qe;
+                (Ie = !1), (qe = null), Ze || ((Ze = !0), (Le = c));
               }
             })(r, t, void 0, e),
             (e.currentTarget = null);
         }
-        function qr(e, t) {
+        function Zr(e, t) {
           t = 0 !== (4 & t);
           for (var n = 0; n < e.length; n++) {
             var r = e[n],
@@ -13968,7 +14062,7 @@
                     u = s.currentTarget;
                   if (((s = s.listener), l !== i && a.isPropagationStopped()))
                     break e;
-                  Zr(a, s, u), (i = l);
+                  qr(a, s, u), (i = l);
                 }
               else
                 for (o = 0; o < r.length; o++) {
@@ -13979,11 +14073,11 @@
                     l !== i && a.isPropagationStopped())
                   )
                     break e;
-                  Zr(a, s, u), (i = l);
+                  qr(a, s, u), (i = l);
                 }
             }
           }
-          if (qe) throw ((e = Le), (qe = !1), (Le = null), e);
+          if (Ze) throw ((e = Le), (Ze = !1), (Le = null), e);
         }
         function Lr(e, t) {
           var n = t[ma];
@@ -14305,7 +14399,7 @@
                     229 === n.keyCode &&
                     (b = 'onCompositionStart');
               b &&
-                (Zn &&
+                (qn &&
                   'ko' !== n.locale &&
                   (Gn || 'onCompositionStart' !== b
                     ? 'onCompositionEnd' === b && Gn && (y = en())
@@ -14321,9 +14415,9 @@
                         case 'compositionend':
                           return Bn(t);
                         case 'keypress':
-                          return 32 !== t.which ? null : ((Ln = !0), qn);
+                          return 32 !== t.which ? null : ((Ln = !0), Zn);
                         case 'textInput':
-                          return (e = t.data) === qn && Ln ? null : e;
+                          return (e = t.data) === Zn && Ln ? null : e;
                         default:
                           return null;
                       }
@@ -14347,7 +14441,7 @@
                           }
                           return null;
                         case 'compositionend':
-                          return Zn && 'ko' !== t.locale ? null : t.data;
+                          return qn && 'ko' !== t.locale ? null : t.data;
                       }
                     })(e, n)) &&
                   0 < (r = Wr(r, 'onBeforeInput')).length &&
@@ -14355,7 +14449,7 @@
                   o.push({ event: a, listeners: r }),
                   (a.data = y));
             }
-            qr(o, t);
+            Zr(o, t);
           });
         }
         function Hr(e, t, n) {
@@ -14565,7 +14659,7 @@
             return n;
           for (var a in (r = r.getChildContext()))
             if (!(a in t)) throw Error(i(108, z(e) || 'Unknown', a));
-          return Z({}, n, r);
+          return q({}, n, r);
         }
         function Ia(e) {
           return (
@@ -14579,7 +14673,7 @@
             !0
           );
         }
-        function Za(e, t, n) {
+        function qa(e, t, n) {
           var r = e.stateNode;
           if (!r) throw Error(i(169));
           n
@@ -14591,28 +14685,28 @@
             : ja(Pa),
             Ca(Pa, n);
         }
-        var qa = null,
+        var Za = null,
           La = !1,
           Ma = !1;
         function Ba(e) {
-          null === qa ? (qa = [e]) : qa.push(e);
+          null === Za ? (Za = [e]) : Za.push(e);
         }
         function Ga() {
-          if (!Ma && null !== qa) {
+          if (!Ma && null !== Za) {
             Ma = !0;
             var e = 0,
               t = bt;
             try {
-              var n = qa;
+              var n = Za;
               for (bt = 1; e < n.length; e++) {
                 var r = n[e];
                 do {
                   r = r(!0);
                 } while (null !== r);
               }
-              (qa = null), (La = !1);
+              (Za = null), (La = !1);
             } catch (a) {
-              throw (null !== qa && (qa = qa.slice(e + 1)), Ve(Je, Ga), a);
+              throw (null !== Za && (Za = Za.slice(e + 1)), Ve(Je, Ga), a);
             } finally {
               (bt = t), (Ma = !1);
             }
@@ -14794,7 +14888,7 @@
         var mi = x.ReactCurrentBatchConfig;
         function vi(e, t) {
           if (e && e.defaultProps) {
-            for (var n in ((t = Z({}, t)), (e = e.defaultProps)))
+            for (var n in ((t = q({}, t)), (e = e.defaultProps)))
               void 0 === t[n] && (t[n] = e[n]);
             return t;
           }
@@ -14961,7 +15055,7 @@
             : (e.next = t),
             (n.lastBaseUpdate = t);
         }
-        function Zi(e, t, n, r) {
+        function qi(e, t, n, r) {
           var a = e.updateQueue;
           Ai = !1;
           var i = a.firstBaseUpdate,
@@ -15017,7 +15111,7 @@
                         void 0 === d
                       )
                         break e;
-                      f = Z({}, f, d);
+                      f = q({}, f, d);
                       break e;
                     case 2:
                       Ai = !0;
@@ -15061,7 +15155,7 @@
             (Il |= o), (e.lanes = o), (e.memoizedState = f);
           }
         }
-        function qi(e, t, n) {
+        function Zi(e, t, n) {
           if (((e = t.effects), (t.effects = null), null !== e))
             for (t = 0; t < e.length; t++) {
               var r = e[t],
@@ -15078,7 +15172,7 @@
           (n =
             null === (n = n(r, (t = e.memoizedState))) || void 0 === n
               ? t
-              : Z({}, t, n)),
+              : q({}, t, n)),
             (e.memoizedState = n),
             0 === e.lanes && (e.updateQueue.baseState = n);
         }
@@ -15175,7 +15269,7 @@
               'function' === typeof a.UNSAFE_componentWillMount &&
                 a.UNSAFE_componentWillMount(),
               t !== a.state && Bi.enqueueReplaceState(a, a.state, null),
-              Zi(e, n, a, r),
+              qi(e, n, a, r),
               (a.state = e.memoizedState)),
             'function' === typeof a.componentDidMount && (e.flags |= 4194308);
         }
@@ -15265,7 +15359,7 @@
           }
           function l(e, t, n, r) {
             return null === t || 6 !== t.tag
-              ? (((t = Zu(n, e.mode, r)).return = e), t)
+              ? (((t = qu(n, e.mode, r)).return = e), t)
               : (((t = a(t, n)).return = e), t);
           }
           function u(e, t, n, r) {
@@ -15292,7 +15386,7 @@
               4 !== t.tag ||
               t.stateNode.containerInfo !== n.containerInfo ||
               t.stateNode.implementation !== n.implementation
-              ? (((t = qu(n, e.mode, r)).return = e), t)
+              ? (((t = Zu(n, e.mode, r)).return = e), t)
               : (((t = a(t, n.children || [])).return = e), t);
           }
           function f(e, t, n, r, i) {
@@ -15302,7 +15396,7 @@
           }
           function d(e, t, n) {
             if (('string' === typeof t && '' !== t) || 'number' === typeof t)
-              return ((t = Zu('' + t, e.mode, n)).return = e), t;
+              return ((t = qu('' + t, e.mode, n)).return = e), t;
             if ('object' === typeof t && null !== t) {
               switch (t.$$typeof) {
                 case w:
@@ -15316,7 +15410,7 @@
                     n
                   );
                 case k:
-                  return ((t = qu(t, e.mode, n)).return = e), t;
+                  return ((t = Zu(t, e.mode, n)).return = e), t;
                 case R:
                   return d(e, (0, t._init)(t._payload), n);
               }
@@ -15537,7 +15631,7 @@
                       }
                       t(r, i), (i = i.sibling);
                     }
-                    ((i = qu(o, r.mode, l)).return = r), (r = i);
+                    ((i = Zu(o, r.mode, l)).return = r), (r = i);
                   }
                   return s(r);
                 case R:
@@ -15551,7 +15645,7 @@
               ? ((o = '' + o),
                 null !== i && 6 === i.tag
                   ? (n(r, i.sibling), ((i = a(i, o)).return = r), (r = i))
-                  : (n(r, i), ((i = Zu(o, r.mode, l)).return = r), (r = i)),
+                  : (n(r, i), ((i = qu(o, r.mode, l)).return = r), (r = i)),
                 s(r))
               : n(r, i);
           };
@@ -15834,11 +15928,11 @@
               : n.push(e);
         }
         function Do(e, t, n, r) {
-          (t.value = n), (t.getSnapshot = r), Io(t) && Zo(e);
+          (t.value = n), (t.getSnapshot = r), Io(t) && qo(e);
         }
         function Oo(e, t, n) {
           return n(function () {
-            Io(t) && Zo(e);
+            Io(t) && qo(e);
           });
         }
         function Io(e) {
@@ -15851,11 +15945,11 @@
             return !0;
           }
         }
-        function Zo(e) {
+        function qo(e) {
           var t = Pi(e, 1);
           null !== t && nu(t, e, 1, -1);
         }
-        function qo(e) {
+        function Zo(e) {
           var t = Co();
           return (
             'function' === typeof e && (e = e()),
@@ -16113,13 +16207,13 @@
             useRef: function (e) {
               return (e = { current: e }), (Co().memoizedState = e);
             },
-            useState: qo,
+            useState: Zo,
             useDebugValue: Xo,
             useDeferredValue: function (e) {
               return (Co().memoizedState = e);
             },
             useTransition: function () {
-              var e = qo(!1),
+              var e = Zo(!1),
                 t = e[0];
               return (
                 (e = Jo.bind(null, e[1])), (Co().memoizedState = e), [t, e]
@@ -16475,7 +16569,7 @@
               (Ai = !1);
             var d = t.memoizedState;
             (o.state = d),
-              Zi(t, r, o, a),
+              qi(t, r, o, a),
               (l = t.memoizedState),
               s !== r || d !== l || Pa.current || Ai
                 ? ('function' === typeof c &&
@@ -16522,7 +16616,7 @@
               (Ai = !1),
               (d = t.memoizedState),
               (o.state = d),
-              Zi(t, r, o, a);
+              qi(t, r, o, a);
             var h = t.memoizedState;
             s !== f || d !== h || Pa.current || Ai
               ? ('function' === typeof p &&
@@ -16564,7 +16658,7 @@
         function Ps(e, t, n, r, a, i) {
           Cs(e, t);
           var o = 0 !== (128 & t.flags);
-          if (!r && !o) return a && Za(t, n, !1), Us(e, t, i);
+          if (!r && !o) return a && qa(t, n, !1), Us(e, t, i);
           (r = t.stateNode), (bs.current = t);
           var s =
             o && 'function' !== typeof n.getDerivedStateFromError
@@ -16577,7 +16671,7 @@
                 (t.child = Qi(t, null, s, i)))
               : ws(e, t, s, i),
             (t.memoizedState = r.state),
-            a && Za(t, n, !0),
+            a && qa(t, n, !0),
             t.child
           );
         }
@@ -16598,7 +16692,7 @@
         function Is(e) {
           return { baseLanes: e, cachePool: null, transitions: null };
         }
-        function Zs(e, t, n) {
+        function qs(e, t, n) {
           var r,
             a = t.pendingProps,
             o = so.current,
@@ -16639,7 +16733,7 @@
                       (t.child.memoizedState = Is(n)),
                       (t.memoizedState = Os),
                       e)
-                    : qs(t, l))
+                    : Zs(t, l))
             );
           if (null !== (o = e.memoizedState) && null !== (r = o.dehydrated))
             return (function (e, t, n, r, a, o, s) {
@@ -16735,7 +16829,7 @@
                     (Qa = e.id),
                     (Ka = e.overflow),
                     (Xa = t)),
-                  ((t = qs(t, r.children)).flags |= 4096),
+                  ((t = Zs(t, r.children)).flags |= 4096),
                   t);
             })(e, t, l, a, r, o, n);
           if (s) {
@@ -16785,7 +16879,7 @@
             a
           );
         }
-        function qs(e, t) {
+        function Zs(e, t) {
           return (
             ((t = Iu(
               { mode: 'visible', children: t },
@@ -16800,7 +16894,7 @@
           return (
             null !== r && hi(r),
             Qi(t, e.child, null, n),
-            ((e = qs(t, t.pendingProps.children)).flags |= 2),
+            ((e = Zs(t, t.pendingProps.children)).flags |= 2),
             (t.memoizedState = null),
             e
           );
@@ -17122,7 +17216,7 @@
                         break;
                       case 'select':
                         (e._wrapperState = { wasMultiple: !!r.multiple }),
-                          (a = Z({}, r, { value: void 0 })),
+                          (a = q({}, r, { value: void 0 })),
                           Lr('invalid', e);
                         break;
                       case 'textarea':
@@ -17453,8 +17547,8 @@
                   (a = X(e, a)), (r = X(e, r)), (o = []);
                   break;
                 case 'select':
-                  (a = Z({}, a, { value: void 0 })),
-                    (r = Z({}, r, { value: void 0 })),
+                  (a = q({}, a, { value: void 0 })),
+                    (r = q({}, r, { value: void 0 })),
                     (o = []);
                   break;
                 case 'textarea':
@@ -18114,7 +18208,7 @@
                           );
                         }
                       var o = t.updateQueue;
-                      null !== o && qi(t, o, r);
+                      null !== o && Zi(t, o, r);
                       break;
                     case 3:
                       var s = t.updateQueue;
@@ -18125,7 +18219,7 @@
                             case 1:
                               n = t.child.stateNode;
                           }
-                        qi(t, s, n);
+                        Zi(t, s, n);
                       }
                       break;
                     case 5:
@@ -18270,8 +18364,8 @@
           Dl = 0,
           Ol = null,
           Il = 0,
-          Zl = 0,
           ql = 0,
+          Zl = 0,
           Ll = null,
           Ml = null,
           Bl = 0,
@@ -18305,7 +18399,7 @@
           if (50 < Ql) throw ((Ql = 0), (Kl = null), Error(i(185)));
           gt(e, n, r),
             (0 !== (2 & Fl) && e === Pl) ||
-              (e === Pl && (0 === (2 & Fl) && (Zl |= n), 4 === Dl && su(e, Nl)),
+              (e === Pl && (0 === (2 & Fl) && (ql |= n), 4 === Dl && su(e, Nl)),
               ru(e, r),
               1 === n &&
                 0 === Fl &&
@@ -18515,8 +18609,8 @@
         }
         function su(e, t) {
           for (
-            t &= ~ql,
-              t &= ~Zl,
+            t &= ~Zl,
+              t &= ~ql,
               e.suspendedLanes |= t,
               e.pingedLanes &= ~t,
               e = e.expirationTimes;
@@ -18612,7 +18706,7 @@
             (Nl = Rl = t),
             (Dl = 0),
             (Ol = null),
-            (ql = Zl = Il = 0),
+            (Zl = ql = Il = 0),
             (Ml = Ll = null),
             null !== Ci)
           ) {
@@ -18751,7 +18845,7 @@
         function mu() {
           (0 !== Dl && 3 !== Dl && 2 !== Dl) || (Dl = 4),
             null === Pl ||
-              (0 === (268435455 & Il) && 0 === (268435455 & Zl)) ||
+              (0 === (268435455 & Il) && 0 === (268435455 & ql)) ||
               su(Pl, Nl);
         }
         function vu(e, t) {
@@ -19194,7 +19288,7 @@
               (4 === Dl ||
               (3 === Dl && (130023424 & Nl) === Nl && 500 > Ke() - Bl)
                 ? du(e, 0)
-                : (ql |= n)),
+                : (Zl |= n)),
             ru(e, t);
         }
         function Cu(e, t) {
@@ -19356,10 +19450,10 @@
             e
           );
         }
-        function Zu(e, t, n) {
+        function qu(e, t, n) {
           return ((e = Nu(6, e, null, t)).lanes = n), e;
         }
-        function qu(e, t, n) {
+        function Zu(e, t, n) {
           return (
             ((t = Nu(
               4,
@@ -19530,7 +19624,7 @@
                           return null !== r.dehydrated
                             ? (Ca(so, 1 & so.current), (t.flags |= 128), null)
                             : 0 !== (n & t.child.childLanes)
-                            ? Zs(e, t, n)
+                            ? qs(e, t, n)
                             : (Ca(so, 1 & so.current),
                               null !== (e = Us(e, t, n)) ? e.sibling : null);
                         Ca(so, 1 & so.current);
@@ -19648,7 +19742,7 @@
                 (r = t.pendingProps),
                   (a = (o = t.memoizedState).element),
                   Ri(e, t),
-                  Zi(t, r, null, n);
+                  qi(t, r, null, n);
                 var s = t.memoizedState;
                 if (((r = s.element), o.isDehydrated)) {
                   if (
@@ -19709,7 +19803,7 @@
             case 6:
               return null === e && ui(t), null;
             case 13:
-              return Zs(e, t, n);
+              return qs(e, t, n);
             case 4:
               return (
                 ro(t, t.stateNode.containerInfo),
@@ -19946,7 +20040,7 @@
                 n < Tt.length && 0 !== t && t < Tt[n].priority;
                 n++
               );
-              Tt.splice(n, 0, e), 0 === n && Zt(e);
+              Tt.splice(n, 0, e), 0 === n && qt(e);
             }
           }),
           (wt = function (e) {
@@ -20829,7 +20923,7 @@
         function I(e) {
           return ['top', 'bottom'].includes(O(e)) ? 'x' : 'y';
         }
-        function Z(e, t, n) {
+        function q(e, t, n) {
           var r,
             a = e.reference,
             i = e.floating,
@@ -20864,7 +20958,7 @@
           }
           return r;
         }
-        var q = (function () {
+        var Z = (function () {
           var e = (0, l.Z)(
             (0, s.Z)().mark(function e(t, n, r) {
               var a,
@@ -20921,7 +21015,7 @@
                       );
                     case 13:
                       (v = e.sent),
-                        (g = Z(v, i, m)),
+                        (g = q(v, i, m)),
                         (y = g.x),
                         (b = g.y),
                         (x = i),
@@ -21002,7 +21096,7 @@
                     case 50:
                       v = e.t3;
                     case 51:
-                      (_ = Z(v, x, m)), (y = _.x), (b = _.y);
+                      (_ = q(v, x, m)), (y = _.x), (b = _.y);
                     case 52:
                       S = -1;
                     case 53:
@@ -21279,8 +21373,8 @@
                       N,
                       R,
                       O,
-                      Z,
-                      q;
+                      q,
+                      Z;
                     return (0, s.Z)().wrap(function (n) {
                       for (;;)
                         switch ((n.prev = n.next)) {
@@ -21355,10 +21449,10 @@
                               (N = g[S]),
                               (R = P - w[x] - g[_]),
                               (O = P / 2 - w[x] / 2 + A),
-                              (Z = H(N, O, R)),
-                              (q =
+                              (q = H(N, O, R)),
+                              (Z =
                                 null != T(p) &&
-                                O != Z &&
+                                O != q &&
                                 h.reference[x] / 2 -
                                   (O < N ? g[S] : g[_]) -
                                   w[x] / 2 <
@@ -21369,14 +21463,14 @@
                                 (0, c.Z)(
                                   a,
                                   b,
-                                  y[b] - (q ? (O < N ? N - O : R - O) : 0)
+                                  y[b] - (Z ? (O < N ? N - O : R - O) : 0)
                                 ),
                                 (0, c.Z)(
                                   a,
                                   'data',
                                   ((r = {}),
-                                  (0, c.Z)(r, b, Z),
-                                  (0, c.Z)(r, 'centerOffset', O - Z),
+                                  (0, c.Z)(r, b, q),
+                                  (0, c.Z)(r, 'centerOffset', O - q),
                                   r)
                                 ),
                                 a)
@@ -21463,8 +21557,8 @@
                         R,
                         D,
                         I,
-                        Z,
                         q,
+                        Z,
                         L,
                         M,
                         G,
@@ -21566,10 +21660,10 @@
                                     : i.overflows) || []),
                                 v && D.push(R[E]),
                                 y &&
-                                  ((Z = X(o, u, P)),
-                                  (q = Z.main),
-                                  (L = Z.cross),
-                                  D.push(R[q], R[L])),
+                                  ((q = X(o, u, P)),
+                                  (Z = q.main),
+                                  (L = q.cross),
+                                  D.push(R[Z], R[L])),
                                 (I = [].concat((0, r.Z)(I), [
                                   { placement: o, overflows: D }
                                 ])),
@@ -22351,7 +22445,7 @@
             var r = new Map(),
               a = (0, u.Z)({ platform: De }, n),
               i = (0, u.Z)((0, u.Z)({}, a.platform), {}, { _c: r });
-            return q(e, t, (0, u.Z)((0, u.Z)({}, a), {}, { platform: i }));
+            return Z(e, t, (0, u.Z)((0, u.Z)({}, a), {}, { platform: i }));
           },
           Ie = (function () {
             var e = (0, l.Z)(
@@ -22484,7 +22578,7 @@
               return e.apply(this, arguments);
             };
           })(),
-          Ze = {
+          qe = {
             arrow: 'react-tooltip__arrow_KtSkBq',
             clickable: 'react-tooltip__clickable_KtSkBq',
             dark: 'react-tooltip__dark_KtSkBq',
@@ -22498,7 +22592,7 @@
             tooltip: 'react-tooltip__tooltip_KtSkBq',
             warning: 'react-tooltip__warning_KtSkBq'
           },
-          qe = function (e) {
+          Ze = function (e) {
             var t,
               n = e.id,
               a = e.className,
@@ -22525,8 +22619,8 @@
               D = void 0 === T ? 0 : T,
               O = e.float,
               I = void 0 !== O && O,
-              Z = e.noArrow,
-              q = void 0 !== Z && Z,
+              q = e.noArrow,
+              Z = void 0 !== q && q,
               L = e.clickable,
               M = void 0 !== L && L,
               B = e.closeOnEsc,
@@ -22641,7 +22735,7 @@
                     Ee.current || De(!1);
                   }, e));
               },
-              qe = function (e) {
+              Ze = function (e) {
                 var t;
                 if (e) {
                   A
@@ -22699,7 +22793,7 @@
                 }
               },
               Ge = function (e) {
-                qe(e), D && Oe();
+                Ze(e), D && Oe();
               },
               ze = function (e) {
                 var t;
@@ -22714,7 +22808,7 @@
               Ue = function (e) {
                 'Escape' === e.key && De(!1);
               },
-              He = C(qe, 50),
+              He = C(Ze, 50),
               We = C(Le, 50);
             (0, p.useEffect)(
               function () {
@@ -22907,14 +23001,14 @@
                   role: 'tooltip',
                   className: (0, j.default)(
                     'react-tooltip',
-                    Ze.tooltip,
-                    Ze[s],
+                    qe.tooltip,
+                    qe[s],
                     a,
                     'react-tooltip__place-'.concat(ae),
                     ((t = {}),
-                    (0, c.Z)(t, Ze.show, Ve),
-                    (0, c.Z)(t, Ze.fixed, 'fixed' === _),
-                    (0, c.Z)(t, Ze.clickable, M),
+                    (0, c.Z)(t, qe.show, Ve),
+                    (0, c.Z)(t, qe.fixed, 'fixed' === _),
+                    (0, c.Z)(t, qe.clickable, M),
                     t)
                   ),
                   style: (0, u.Z)((0, u.Z)({}, z), le),
@@ -22924,9 +23018,9 @@
                     (0, h.jsx)(F, {
                       className: (0, j.default)(
                         'react-tooltip-arrow',
-                        Ze.arrow,
+                        qe.arrow,
                         i,
-                        (0, c.Z)({}, Ze.noArrow, q)
+                        (0, c.Z)({}, qe.noArrow, Z)
                       ),
                       style: de,
                       ref: J
@@ -22973,8 +23067,8 @@
               D = void 0 === T ? 0 : T,
               O = e.float,
               I = void 0 !== O && O,
-              Z = e.noArrow,
-              q = void 0 !== Z && Z,
+              q = e.noArrow,
+              Z = void 0 !== q && q,
               L = e.clickable,
               M = void 0 !== L && L,
               B = e.closeOnEsc,
@@ -23027,7 +23121,7 @@
               De = Re[1],
               Oe = (0, p.useState)(F),
               Ie = (0, f.Z)(Oe, 2),
-              Ze = Ie[0],
+              qe = Ie[0],
               Me = Ie[1],
               Be = (0, p.useState)(null),
               Ge = (0, f.Z)(Be, 2),
@@ -23170,7 +23264,7 @@
                 : K && (Qe = K),
               te && (Qe = (0, h.jsx)(Le, { content: te })),
               (0, h.jsx)(
-                qe,
+                Ze,
                 (0, u.Z)(
                   {},
                   {
@@ -23186,12 +23280,12 @@
                     wrapper: Pe,
                     events: Te,
                     openOnClick: C,
-                    positionStrategy: Ze,
+                    positionStrategy: qe,
                     middlewares: P,
                     delayShow: ge,
                     delayHide: we,
                     float: je,
-                    noArrow: q,
+                    noArrow: Z,
                     clickable: M,
                     closeOnEsc: G,
                     style: z,
@@ -25884,11 +25978,11 @@
     }
     var O = 'teams.json';
     function I(e) {
-      return Z.apply(this, arguments);
+      return q.apply(this, arguments);
     }
-    function Z() {
+    function q() {
       return (
-        (Z = (0, t.Z)(
+        (q = (0, t.Z)(
           (0, e.Z)().mark(function t(n) {
             var r;
             return (0, e.Z)().wrap(
@@ -25938,10 +26032,10 @@
             );
           })
         )),
-        Z.apply(this, arguments)
+        q.apply(this, arguments)
       );
     }
-    function q() {
+    function Z() {
       return L.apply(this, arguments);
     }
     function L() {
@@ -27719,7 +27813,7 @@
             .reduce(function (e, t) {
               return e + t;
             }, 0),
-          Z = Math.round(50 * Math.sqrt(I));
+          q = Math.round(50 * Math.sqrt(I));
         return (0, Se.jsx)('div', {
           className: O,
           children: (0, Se.jsxs)('div', {
@@ -27744,7 +27838,7 @@
                     className: 'ego-bonus',
                     children: [
                       '(+',
-                      (0, ke.WU)(Z),
+                      (0, ke.WU)(q),
                       ' ',
                       (0, Se.jsx)(ke.Qf, {}),
                       ')'
@@ -28175,7 +28269,7 @@
       );
     }
     var Ie = __webpack_require__(1002);
-    function Ze(e, t) {
+    function qe(e, t) {
       if (t && ('object' === (0, Ie.Z)(t) || 'function' === typeof t)) return t;
       if (void 0 !== t)
         throw new TypeError(
@@ -28189,7 +28283,7 @@
         return e;
       })(e);
     }
-    function qe(e) {
+    function Ze(e) {
       var t = (function () {
         if ('undefined' === typeof Reflect || !Reflect.construct) return !1;
         if (Reflect.construct.sham) return !1;
@@ -28212,7 +28306,7 @@
           var a = Oe(this).constructor;
           n = Reflect.construct(r, arguments, a);
         } else n = r.apply(this, arguments);
-        return Ze(this, n);
+        return qe(this, n);
       };
     }
     var Le = (function () {
@@ -28241,7 +28335,7 @@
       })(),
       Me = (function (e) {
         De(n, e);
-        var t = qe(n);
+        var t = Ze(n);
         function n(e, r) {
           var a;
           return (
@@ -28290,7 +28384,7 @@
       });
     var Be = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r) {
         var a;
         return (
@@ -28339,7 +28433,7 @@
       });
     var Ge = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r) {
         var a;
         return (
@@ -28390,7 +28484,7 @@
       });
     var ze = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r) {
         var a;
         return (
@@ -28441,7 +28535,7 @@
       });
     var Ue = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         return (
@@ -28485,7 +28579,7 @@
       });
     var He = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         return (
@@ -28524,7 +28618,7 @@
       });
     var We = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n() {
         var e;
         return (
@@ -28556,7 +28650,7 @@
       });
     var Ve = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n() {
         var e;
         return (
@@ -28588,7 +28682,7 @@
       });
     var $e = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         return (
@@ -28627,7 +28721,7 @@
       });
     var Xe = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         return (
@@ -28666,7 +28760,7 @@
       });
     var Qe = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r, a) {
         var i;
         (0, G.Z)(this, n),
@@ -28729,7 +28823,7 @@
       });
     var Ke = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r, a) {
         var i;
         (0, G.Z)(this, n),
@@ -28794,7 +28888,7 @@
       });
     var Ye = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         return (
@@ -28859,7 +28953,7 @@
       });
     var Je = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r, a, i) {
         var o;
         return (
@@ -28921,7 +29015,7 @@
       });
     var et = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         switch (
@@ -28976,7 +29070,7 @@
       });
     var tt = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r) {
         var a;
         (0, G.Z)(this, n),
@@ -29072,7 +29166,7 @@
       });
     var nt = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r, a, i, o, s) {
         var l;
         return (
@@ -29148,7 +29242,7 @@
       });
     var rt = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e, r, a) {
         var i;
         return (
@@ -29205,7 +29299,7 @@
       });
     var at = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r, i, o;
         (0, G.Z)(this, n),
@@ -29344,7 +29438,7 @@
       });
     var ct = (function (e) {
       De(n, e);
-      var t = qe(n);
+      var t = Ze(n);
       function n(e) {
         var r;
         return (
@@ -30027,9 +30121,9 @@
     function It(e) {
       return Tt(Ot, 'Current Potential', e);
     }
-    var Zt = 'upcoming-potential';
-    function qt(e) {
-      return Tt(Zt, 'Upcoming Potential', e);
+    var qt = 'upcoming-potential';
+    function Zt(e) {
+      return Tt(qt, 'Upcoming Potential', e);
     }
     var Lt = Tt('base-potential', 'Base Potential', []),
       Mt = 'current-power';
@@ -31399,7 +31493,7 @@
           s = e.isDefaultSort,
           l = (0, be.useMemo)(
             function () {
-              return [Ft, Et, Pt, Rt, Nt, Lt, It(a), qt(i), Ut, Bt(a), zt(i)];
+              return [Ft, Et, Pt, Rt, Nt, Lt, It(a), Zt(i), Ut, Bt(a), zt(i)];
             },
             [a, i]
           );
@@ -31697,9 +31791,9 @@
           D = e.modal,
           O = void 0 !== D && D,
           I = e.lockScroll,
-          Z = void 0 !== I && I,
-          q = e.arrow,
-          L = void 0 === q || q,
+          q = void 0 !== I && I,
+          Z = e.arrow,
+          L = void 0 === Z || Z,
           M = e.offsetX,
           B = void 0 === M ? 0 : M,
           G = e.offsetY,
@@ -31779,13 +31873,13 @@
           },
           pe = function () {
             ie &&
-              Z &&
+              q &&
               (document.getElementsByTagName('body')[0].style.overflow =
                 'hidden');
           },
           he = function () {
             ie &&
-              Z &&
+              q &&
               (document.getElementsByTagName('body')[0].style.overflow =
                 'auto');
           },
@@ -32154,7 +32248,7 @@
           In.apply(this, arguments)
         );
       },
-      Zn = function (e, t) {
+      qn = function (e, t) {
         var n = {};
         for (var r in e)
           Object.prototype.hasOwnProperty.call(e, r) &&
@@ -32169,7 +32263,7 @@
         }
         return n;
       },
-      qn = (function (e, t, n) {
+      Zn = (function (e, t, n) {
         var r = 'react-spinners-'.concat(e, '-').concat(n);
         if ('undefined' == typeof window || !window.document) return r;
         var a = document.createElement('style');
@@ -32197,7 +32291,7 @@
           c = void 0 === u ? 15 : u,
           f = e.margin,
           d = void 0 === f ? 2 : f,
-          p = Zn(e, [
+          p = qn(e, [
             'loading',
             'color',
             'speedMultiplier',
@@ -32215,7 +32309,7 @@
               borderRadius: '100%',
               display: 'inline-block',
               animation: ''
-                .concat(qn, ' ')
+                .concat(Zn, ' ')
                 .concat(0.75 / o, 's ')
                 .concat(
                   (0.12 * e) / o,
@@ -32324,7 +32418,7 @@
           children: (0, Se.jsx)(Se.Fragment, {
             children: (0, Se.jsx)(ke.u, {
               place: 'left',
-              tooltip: (0, Se.jsx)(nr, {
+              tooltip: (0, Se.jsx)(ir, {
                 equipment: n,
                 currentEquipment: r,
                 girl: t
@@ -32341,27 +32435,32 @@
       zn = function (r) {
         var a = r.girl,
           i = r.girls,
-          o = (0, be.useMemo)(
+          o = r.allGirls,
+          s = (0, be.useMemo)(
             function () {
               return i.slice(0, 20);
             },
             [i]
           ),
-          s = (0, be.useContext)(Nn).gameAPI,
-          l = (0, be.useState)({ items: [] }),
-          u = (0, we.Z)(l, 2),
-          c = u[0],
-          f = u[1],
-          d = (0, be.useState)(!0),
-          p = (0, we.Z)(d, 2),
-          h = p[0],
-          m = p[1];
+          l = (0, be.useContext)(Nn).gameAPI,
+          u = (0, be.useState)({ items: [] }),
+          c = (0, we.Z)(u, 2),
+          f = c[0],
+          d = c[1],
+          p = (0, be.useState)(!0),
+          h = (0, we.Z)(p, 2),
+          m = h[0],
+          v = h[1],
+          g = (0, be.useState)(void 0),
+          y = (0, we.Z)(g, 2),
+          b = y[0],
+          x = y[1];
         (0, be.useEffect)(
           function () {
-            o.length > 0 &&
-              void 0 !== s &&
-              (m(!0),
-              s
+            i.length > 0 &&
+              void 0 !== l &&
+              (v(!0),
+              l
                 .getGirlsInventory(a)
                 .then(function (e) {
                   return (0, n.R4)(e);
@@ -32369,18 +32468,14 @@
                 .then(function (e) {
                   return (0, Tn.sz)(e.items), e;
                 })
-                .then(f)
+                .then(d)
                 .then(function () {
-                  return m(!1);
+                  return v(!1);
                 }));
           },
-          [s]
+          [l]
         );
-        var v = (0, be.useState)(void 0),
-          g = (0, we.Z)(v, 2),
-          y = g[0],
-          b = g[1],
-          x = (0, be.useCallback)(
+        var w = (0, be.useCallback)(
             (function () {
               var n = (0, t.Z)(
                 (0, e.Z)().mark(function t(n) {
@@ -32389,18 +32484,18 @@
                     for (;;)
                       switch ((e.prev = e.next)) {
                         case 0:
-                          if (void 0 !== y && void 0 !== s) {
+                          if (void 0 !== b && void 0 !== l) {
                             e.next = 2;
                             break;
                           }
                           return e.abrupt('return');
                         case 2:
-                          return b(void 0), (e.next = 5), s.equipOne(n, y);
+                          return x(void 0), (e.next = 5), l.equipOne(n, b);
                         case 5:
                           (r = e.sent),
-                            (a = y.slot),
-                            (i = (0, Tn.e9)(c, r, a)),
-                            f(i);
+                            (a = b.slot),
+                            (i = (0, Tn.e9)(f, r, a)),
+                            d(i);
                         case 9:
                         case 'end':
                           return e.stop();
@@ -32412,9 +32507,9 @@
                 return n.apply(this, arguments);
               };
             })(),
-            [y, b, s, c]
+            [b, x, l, f]
           ),
-          w = (0, be.useCallback)(
+          k = (0, be.useCallback)(
             (function () {
               var n = (0, t.Z)(
                 (0, e.Z)().mark(function t(n, r) {
@@ -32423,16 +32518,16 @@
                     for (;;)
                       switch ((e.prev = e.next)) {
                         case 0:
-                          if (void 0 === s) {
+                          if (void 0 === l) {
                             e.next = 7;
                             break;
                           }
-                          return (e.next = 3), s.unequipOne(n, r);
+                          return (e.next = 3), l.unequipOne(n, r);
                         case 3:
                           (a = e.sent),
                             (i = r.slot),
-                            (o = (0, Tn.e9)(c, a, i)),
-                            f(o);
+                            (o = (0, Tn.e9)(f, a, i)),
+                            d(o);
                         case 7:
                         case 'end':
                           return e.stop();
@@ -32444,19 +32539,50 @@
                 return n.apply(this, arguments);
               };
             })(),
-            [s, c, f]
+            [l, f, d]
           ),
-          k = i.length > o.length;
+          S = (0, be.useCallback)(
+            (0, t.Z)(
+              (0, e.Z)().mark(function t() {
+                var r, i;
+                return (0, e.Z)().wrap(function (e) {
+                  for (;;)
+                    switch ((e.prev = e.next)) {
+                      case 0:
+                        if (void 0 === l) {
+                          e.next = 11;
+                          break;
+                        }
+                        return (
+                          d({ items: [] }),
+                          v(!0),
+                          (e.next = 5),
+                          l.unequipAllGirls(o)
+                        );
+                      case 5:
+                        return (e.next = 7), l.getGirlsInventory(a);
+                      case 7:
+                        (r = e.sent), (i = (0, n.R4)(r)), d(i), v(!1);
+                      case 11:
+                      case 'end':
+                        return e.stop();
+                    }
+                }, t);
+              })
+            ),
+            [l, f, d, a, o, v]
+          ),
+          _ = i.length > s.length;
         return (0, Se.jsxs)('div', {
           className: 'girls-inventory',
           children: [
-            k
+            _
               ? (0, Se.jsxs)('p', {
                   style: { paddingInline: '10px' },
                   children: [
                     'Too many girls selected. The selection has been truncated to avoid issues. Use harem filters to limit the number of girls to equip (Max.:',
                     ' ',
-                    o.length,
+                    s.length,
                     ' girls)'
                   ]
                 })
@@ -32467,42 +32593,21 @@
                 (0, Se.jsxs)('div', {
                   className: 'girls-list',
                   children: [
-                    (0, Se.jsx)(Wn, {}),
-                    (0, Se.jsx)(Vn, { equipment: y }),
-                    o.map(function (e) {
+                    (0, Se.jsx)($n, {}),
+                    (0, Se.jsx)(Xn, { equipment: b }),
+                    s.map(function (e) {
                       return (0,
-                      Se.jsx)(Un, { girl: e, selectedEquipment: y, equipSelected: x, unequipOne: w }, e.id);
-                    })
+                      Se.jsx)(Un, { girl: e, selectedEquipment: b, equipSelected: w, unequipOne: k }, e.id);
+                    }),
+                    (0, Se.jsx)(Qn, { girls: i })
                   ]
                 }),
-                (0, Se.jsxs)('div', {
-                  className: 'qh-inventory',
-                  children: [
-                    h
-                      ? (0, Se.jsx)('span', {
-                          children: 'Loading inventory...'
-                        })
-                      : null,
-                    !1 === h && 0 === c.items.length
-                      ? (0, Se.jsx)('span', { children: 'Inventory is empty.' })
-                      : null,
-                    c.items.map(function (e) {
-                      var t =
-                        e === y ? ['item-slot', 'selected'] : ['item-slot'];
-                      return (0, Se.jsx)(
-                        ur,
-                        {
-                          equipment: e,
-                          classNames: t,
-                          slotId: e.slot,
-                          onClick: function (t) {
-                            t.preventDefault(), b(e === y ? void 0 : e);
-                          }
-                        },
-                        e.uid
-                      );
-                    })
-                  ]
+                (0, Se.jsx)(er, {
+                  loading: m,
+                  inventory: f,
+                  selectedItem: b,
+                  setSelectedItem: x,
+                  unequipAll: S
                 })
               ]
             }),
@@ -32526,13 +32631,13 @@
           u = (0, Tn.AH)(l.items);
         return (0, Se.jsxs)(Se.Fragment, {
           children: [
-            (0, Se.jsx)(vr, { girl: n, onClick: o }),
+            (0, Se.jsx)(br, { girl: n, onClick: o, lazy: !1 }),
             u.map(function (e, t) {
               var o = ['item-slot'];
               return (
                 t + 1 === s && o.push('selected'),
                 (0, Se.jsx)(
-                  Qn,
+                  Yn,
                   {
                     classNames: o,
                     equipment: e,
@@ -32547,7 +32652,7 @@
                 )
               );
             }),
-            void 0 === r ? (0, Se.jsx)(Kn, {}) : null,
+            void 0 === r ? (0, Se.jsx)(Jn, {}) : null,
             (0, Se.jsx)(Hn, {
               girl: n,
               equipment: r,
@@ -32564,104 +32669,169 @@
       Hn = function (e) {
         var t = e.girl,
           n = e.equipment,
+          r = e.refEquipment;
+        return void 0 === n
+          ? (0, Se.jsx)(Wn, { girl: t })
+          : (0, Se.jsx)(Vn, { girl: t, equipment: n, refEquipment: r });
+      },
+      Wn = function (e) {
+        var t,
+          n,
+          r = e.girl,
+          a = (0, Tn.QN)(
+            r,
+            null !==
+              (t =
+                null === (n = r.equipment) || void 0 === n
+                  ? void 0
+                  : n.items) && void 0 !== t
+              ? t
+              : []
+          );
+        return (0, Se.jsxs)(Se.Fragment, {
+          children: [
+            (0, Se.jsx)('div', {
+              className: 'stat total-stats',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.totalStats
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.ego
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.attack
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.defense
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat-res',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.rEgo > 0 ? a.rEgo + '%' : ''
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat-res',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.rDef > 0 ? a.rDef + '%' : ''
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat-res',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: a.rAtk > 0 ? a.rAtk + '%' : ''
+              })
+            })
+          ]
+        });
+      },
+      Vn = function (e) {
+        var t = e.girl,
+          n = e.equipment,
           r = e.refEquipment,
-          a = $n(t, n),
+          a = (0, Tn.T_)(t, n),
           i = (function (e, t, n) {
-            var r = $n(e, t),
-              a = $n(e, n);
-            return {
-              hardcore: r.hardcore - a.hardcore,
-              charm: r.charm - a.charm,
-              knowhow: r.knowhow - a.knowhow,
-              ego: r.ego - a.ego,
-              defense: r.defense - a.defense,
-              attack: r.attack - a.attack,
-              rEgo: r.rEgo - a.rEgo,
-              rDef: r.rDef - a.rDef,
-              rAtk: r.rAtk - a.rAtk,
-              totalStats: r.totalStats - a.totalStats
-            };
+            var r = (0, Tn.T_)(e, t),
+              a = (0, Tn.T_)(e, n);
+            return (0, Tn.Fy)(r, a);
           })(t, n, r);
         return (0, Se.jsxs)(Se.Fragment, {
           children: [
             (0, Se.jsxs)('div', {
-              className: 'stat total-stats',
+              className: 'stat total-stats stat-diff',
               children: [
                 (0, Se.jsx)('span', {
                   className: 'stat-value',
                   children: a.totalStats
                 }),
-                (0, Se.jsx)(Xn, { value: i.totalStats, force: !0 })
+                (0, Se.jsx)(Kn, { value: i.totalStats, force: !0 })
               ]
             }),
             (0, Se.jsxs)('div', {
-              className: 'stat',
+              className: 'stat stat-diff',
               children: [
                 (0, Se.jsx)('span', {
                   className: 'stat-value',
                   children: a.ego
                 }),
-                (0, Se.jsx)(Xn, { value: i.ego, force: void 0 !== n })
+                (0, Se.jsx)(Kn, { value: i.ego, force: void 0 !== n })
               ]
             }),
             (0, Se.jsxs)('div', {
-              className: 'stat',
+              className: 'stat stat-diff',
               children: [
                 (0, Se.jsx)('span', {
                   className: 'stat-value',
                   children: a.attack
                 }),
-                (0, Se.jsx)(Xn, { value: i.attack, force: void 0 !== n })
+                (0, Se.jsx)(Kn, { value: i.attack, force: void 0 !== n })
               ]
             }),
             (0, Se.jsxs)('div', {
-              className: 'stat',
+              className: 'stat stat-diff',
               children: [
                 (0, Se.jsx)('span', {
                   className: 'stat-value',
                   children: a.defense
                 }),
-                (0, Se.jsx)(Xn, { value: i.defense, force: void 0 !== n })
+                (0, Se.jsx)(Kn, { value: i.defense, force: void 0 !== n })
               ]
             }),
             (0, Se.jsxs)('div', {
-              className: 'stat-res',
+              className: 'stat-res stat-diff',
               children: [
                 (0, Se.jsxs)('span', {
                   className: 'stat-value',
                   children: [a.rEgo, '%']
                 }),
-                (0, Se.jsx)(Xn, { value: i.rEgo })
+                (0, Se.jsx)(Kn, { value: i.rEgo })
               ]
             }),
             (0, Se.jsxs)('div', {
-              className: 'stat-res',
+              className: 'stat-res stat-diff',
               children: [
                 (0, Se.jsxs)('span', {
                   className: 'stat-value',
                   children: [a.rDef, '%']
                 }),
-                (0, Se.jsx)(Xn, { value: i.rDef })
+                (0, Se.jsx)(Kn, { value: i.rDef })
               ]
             }),
             (0, Se.jsxs)('div', {
-              className: 'stat-res',
+              className: 'stat-res stat-diff',
               children: [
                 (0, Se.jsxs)('span', {
                   className: 'stat-value',
                   children: [' ', a.rAtk, '%']
                 }),
-                (0, Se.jsx)(Xn, { value: i.rAtk })
+                (0, Se.jsx)(Kn, { value: i.rAtk })
               ]
             })
           ]
         });
       },
-      Wn = function () {
+      $n = function () {
         return (0, Se.jsxs)(Se.Fragment, {
           children: [
             (0, Se.jsx)('div', { className: 'header' }),
-            (0, Se.jsx)(Kn, { showAsItem: !1 }),
+            (0, Se.jsx)(Jn, { showAsItem: !1 }),
             (0, Se.jsx)('div', { className: 'header item-slot' }),
             (0, Se.jsx)('div', { className: 'header item-slot' }),
             (0, Se.jsx)('div', { className: 'header item-slot' }),
@@ -32699,9 +32869,9 @@
           ]
         });
       },
-      Vn = function (e) {
+      Xn = function (e) {
         var t = e.equipment,
-          n = $n(void 0, t),
+          n = (0, Tn.T_)(void 0, t),
           r = null === t || void 0 === t ? void 0 : t.slot,
           a = (0, Tn.AH)([]);
         return (0, Se.jsxs)(Se.Fragment, {
@@ -32714,14 +32884,14 @@
                 a && i.push('selected'),
                 a
                   ? (0, Se.jsx)(
-                      ur,
+                      dr,
                       { equipment: t, slotId: n + 1, classNames: i },
                       n
                     )
                   : (0, Se.jsx)('div', { className: i.join(' ') }, n)
               );
             }),
-            void 0 === t ? (0, Se.jsx)(Kn, {}) : null,
+            void 0 === t ? (0, Se.jsx)(Jn, {}) : null,
             (0, Se.jsx)('div', {
               className: 'equipment stat total-stats',
               children: (0, Se.jsx)('span', {
@@ -32773,38 +32943,93 @@
             })
           ]
         });
+      },
+      Qn = function (e) {
+        var t,
+          n = e.girls,
+          r = U.PB,
+          i = (0, a.Z)(n);
+        try {
+          for (i.s(); !(t = i.n()).done; ) {
+            var o,
+              s,
+              l = t.value,
+              u = (0, Tn.QN)(
+                l,
+                null !==
+                  (o =
+                    null === (s = l.equipment) || void 0 === s
+                      ? void 0
+                      : s.items) && void 0 !== o
+                  ? o
+                  : []
+              );
+            r = (0, Tn.MN)(r, u);
+          }
+        } catch (c) {
+          i.e(c);
+        } finally {
+          i.f();
+        }
+        return (0, Se.jsxs)(Se.Fragment, {
+          children: [
+            (0, Se.jsx)('div', {
+              className: 'inventory-footer total',
+              children: 'Total:'
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat total-stats',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.totalStats
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.ego
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.attack
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.defense
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat-res',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.rEgo > 0 ? ''.concat(r.rEgo, '%') : ''
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat-res',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.rDef > 0 ? ''.concat(r.rDef, '%') : ''
+              })
+            }),
+            (0, Se.jsx)('div', {
+              className: 'stat-res',
+              children: (0, Se.jsx)('span', {
+                className: 'stat-value',
+                children: r.rAtk > 0 ? ''.concat(r.rAtk, '%') : ''
+              })
+            })
+          ]
+        });
       };
-    function $n(e, t) {
-      if (void 0 === t)
-        return {
-          attack: 0,
-          charm: 0,
-          defense: 0,
-          ego: 0,
-          hardcore: 0,
-          knowhow: 0,
-          rAtk: 0,
-          rDef: 0,
-          rEgo: 0,
-          totalStats: 0
-        };
-      var n = void 0 === e || (0, Tn.pp)(t, e),
-        r = void 0 === e || (0, Tn.yZ)(t, e),
-        a = void 0 === e || (0, Tn.CS)(t, e);
-      return {
-        hardcore: t.stats.hardcore,
-        charm: t.stats.charm,
-        knowhow: t.stats.knowhow,
-        ego: t.stats.ego,
-        attack: t.stats.attack,
-        defense: t.stats.defense,
-        rEgo: a ? t.resonance.ego : 0,
-        rDef: r ? t.resonance.defense : 0,
-        rAtk: n ? t.resonance.attack : 0,
-        totalStats: t.stats.hardcore + t.stats.charm + t.stats.knowhow
-      };
-    }
-    var Xn = function (e) {
+    var Kn = function (e) {
         var t = e.value,
           n = e.force;
         return (0, Se.jsx)('span', {
@@ -32812,14 +33037,14 @@
           children: 0 !== t || n ? (0, Q.d)(t) : ''
         });
       },
-      Qn = function (e) {
+      Yn = function (e) {
         var t = e.equipment,
           n = e.girl,
           r = e.slotId,
           a = e.classNames,
           i = e.onClick,
           o = e.unequipOne;
-        return (0, Se.jsx)(ur, {
+        return (0, Se.jsx)(dr, {
           equipment: t,
           girl: n,
           slotId: r,
@@ -32840,54 +33065,134 @@
           })
         });
       },
-      Kn = function (e) {
+      Jn = function (e) {
         var t = e.showAsItem;
         return (0, Se.jsx)('div', {
           className: 'inv-placeholder item-slot',
           children:
-            !1 !== t ? (0, Se.jsx)(ur, { slotId: 0, equipment: void 0 }) : null
+            !1 !== t ? (0, Se.jsx)(dr, { slotId: 0, equipment: void 0 }) : null
         });
       },
-      Yn = function (e) {
+      er = function (e) {
+        var t = e.inventory,
+          n = e.loading,
+          r = e.selectedItem,
+          a = e.setSelectedItem,
+          i = e.unequipAll;
+        return (0, Se.jsxs)('div', {
+          className: 'qh-inventory',
+          children: [
+            (0, Se.jsxs)('div', {
+              className: 'qh-inventory-items',
+              children: [
+                n
+                  ? (0, Se.jsx)('span', { children: 'Loading inventory...' })
+                  : null,
+                !1 === n && 0 === t.items.length
+                  ? (0, Se.jsx)('span', { children: 'Inventory is empty.' })
+                  : null,
+                t.items.slice(0, 50).map(function (e) {
+                  var t = e === r ? ['item-slot', 'selected'] : ['item-slot'];
+                  return (0, Se.jsx)(
+                    dr,
+                    {
+                      equipment: e,
+                      classNames: t,
+                      slotId: e.slot,
+                      onClick: function (t) {
+                        t.preventDefault(), a(e === r ? void 0 : e);
+                      }
+                    },
+                    e.uid
+                  );
+                })
+              ]
+            }),
+            (0, Se.jsx)('div', {
+              className: 'qh-inventory-actions',
+              children: (0, Se.jsx)(An, {
+                modal: !0,
+                nested: !0,
+                trigger: (0, Se.jsx)('button', {
+                  className: 'hh-action-button',
+                  children: 'Unequip All girls'
+                }),
+                children: function (e) {
+                  return (0, Se.jsxs)('div', {
+                    className: 'unequip-all-confirm-popup',
+                    children: [
+                      (0, Se.jsx)('h2', { children: 'Unequip All Girls' }),
+                      (0, Se.jsx)('p', {
+                        children:
+                          'This action unequips all items from all owned girls (including the ones not currently displayed in the Inventory) . Do you want to continue?'
+                      }),
+                      (0, Se.jsxs)('div', {
+                        className: 'qh-actions',
+                        children: [
+                          (0, Se.jsx)('button', {
+                            className: 'hh-action-button hh-game-action',
+                            onClick: function () {
+                              i(), e();
+                            },
+                            children: 'Unequip All Girls'
+                          }),
+                          (0, Se.jsx)('button', {
+                            className: 'hh-action-button',
+                            onClick: e,
+                            children: 'Cancel'
+                          })
+                        ]
+                      })
+                    ]
+                  });
+                }
+              })
+            })
+          ]
+        });
+      },
+      tr = function (e) {
         var t = e.equipment,
           n = e.girl,
           r = e.listGirls,
-          a = e.showActions,
-          i = (0, be.useState)(!1),
-          o = (0, we.Z)(i, 2),
-          s = o[0],
-          l = o[1],
-          u = (0, be.useRef)(),
-          c = (0, be.useCallback)(
+          a = e.allGirls,
+          i = e.showActions,
+          o = (0, be.useState)(!1),
+          s = (0, we.Z)(o, 2),
+          l = s[0],
+          u = s[1],
+          c = (0, be.useRef)(),
+          f = (0, be.useCallback)(
             function (e) {
-              if ((void 0 !== u.current && clearTimeout(u.current), e)) {
+              if ((void 0 !== c.current && clearTimeout(c.current), e)) {
                 var t = setTimeout(function () {
-                  l(!0);
+                  u(!0);
                 }, 200);
-                u.current = t;
-              } else l(!1);
+                c.current = t;
+              } else u(!1);
             },
-            [u, l]
+            [c, u]
           ),
-          f = (0, Tn.AH)(t.items);
+          d = (0, Tn.AH)(t.items);
         return (0, Se.jsx)(Se.Fragment, {
           children: (0, Se.jsxs)('div', {
             className: 'qh-girls-equipment',
             children: [
-              f.map(function (e, t) {
+              d.map(function (e, t) {
                 return (0,
-                Se.jsx)(Jn, { equipment: e, girl: n, slotId: t + 1, loading: s, setLoading: c }, t);
+                Se.jsx)(nr, { equipment: e, girl: n, slotId: t + 1, loading: l, setLoading: f }, t);
               }),
-              void 0 === a || a
+              void 0 === i || i
                 ? (0, Se.jsxs)(Se.Fragment, {
                     children: [
-                      (0, Se.jsx)(ir, { girl: n, loading: s, setLoading: c }),
-                      (0, Se.jsx)(or, { girl: n, loading: s, setLoading: c }),
-                      (0, Se.jsx)(sr, {
+                      (0, Se.jsx)(lr, { girl: n, loading: l, setLoading: f }),
+                      (0, Se.jsx)(ur, { girl: n, loading: l, setLoading: f }),
+                      (0, Se.jsx)(cr, {
                         girl: n,
                         listGirls: r,
-                        loading: s,
-                        setLoading: c
+                        allGirls: a,
+                        loading: l,
+                        setLoading: f
                       })
                     ]
                   })
@@ -32896,7 +33201,7 @@
           })
         });
       },
-      Jn = function (e) {
+      nr = function (e) {
         var t = e.equipment,
           n = e.girl,
           r = e.slotId,
@@ -32964,7 +33269,7 @@
               : (0, Se.jsx)(Se.Fragment, {
                   children: (0, Se.jsx)(ke.u, {
                     place: 'left',
-                    tooltip: (0, Se.jsx)(nr, {
+                    tooltip: (0, Se.jsx)(ir, {
                       equipment: t,
                       currentEquipment: t,
                       girl: n
@@ -33009,17 +33314,17 @@
           ]
         });
       },
-      er = function (e) {
+      rr = function (e) {
         var t = e.equipment,
           n = (0, Tn.AH)(t.items);
         return (0, Se.jsx)('div', {
           className: 'equipment-decorators',
           children: n.map(function (e, t) {
-            return (0, Se.jsx)(tr, { equipment: e }, t);
+            return (0, Se.jsx)(ar, { equipment: e }, t);
           })
         });
       },
-      tr = function (e) {
+      ar = function (e) {
         var t,
           n = e.equipment,
           r = void 0 === n ? 'none' : U.uq[n.rarity],
@@ -33039,7 +33344,7 @@
           })
         });
       },
-      nr = function (e) {
+      ir = function (e) {
         var t,
           n,
           r,
@@ -33050,37 +33355,37 @@
           l = e.currentEquipment,
           u = e.girl,
           c = ['qh-equipment-tooltip', U.uq[s.rarity]],
-          f = lr(
+          f = fr(
             s.stats.hardcore,
             null === l || void 0 === l || null === (t = l.stats) || void 0 === t
               ? void 0
               : t.hardcore
           ),
-          d = lr(
+          d = fr(
             s.stats.charm,
             null === l || void 0 === l || null === (n = l.stats) || void 0 === n
               ? void 0
               : n.charm
           ),
-          p = lr(
+          p = fr(
             s.stats.knowhow,
             null === l || void 0 === l || null === (r = l.stats) || void 0 === r
               ? void 0
               : r.knowhow
           ),
-          h = lr(
+          h = fr(
             s.stats.ego,
             null === l || void 0 === l || null === (a = l.stats) || void 0 === a
               ? void 0
               : a.ego
           ),
-          m = lr(
+          m = fr(
             s.stats.attack,
             null === l || void 0 === l || null === (i = l.stats) || void 0 === i
               ? void 0
               : i.attack
           ),
-          v = lr(
+          v = fr(
             s.stats.defense,
             null === l || void 0 === l || null === (o = l.stats) || void 0 === o
               ? void 0
@@ -33098,7 +33403,7 @@
                     (0, Se.jsx)(ke.ej, { statClass: U.wT.Hardcore }),
                     ' ',
                     s.stats.hardcore,
-                    (0, Se.jsx)(rr, { diff: f })
+                    (0, Se.jsx)(or, { diff: f })
                   ]
                 }),
                 (0, Se.jsxs)('span', {
@@ -33106,7 +33411,7 @@
                     (0, Se.jsx)(ke.ej, { statClass: U.wT.Charm }),
                     ' ',
                     s.stats.charm,
-                    (0, Se.jsx)(rr, { diff: d })
+                    (0, Se.jsx)(or, { diff: d })
                   ]
                 }),
                 (0, Se.jsxs)('span', {
@@ -33114,7 +33419,7 @@
                     (0, Se.jsx)(ke.ej, { statClass: U.wT.Knowhow }),
                     ' ',
                     s.stats.knowhow,
-                    (0, Se.jsx)(rr, { diff: p })
+                    (0, Se.jsx)(or, { diff: p })
                   ]
                 }),
                 (0, Se.jsxs)('span', {
@@ -33122,7 +33427,7 @@
                     (0, Se.jsx)(ke.H2, {}),
                     ' ',
                     s.stats.ego,
-                    (0, Se.jsx)(rr, { diff: h })
+                    (0, Se.jsx)(or, { diff: h })
                   ]
                 }),
                 (0, Se.jsxs)('span', {
@@ -33130,7 +33435,7 @@
                     (0, Se.jsx)(ke.dR, {}),
                     ' ',
                     s.stats.attack,
-                    (0, Se.jsx)(rr, { diff: m })
+                    (0, Se.jsx)(or, { diff: m })
                   ]
                 }),
                 (0, Se.jsxs)('span', {
@@ -33138,16 +33443,16 @@
                     (0, Se.jsx)(ke.ed, {}),
                     ' ',
                     s.stats.defense,
-                    (0, Se.jsx)(rr, { diff: v })
+                    (0, Se.jsx)(or, { diff: v })
                   ]
                 })
               ]
             }),
-            (0, Se.jsx)(ar, { equipment: s, currentEquipment: l, girl: u })
+            (0, Se.jsx)(sr, { equipment: s, currentEquipment: l, girl: u })
           ]
         });
       },
-      rr = function (e) {
+      or = function (e) {
         var t = e.diff;
         if (void 0 === t || 0 === t) return null;
         var n = t > 0 ? 'positive' : 'negative',
@@ -33157,7 +33462,7 @@
           children: ['(', ''.concat(r).concat((0, Q.d)(t)), ')']
         });
       },
-      ar = function (e) {
+      sr = function (e) {
         var t,
           n,
           r,
@@ -33220,7 +33525,7 @@
                             ' +',
                             a.resonance.ego,
                             '%',
-                            (0, Se.jsx)(rr, { diff: f - d })
+                            (0, Se.jsx)(or, { diff: f - d })
                           ]
                         })
                       : null,
@@ -33240,7 +33545,7 @@
                             '+',
                             a.resonance.defense,
                             '%',
-                            (0, Se.jsx)(rr, { diff: m - v })
+                            (0, Se.jsx)(or, { diff: m - v })
                           ]
                         })
                       : null,
@@ -33260,7 +33565,7 @@
                             ' +',
                             a.resonance.attack,
                             '%',
-                            (0, Se.jsx)(rr, { diff: b - x })
+                            (0, Se.jsx)(or, { diff: b - x })
                           ]
                         })
                       : null
@@ -33270,7 +33575,7 @@
             })
           : null;
       },
-      ir = function (e) {
+      lr = function (e) {
         var t = e.girl,
           n = e.loading,
           r = e.setLoading,
@@ -33300,7 +33605,7 @@
           })
         });
       },
-      or = function (e) {
+      ur = function (e) {
         var t = e.girl,
           n = e.loading,
           r = e.setLoading,
@@ -33330,14 +33635,15 @@
           })
         });
       },
-      sr = function (e) {
+      cr = function (e) {
         var t = e.girl,
           n = e.listGirls,
-          r = e.loading,
-          a = (0, be.useState)(!1),
-          i = (0, we.Z)(a, 2),
-          o = i[0],
-          s = i[1];
+          r = e.allGirls,
+          a = e.loading,
+          i = (0, be.useState)(!1),
+          o = (0, we.Z)(i, 2),
+          s = o[0],
+          l = o[1];
         return (0, Se.jsxs)('div', {
           className: 'item-tile',
           children: [
@@ -33346,24 +33652,26 @@
               children: (0, Se.jsx)('button', {
                 className: 'item-action open-inventory',
                 onClick: function () {
-                  return s(!0);
+                  return l(!0);
                 },
-                disabled: r,
-                children: r ? (0, Se.jsx)(Ln, { color: '#b77905' }) : null
+                disabled: a,
+                children: a ? (0, Se.jsx)(Ln, { color: '#b77905' }) : null
               })
             }),
-            o
+            s
               ? (0, Se.jsx)(An, {
                   modal: !0,
-                  open: o,
+                  nested: !0,
+                  open: s,
                   onClose: function () {
-                    return s(!1);
+                    return l(!1);
                   },
                   children: (0, Se.jsx)(zn, {
                     girl: t,
                     girls: n,
+                    allGirls: r,
                     close: function () {
-                      return s(!1);
+                      return l(!1);
                     }
                   })
                 })
@@ -33371,10 +33679,10 @@
           ]
         });
       };
-    function lr(e, t) {
+    function fr(e, t) {
       return void 0 === t ? e : e - t;
     }
-    var ur = function (e) {
+    var dr = function (e) {
         var t = e.equipment,
           n = e.classNames,
           r = e.slotId,
@@ -33397,7 +33705,7 @@
               : (0, Se.jsx)(Se.Fragment, {
                   children: (0, Se.jsx)(ke.$$, {
                     place: 'right',
-                    tooltip: (0, Se.jsx)(nr, {
+                    tooltip: (0, Se.jsx)(ir, {
                       equipment: t,
                       currentEquipment: t,
                       girl: i
@@ -33418,7 +33726,7 @@
                 })
         });
       },
-      cr = function (e) {
+      pr = function (e) {
         var t,
           n,
           r = e.girl,
@@ -33445,7 +33753,7 @@
           className: o.join(' '),
           children: [
             (0, Se.jsx)('h2', { className: 'qh-girl-name', children: r.name }),
-            (0, Se.jsx)(fr, { girl: r }),
+            (0, Se.jsx)(hr, { girl: r }),
             (0, Se.jsx)(ke.GR, {
               stars: r.stars,
               maxStars: r.maxStars,
@@ -33472,13 +33780,13 @@
                       ]
                     })
                   : null,
-                (0, Se.jsx)(dr, { girl: r, currentBlessings: a })
+                (0, Se.jsx)(mr, { girl: r, currentBlessings: a })
               ]
             })
           ]
         });
       },
-      fr = function (e) {
+      hr = function (e) {
         var t = e.girl;
         return (0, Se.jsxs)('h3', {
           children: [
@@ -33493,7 +33801,7 @@
           ]
         });
       },
-      dr = function (e) {
+      mr = function (e) {
         var t,
           n = e.girl,
           r = e.currentBlessings;
@@ -33508,9 +33816,9 @@
           potentialMultiplier: i
         });
       },
-      pr = __webpack_require__(8340),
-      hr = 'harem-tooltip',
-      mr = function (e) {
+      vr = __webpack_require__(8340),
+      gr = 'harem-tooltip',
+      yr = function (e) {
         var t = e.girl,
           n = e.selected,
           r = e.show0Pose,
@@ -33528,7 +33836,7 @@
             maxStars: t.maxStars,
             currentStar: t.currentIcon
           });
-        return (0, Se.jsx)(vr, {
+        return (0, Se.jsx)(br, {
           girl: t,
           onClick: a,
           avatarOverlay: c,
@@ -33541,77 +33849,97 @@
           tooltipContent: u
         });
       },
-      vr = function (e) {
-        var t = e.girl,
-          n = e.onClick,
-          r = e.children,
-          a = e.avatarOverlay,
-          i = e.bottom,
-          o = e.classNames,
-          s = e.selected,
-          l = e.show0Pose,
-          u = e.lazy,
-          c = e.tooltipContent,
-          f = ['girlTile'];
-        if (void 0 !== t) {
-          var d = U.uq[t.rarity];
-          f.push(d), f.push(t.own ? 'owned' : 'not-owned');
+      br = function (e) {
+        var t,
+          n = e.girl,
+          r = e.onClick,
+          a = e.children,
+          i = e.avatarOverlay,
+          o = e.bottom,
+          s = e.classNames,
+          l = e.selected,
+          u = e.show0Pose,
+          c = e.lazy,
+          f = e.tooltipContent,
+          d = ['girlTile'];
+        if (void 0 !== n) {
+          var p = U.uq[n.rarity];
+          d.push(p), d.push(n.own ? 'owned' : 'not-owned');
         }
-        o && f.push.apply(f, (0, M.Z)(o)), !0 === s && f.push('selected');
-        var p = void 0 === t ? '' : !0 === l ? t.icon0 : t.icon,
-          h = (0, be.useRef)(null);
-        return (
-          (0, be.useEffect)(
-            function () {
-              if (s && null !== h.current) {
-                var e = new IntersectionObserver(function (t) {
-                  t[0].intersectionRatio < 0.7 &&
-                    s &&
-                    null !== h.current &&
-                    h.current.scrollIntoView({ block: 'nearest' }),
-                    e.disconnect();
-                });
-                e.observe(h.current);
-              }
-            },
-            [s]
-          ),
-          (0, Se.jsxs)('div', {
-            className: f.join(' '),
-            onClick: n,
-            title: null === t || void 0 === t ? void 0 : t.name,
-            ref: h,
-            'data-tooltip-id': hr,
-            'data-tooltip-html': c,
+        s && d.push.apply(d, (0, M.Z)(s)), !0 === l && d.push('selected');
+        var h = void 0 === n ? '' : !0 === u ? n.icon0 : n.icon,
+          m = (0, be.useRef)(null);
+        (0, be.useEffect)(
+          function () {
+            if (l && null !== m.current) {
+              var e = new IntersectionObserver(function (t) {
+                t[0].intersectionRatio < 0.7 &&
+                  l &&
+                  null !== m.current &&
+                  m.current.scrollIntoView({ block: 'nearest' }),
+                  e.disconnect();
+              });
+              e.observe(m.current);
+            }
+          },
+          [l]
+        );
+        (0, be.useMemo)(function () {
+          return Math.random() > 0.5;
+        }, []);
+        var v = !1 !== c,
+          g = (0, Se.jsxs)('div', {
+            className: d.join(' '),
+            onClick: r,
+            title: null === n || void 0 === n ? void 0 : n.name,
+            ref: m,
+            'data-tooltip-id': gr,
+            'data-tooltip-html': f,
             children: [
-              r,
+              a,
               (0, Se.jsxs)('div', {
                 className: 'avatar-area',
                 children: [
-                  (0, Se.jsx)(gr, {
+                  (0, Se.jsx)(xr, {
                     placeholder: (0, Se.jsx)('img', {
                       src: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=',
-                      alt: null === t || void 0 === t ? void 0 : t.name,
-                      title: null === t || void 0 === t ? void 0 : t.name,
+                      alt: null === n || void 0 === n ? void 0 : n.name,
+                      title: null === n || void 0 === n ? void 0 : n.name,
                       className: 'tile-avatar placeholder'
                     }),
-                    lazy: !1 !== u,
+                    lazy: v,
                     children: (0, Se.jsx)('img', {
-                      src: p,
-                      alt: null === t || void 0 === t ? void 0 : t.name,
-                      title: null === t || void 0 === t ? void 0 : t.name,
+                      src: h,
+                      alt: null === n || void 0 === n ? void 0 : n.name,
+                      title: null === n || void 0 === n ? void 0 : n.name,
                       className: 'tile-avatar'
                     })
                   }),
-                  a
+                  i
                 ]
               }),
-              i
+              o
             ]
-          })
-        );
+          });
+        return v
+          ? (0, Se.jsx)(wn.ZP, {
+              placeholder: (0, Se.jsx)(wr, {
+                rarity:
+                  (null === n || void 0 === n ? void 0 : n.rarity) ||
+                  U.uq.common,
+                own:
+                  null !== (t = null === n || void 0 === n ? void 0 : n.own) &&
+                  void 0 !== t &&
+                  t
+              }),
+              overflow: !0,
+              offset: 500,
+              unmountIfInvisible: !0,
+              children: g
+            })
+          : (0, Se.jsx)('div', { className: 'lazyload-wrapper', children: g });
       },
-      gr = function (e) {
+      xr = function (e) {
         var t = e.lazy,
           n = e.children,
           r = e.placeholder;
@@ -33620,11 +33948,21 @@
               placeholder: r,
               overflow: !0,
               offset: 500,
+              once: !0,
               children: n
             })
           : (0, Se.jsx)('div', { className: 'lazyload-wrapper', children: n });
       },
-      yr = function (e) {
+      wr = function (e) {
+        var t = e.rarity,
+          n = e.own;
+        return (0, Se.jsx)('div', {
+          className: 'girlTile placeholder rarity '
+            .concat(U.uq[t], ' ')
+            .concat(n ? 'owned' : 'not-owned')
+        });
+      },
+      kr = function (e) {
         var t,
           n = e.girl,
           r = e.selected,
@@ -33678,13 +34016,13 @@
           ),
           y = (0, be.useMemo)(
             function () {
-              return pr.renderToStaticMarkup(
-                (0, Se.jsx)(cr, { girl: n, currentBlessings: u })
+              return vr.renderToStaticMarkup(
+                (0, Se.jsx)(pr, { girl: n, currentBlessings: u })
               );
             },
             [n, u]
           );
-        return (0, Se.jsxs)(mr, {
+        return (0, Se.jsxs)(yr, {
           girl: n,
           onClick: g,
           selected: r,
@@ -33696,7 +34034,7 @@
               (null === (t = n.equipment) || void 0 === t
                 ? void 0
                 : t.items.length) > 0
-                ? (0, Se.jsx)(er, { equipment: n.equipment })
+                ? (0, Se.jsx)(rr, { equipment: n.equipment })
                 : null,
               (0, Se.jsx)(ke.G2, {}),
               n.own || 0 === n.shards
@@ -33717,8 +34055,8 @@
           ]
         });
       },
-      br = be.memo(yr),
-      xr = function (e) {
+      Sr = be.memo(kr),
+      _r = function (e) {
         var t = e.girl,
           n = e.scene,
           r = e.gameAPI,
@@ -33753,7 +34091,7 @@
             function (e, t) {
               !1 !== t
                 ? (function (e) {
-                    return wr.apply(this, arguments);
+                    return jr.apply(this, arguments);
                   })(e).then(function (t) {
                     t && F(e);
                   })
@@ -33891,9 +34229,9 @@
           ]
         });
       };
-    function wr() {
+    function jr() {
       return (
-        (wr = (0, t.Z)(
+        (jr = (0, t.Z)(
           (0, e.Z)().mark(function t(n) {
             var r, a;
             return (0, e.Z)().wrap(function (e) {
@@ -33915,10 +34253,10 @@
             }, t);
           })
         )),
-        wr.apply(this, arguments)
+        jr.apply(this, arguments)
       );
     }
-    var kr = function (e) {
+    var Cr = function (e) {
         var t = e.girl,
           n = e.activeBlessing,
           r = e.nextBlessing,
@@ -33966,7 +34304,7 @@
                       className: 'pose',
                       children: [
                         (0, Se.jsx)('img', { src: u, alt: t.name }),
-                        (0, Se.jsx)(Rr, { girl: t, selectPose: d })
+                        (0, Se.jsx)(Ir, { girl: t, selectPose: d })
                       ]
                     }),
                     (0, Se.jsxs)('div', {
@@ -33986,7 +34324,7 @@
                               })
                             }),
                             (0, Se.jsx)(ke.ZD, { element: t.element }),
-                            (0, Se.jsx)(Dr, {
+                            (0, Se.jsx)(Zr, {
                               girl: t,
                               quests: t.quests,
                               gameAPI: c,
@@ -34028,18 +34366,19 @@
                           className: 'details-content',
                           children: [
                             'lore' === g
-                              ? (0, Se.jsx)(Ar, { girl: t })
+                              ? (0, Se.jsx)(Dr, { girl: t })
                               : 'variations' === g
-                              ? (0, Se.jsx)(Ir, {
+                              ? (0, Se.jsx)(Mr, {
                                   allGirls: i,
                                   variations: t.variations,
                                   selectGirl: s,
                                   selectedGirl: t,
                                   show0Pose: a
                                 })
-                              : (0, Se.jsx)(Sr, {
+                              : (0, Se.jsx)(Er, {
                                   girl: t,
                                   listGirls: o,
+                                  allGirls: i,
                                   currentBlessing: n,
                                   upcomingBlessing: r,
                                   domain: f,
@@ -34060,13 +34399,14 @@
                 })
         });
       },
-      Sr = function (e) {
+      Er = function (e) {
         var t = e.domain,
           n = e.girl,
           r = e.listGirls,
-          a = e.currentBlessing,
-          i = e.upcomingBlessing,
-          o = e.openUpgrade;
+          a = e.allGirls,
+          i = e.currentBlessing,
+          o = e.upcomingBlessing,
+          s = e.openUpgrade;
         return (0, Se.jsxs)('div', {
           className: 'details-section stats',
           children: [
@@ -34077,11 +34417,11 @@
                   children: [
                     (0, Se.jsx)(ke.HK, { pose: n.pose }),
                     n.stats
-                      ? (0, Se.jsx)(Nr, {
+                      ? (0, Se.jsx)(Or, {
                           girl: n,
                           baseStats: n.stats,
-                          currentBlessing: a,
-                          upcomingBlessing: i
+                          currentBlessing: i,
+                          upcomingBlessing: o
                         })
                       : null
                   ]
@@ -34091,10 +34431,11 @@
               ? (0, Se.jsxs)(Se.Fragment, {
                   children: [
                     (0, Se.jsx)('p', { children: 'Equipment:' }),
-                    (0, Se.jsx)(Yn, {
+                    (0, Se.jsx)(tr, {
                       equipment: n.equipment,
                       girl: n,
-                      listGirls: r
+                      listGirls: r,
+                      allGirls: a
                     })
                   ]
                 })
@@ -34140,7 +34481,7 @@
                   })
               ]
             }),
-            (0, Se.jsx)(Cr, { girl: n }),
+            (0, Se.jsx)(Ar, { girl: n }),
             n.own
               ? (0, Se.jsxs)(Se.Fragment, {
                   children: [
@@ -34153,10 +34494,10 @@
                         rel: 'noreferrer',
                         className: 'icon-link',
                         onClick: function (e) {
-                          e.preventDefault(), o('books');
+                          e.preventDefault(), s('books');
                         },
                         children: [
-                          (0, Se.jsx)(jr, { girl: n }),
+                          (0, Se.jsx)(Pr, { girl: n }),
                           (0, Se.jsx)(ke.u, {
                             tooltip: 'Give Books',
                             children: (0, Se.jsx)(ke.vJ, {})
@@ -34173,10 +34514,10 @@
                         rel: 'noreferrer',
                         className: 'icon-link',
                         onClick: function (e) {
-                          e.preventDefault(), o('gifts');
+                          e.preventDefault(), s('gifts');
                         },
                         children: [
-                          (0, Se.jsx)(_r, { girl: n }),
+                          (0, Se.jsx)(Fr, { girl: n }),
                           (0, Se.jsx)(ke.u, {
                             tooltip: 'Give Gifts',
                             children: (0, Se.jsx)(ke.Og, {})
@@ -34203,7 +34544,7 @@
           ]
         });
       },
-      _r = function (e) {
+      Fr = function (e) {
         var t = e.girl,
           n = (0, $.Ht)(t, void 0),
           r = (0, Se.jsx)(ke.ko, {
@@ -34221,13 +34562,13 @@
         return t.missingAff > 0
           ? (0, Se.jsx)('div', {
               children: (0, Se.jsx)(ke.u, {
-                tooltip: (0, Se.jsx)(Er, { girl: t }),
+                tooltip: (0, Se.jsx)(Nr, { girl: t }),
                 children: r
               })
             })
           : (0, Se.jsx)('div', { children: r });
       },
-      jr = function (e) {
+      Pr = function (e) {
         var t = e.girl,
           n = (0, V.cB)(t, void 0),
           r = (0, Se.jsx)(ke.ko, {
@@ -34240,13 +34581,13 @@
         return n.xpToMax > 0
           ? (0, Se.jsx)('div', {
               children: (0, Se.jsx)(ke.u, {
-                tooltip: (0, Se.jsx)(Fr, { girl: t }),
+                tooltip: (0, Se.jsx)(Rr, { girl: t }),
                 children: r
               })
             })
           : (0, Se.jsx)('div', { children: r });
       },
-      Cr = function (e) {
+      Ar = function (e) {
         var t = e.girl,
           n = (0, X.hO)(t);
         return n.gemsToMax > 0
@@ -34254,7 +34595,7 @@
             ? (0, Se.jsx)('p', {
                 className: 'missing-gems',
                 children: (0, Se.jsxs)(ke.u, {
-                  tooltip: (0, Se.jsx)(Pr, { girl: t }),
+                  tooltip: (0, Se.jsx)(Tr, { girl: t }),
                   children: [
                     'Missing gems: ',
                     (0, ke.WU)(n.gemsToMax),
@@ -34274,7 +34615,7 @@
               })
           : null;
       },
-      Er = function (e) {
+      Nr = function (e) {
         for (var t = e.girl, n = [], r = t.stars; r < t.maxStars; r++)
           n.push(r + 1);
         return (0, Se.jsxs)('div', {
@@ -34294,7 +34635,7 @@
           ]
         });
       },
-      Fr = function (e) {
+      Rr = function (e) {
         for (
           var t = e.girl,
             n = [],
@@ -34324,7 +34665,7 @@
           ]
         });
       },
-      Pr = function (e) {
+      Tr = function (e) {
         for (
           var t = e.girl,
             n = [],
@@ -34356,7 +34697,7 @@
           ]
         });
       },
-      Ar = function (e) {
+      Dr = function (e) {
         var t = e.girl,
           n = t.stars;
         return (0, Se.jsxs)('div', {
@@ -34403,7 +34744,7 @@
           ]
         });
       },
-      Nr = function (e) {
+      Or = function (e) {
         var t,
           n = e.girl,
           r = e.baseStats,
@@ -34440,7 +34781,7 @@
           })
         });
       },
-      Rr = function (e) {
+      Ir = function (e) {
         var t = e.girl,
           n = e.selectPose,
           r = t.stars,
@@ -34451,7 +34792,7 @@
           children: [
             (0, M.Z)(Array(r + 1)).map(function (e, t) {
               return (0, Se.jsx)(
-                Tr,
+                qr,
                 {
                   kind: 'solid',
                   current: t === i,
@@ -34463,12 +34804,12 @@
               );
             }),
             (0, M.Z)(Array(a - r)).map(function (e, t) {
-              return (0, Se.jsx)(Tr, { kind: 'empty' }, 'empty_'.concat(t));
+              return (0, Se.jsx)(qr, { kind: 'empty' }, 'empty_'.concat(t));
             })
           ]
         });
       },
-      Tr = function (e) {
+      qr = function (e) {
         var t = e.kind,
           n = e.current,
           r = e.select,
@@ -34476,7 +34817,7 @@
           i = n ? void 0 : r;
         return (0, Se.jsx)('div', { className: a, onClick: i });
       },
-      Dr = function (e) {
+      Zr = function (e) {
         var t = e.quests,
           n = e.domain,
           r = e.girl,
@@ -34487,11 +34828,11 @@
           children: i.map(function (e, t) {
             var i;
             return (0,
-            Se.jsx)(Or, { quest: e, domain: n, step: t, girl: r, gameAPI: a }, null !== (i = null === e || void 0 === e ? void 0 : e.idQuest) && void 0 !== i ? i : t);
+            Se.jsx)(Lr, { quest: e, domain: n, step: t, girl: r, gameAPI: a }, null !== (i = null === e || void 0 === e ? void 0 : e.idQuest) && void 0 !== i ? i : t);
           })
         });
       },
-      Or = function (e) {
+      Lr = function (e) {
         var t = e.quest,
           n = e.domain,
           r = e.girl,
@@ -34529,7 +34870,7 @@
                     onClose: function () {
                       return d(!1);
                     },
-                    children: (0, Se.jsx)(xr, {
+                    children: (0, Se.jsx)(_r, {
                       girl: r,
                       scene: a,
                       gameAPI: i,
@@ -34546,7 +34887,7 @@
           src: 'https://hh2.hh-content.com/design_v2/affstar_empty.png'
         });
       },
-      Ir = function (e) {
+      Mr = function (e) {
         var t = e.allGirls,
           n = e.variations,
           r = e.selectedGirl,
@@ -34560,7 +34901,7 @@
             });
             return n
               ? (0, Se.jsx)(
-                  Zr,
+                  Br,
                   {
                     girl: n,
                     selectGirl: a,
@@ -34573,7 +34914,7 @@
           })
         });
       },
-      Zr = function (e) {
+      Br = function (e) {
         var t = e.girl,
           n = e.selectGirl,
           r = e.selected,
@@ -34584,7 +34925,7 @@
             },
             [t]
           );
-        return (0, Se.jsx)(mr, {
+        return (0, Se.jsx)(yr, {
           girl: t,
           onClick: i,
           show0Pose: a,
@@ -34592,7 +34933,7 @@
         });
       };
     __webpack_require__(4289);
-    function qr(e, t) {
+    function Gr(e, t) {
       var n = (0, be.useContext)(Nn).gameAPI,
         r = (0, be.useMemo)(
           function () {
@@ -34650,7 +34991,7 @@
                     : f.totalPower) && void 0 !== c
                 ? c
                 : 0,
-            elements: Lr(r),
+            elements: zr(r),
             girls: r
           };
         }),
@@ -34660,7 +35001,7 @@
       return (
         (0, be.useEffect)(
           function () {
-            s((0, B.Z)((0, B.Z)({}, o), {}, { girls: r, elements: Lr(r) })),
+            s((0, B.Z)((0, B.Z)({}, o), {}, { girls: r, elements: zr(r) })),
               void 0 === e.stats &&
                 e.girlIds.some(function (e) {
                   return void 0 !== e;
@@ -34674,7 +35015,7 @@
                       defense: t.defense,
                       harmony: t.chance,
                       totalPower: t.totalPower,
-                      elements: Lr(r),
+                      elements: zr(r),
                       girls: r
                     });
                 });
@@ -34684,7 +35025,7 @@
         o
       );
     }
-    function Lr(e) {
+    function zr(e) {
       var t,
         n = [],
         r = (0, a.Z)(U.eK.values());
@@ -34708,7 +35049,7 @@
         ? ['rainbow']
         : n;
     }
-    var Mr = function (n) {
+    var Ur = function (n) {
         var r = n.allGirls,
           a = n.close,
           i = n.show0Pose,
@@ -34788,7 +35129,7 @@
                         children: y.map(function (e, t) {
                           var n;
                           return (0, Se.jsx)(
-                            Br,
+                            Hr,
                             {
                               team: e,
                               allGirls: r,
@@ -34806,7 +35147,7 @@
                       })
                     ]
                   })
-              : (0, Se.jsx)(Ur, {
+              : (0, Se.jsx)($r, {
                   edit: function () {
                     return m(p);
                   },
@@ -34821,14 +35162,14 @@
                 })
         });
       },
-      Br = function (e) {
+      Hr = function (e) {
         var t = e.team,
           n = e.allGirls,
           r = e.edit,
           a = e.show0Pose,
           i = e.currentBlessings,
           o = e.upcomingBlessings,
-          s = qr(t, n),
+          s = Gr(t, n),
           l = s.girls,
           u = s.elements,
           c = l.find(function (e) {
@@ -34845,7 +35186,7 @@
           });
         return (0, Se.jsx)(ke.u, {
           delay: 500,
-          tooltip: (0, Se.jsx)(zr, {
+          tooltip: (0, Se.jsx)(Vr, {
             teamStats: s,
             selectedTile: void 0,
             selectTile: function () {},
@@ -34854,7 +35195,7 @@
             upcomingBlessings: o
           }),
           children: t.active
-            ? (0, Se.jsx)(vr, {
+            ? (0, Se.jsx)(br, {
                 girl: c,
                 onClick: d,
                 show0Pose: a,
@@ -34862,10 +35203,10 @@
                 avatarOverlay: p,
                 classNames: f
               })
-            : (0, Se.jsx)(Gr, {})
+            : (0, Se.jsx)(Wr, {})
         });
       },
-      Gr = function () {
+      Wr = function () {
         var e = ''.concat((0, ke.ge)(), '/images/design/ic_lock.png');
         return (0, Se.jsx)('div', {
           className: 'team-overview tile inactive',
@@ -34875,7 +35216,7 @@
           })
         });
       },
-      zr = function (e) {
+      Vr = function (e) {
         for (
           var t = e.teamStats,
             n = e.selectedTile,
@@ -34921,7 +35262,7 @@
               className: 'team-girls-list',
               children: s.map(function (e) {
                 return (0,
-                Se.jsx)(Hr, { girl: e, selected: n === l, select: r, tileId: l, classNames: ['item_'.concat(l + 1)], show0Pose: a, currentBlessings: i, upcomingBlessings: o }, l++);
+                Se.jsx)(Xr, { girl: e, selected: n === l, select: r, tileId: l, classNames: ['item_'.concat(l + 1)], show0Pose: a, currentBlessings: i, upcomingBlessings: o }, l++);
               })
             }),
             (0, Se.jsx)('div', {
@@ -34936,7 +35277,7 @@
           ]
         });
       },
-      Ur = function (e) {
+      $r = function (e) {
         var t = e.team,
           n = e.saveAndClose,
           r = e.cancel,
@@ -34985,11 +35326,11 @@
             [m, f, d]
           );
         l.current = y;
-        var b = qr(f, a);
+        var b = Gr(f, a);
         return (0, Se.jsxs)('div', {
           className: 'team-editor',
           children: [
-            (0, Se.jsx)(zr, {
+            (0, Se.jsx)(Vr, {
               teamStats: b,
               selectTile: g,
               selectedTile: m,
@@ -35017,7 +35358,7 @@
           ]
         });
       },
-      Hr = function (e) {
+      Xr = function (e) {
         var t = e.girl,
           n = e.tileId,
           r = e.select,
@@ -35042,7 +35383,7 @@
           tooltip:
             void 0 === t
               ? null
-              : (0, Se.jsx)(cr, { girl: t, currentBlessings: s }),
+              : (0, Se.jsx)(pr, { girl: t, currentBlessings: s }),
           cssClasses: l.join(' '),
           place: 'bottom',
           children: [
@@ -35058,7 +35399,7 @@
                     (null === t || void 0 === t ? void 0 : t.equipment) ||
                   0 === t.equipment.items.length
                     ? null
-                    : (0, Se.jsx)(er, { equipment: t.equipment }),
+                    : (0, Se.jsx)(rr, { equipment: t.equipment }),
                   (0, Se.jsx)('img', { src: c })
                 ]
               })
@@ -35067,7 +35408,7 @@
           ]
         });
       };
-    function Wr(e) {
+    function Qr(e) {
       var t = (0, be.useState)({ books: [], gifts: [] }),
         n = (0, we.Z)(t, 2),
         r = n[0],
@@ -35181,8 +35522,8 @@
         consumeItems: c
       };
     }
-    var Vr = be.createContext({ show0Pose: !1 }),
-      $r = function (e) {
+    var Kr = be.createContext({ show0Pose: !1 }),
+      Yr = function (e) {
         var t = e.currentGirl,
           n = e.displayedGirls,
           r = e.allGirls,
@@ -35194,7 +35535,7 @@
           u = e.close,
           c = e.gemsCount,
           f = e.consumeGems,
-          d = Wr(a),
+          d = Qr(a),
           p = d.inventory,
           h = d.loading,
           m = d.consumeItem,
@@ -35261,7 +35602,7 @@
               className: 'selector-and-upgrade',
               children: [
                 (0, Se.jsx)('h2', { children: t.name }),
-                (0, Se.jsx)(Qr, {
+                (0, Se.jsx)(ea, {
                   currentGirl: t,
                   displayedGirls: n,
                   allGirls: r,
@@ -35291,7 +35632,7 @@
                     })
                   ]
                 }),
-                (0, Se.jsx)(Kr, {
+                (0, Se.jsx)(ta, {
                   girl: t,
                   allGirls: r,
                   page: i,
@@ -35308,7 +35649,7 @@
                 ? (0, Se.jsx)('div', { children: 'Loading inventory...' })
                 : (0, Se.jsxs)(Se.Fragment, {
                     children: [
-                      (0, Se.jsx)(ea, {
+                      (0, Se.jsx)(aa, {
                         items: g,
                         selectedItem: x,
                         selectItem: j
@@ -35329,7 +35670,7 @@
                             children: 'Use'
                           }),
                           'books' === i
-                            ? (0, Se.jsx)(ta, {
+                            ? (0, Se.jsx)(ia, {
                                 girl: t,
                                 gameAPI: a,
                                 items: g,
@@ -35337,7 +35678,7 @@
                               })
                             : null,
                           'gifts' === i
-                            ? (0, Se.jsx)(na, {
+                            ? (0, Se.jsx)(oa, {
                                 girl: t,
                                 gameAPI: a,
                                 items: g,
@@ -35352,7 +35693,7 @@
           ]
         });
       },
-      Xr = function (e) {
+      Jr = function (e) {
         var t = e.itemEntry,
           n = e.select,
           r = e.selected,
@@ -35388,7 +35729,7 @@
           })
         });
       },
-      Qr = function (e) {
+      ea = function (e) {
         var t,
           n,
           r = e.currentGirl,
@@ -35452,7 +35793,7 @@
         return (0, Se.jsxs)('div', {
           className: 'girls-selector',
           children: [
-            (0, Se.jsx)(mr, {
+            (0, Se.jsx)(yr, {
               classNames: ['previous-girl'],
               girl: t,
               onClick: function () {
@@ -35461,13 +35802,13 @@
               selected: !1,
               show0Pose: s
             }),
-            (0, Se.jsx)(mr, {
+            (0, Se.jsx)(yr, {
               girl: r,
               selected: !0,
               show0Pose: s,
               onClick: function () {}
             }),
-            (0, Se.jsx)(mr, {
+            (0, Se.jsx)(yr, {
               classNames: ['next-girl'],
               girl: n,
               onClick: function () {
@@ -35483,7 +35824,7 @@
           ]
         });
       },
-      Kr = function (e) {
+      ta = function (e) {
         var t = e.girl,
           n = e.allGirls,
           r = e.page,
@@ -35497,7 +35838,7 @@
           className: 'upgrade-status',
           children: [
             'books' === r
-              ? (0, Se.jsx)(Yr, {
+              ? (0, Se.jsx)(na, {
                   girl: t,
                   allGirls: n,
                   book: l,
@@ -35507,12 +35848,12 @@
                 })
               : null,
             'gifts' === r
-              ? (0, Se.jsx)(Jr, { girl: t, gift: u, gameAPI: i })
+              ? (0, Se.jsx)(ra, { girl: t, gift: u, gameAPI: i })
               : null
           ]
         });
       },
-      Yr = function (e) {
+      na = function (e) {
         var t,
           n,
           r,
@@ -35534,7 +35875,7 @@
           v = null !== (n = a.level) && void 0 !== n ? n : 0,
           g =
             v === a.maxLevel && v < 750
-              ? (0, Se.jsx)(aa, {
+              ? (0, Se.jsx)(la, {
                   girl: a,
                   allGirls: i,
                   trigger: (0, Se.jsx)('button', {
@@ -35637,7 +35978,7 @@
           ]
         });
       },
-      Jr = function (e) {
+      ra = function (e) {
         var t = e.girl,
           n = e.gift,
           r = e.gameAPI,
@@ -35658,7 +35999,7 @@
                   })
                 }),
                 children: function (e) {
-                  return (0, Se.jsx)(xr, {
+                  return (0, Se.jsx)(_r, {
                     girl: t,
                     scene: t.stars,
                     gameAPI: r,
@@ -35718,7 +36059,7 @@
           ]
         });
       },
-      ea = function (e) {
+      aa = function (e) {
         var t = e.items,
           n = e.selectedItem,
           r = e.selectItem,
@@ -35746,13 +36087,13 @@
               className: 'upgrade-items-list',
               children: t.map(function (e) {
                 return (0,
-                Se.jsx)(Xr, { itemEntry: e, selected: n === e, select: r }, e.item.itemId);
+                Se.jsx)(Jr, { itemEntry: e, selected: n === e, select: r }, e.item.itemId);
               })
             })
           ]
         });
       };
-    var ta = function (e) {
+    var ia = function (e) {
         var t = e.girl,
           n = e.items,
           r = e.gameAPI,
@@ -35766,7 +36107,7 @@
             children: 'Max'
           }),
           children: function (e) {
-            return (0, Se.jsx)(ra, {
+            return (0, Se.jsx)(sa, {
               gameAPI: r,
               girl: t,
               items: n,
@@ -35777,7 +36118,7 @@
           }
         });
       },
-      na = function (e) {
+      oa = function (e) {
         var t = e.girl,
           n = e.gameAPI,
           r = e.items,
@@ -35791,7 +36132,7 @@
             children: 'Max'
           }),
           children: function (e) {
-            return (0, Se.jsx)(ra, {
+            return (0, Se.jsx)(sa, {
               gameAPI: n,
               girl: t,
               items: r,
@@ -35802,7 +36143,7 @@
           }
         });
       },
-      ra = function (n) {
+      sa = function (n) {
         var r = n.girl,
           i = n.items,
           o = n.gameAPI,
@@ -35980,7 +36321,7 @@
               ? (0, Se.jsxs)(Se.Fragment, {
                   children: [
                     (0, Se.jsx)('h2', { children: _ }),
-                    (0, Se.jsx)(ea, {
+                    (0, Se.jsx)(aa, {
                       items: d,
                       selectedItem: void 0,
                       selectItem: function () {}
@@ -36025,7 +36366,7 @@
           ]
         });
       },
-      aa = function (e) {
+      la = function (e) {
         var t,
           n = e.girl,
           r = e.allGirls,
@@ -36034,7 +36375,7 @@
           o = e.gemsCount,
           s = e.consumeGems,
           l = (0, X.hO)(n),
-          u = (0, be.useContext)(Vr).show0Pose
+          u = (0, be.useContext)(Kr).show0Pose
             ? null === n || void 0 === n
               ? void 0
               : n.poseImage0
@@ -36162,7 +36503,7 @@
           }
         });
       },
-      ia = function (n) {
+      ua = function (n) {
         var r = n.girls,
           a = n.allGirls,
           i = n.show0Pose,
@@ -36322,9 +36663,9 @@
             }
             return 0 === h.length ? void 0 : h[0];
           }),
-          Z = (0, we.Z)(I, 2),
-          q = Z[0],
-          L = Z[1],
+          q = (0, we.Z)(I, 2),
+          Z = q[0],
+          L = q[1],
           B = (0, be.useRef)(function () {}),
           G = (0, be.useCallback)(
             function (e) {
@@ -36341,9 +36682,9 @@
           );
         (0, be.useEffect)(
           function () {
-            if (void 0 !== q) {
+            if (void 0 !== Z) {
               var e = a.find(function (e) {
-                return e.id === q.id;
+                return e.id === Z.id;
               });
               e && L(e);
             }
@@ -36378,25 +36719,25 @@
                   children: D.map(function (e) {
                     var t = P.get(e.id);
                     return (0,
-                    Se.jsx)(br, { girl: e, selected: void 0 !== q && q.id === e.id, selectGirl: G, show0Pose: i, collectSalary: T, payAt: t, currentBlessings: o }, e.id);
+                    Se.jsx)(Sr, { girl: e, selected: void 0 !== Z && Z.id === e.id, selectGirl: G, show0Pose: i, collectSalary: T, payAt: t, currentBlessings: o }, e.id);
                   })
                 }),
                 (0, Se.jsx)('div', {
                   className: 'missing',
                   children: O.map(function (e) {
                     return (0,
-                    Se.jsx)(br, { girl: e, selected: void 0 !== q && q.id === e.id, selectGirl: G, show0Pose: i, collectSalary: T, payAt: void 0, currentBlessings: o }, e.id);
+                    Se.jsx)(Sr, { girl: e, selected: void 0 !== Z && Z.id === e.id, selectGirl: G, show0Pose: i, collectSalary: T, payAt: void 0, currentBlessings: o }, e.id);
                   })
                 }),
                 (0, Se.jsx)(Gn.u, {
-                  id: hr,
+                  id: gr,
                   className: 'qh-tooltip',
                   classNameArrow: 'qh-tooltip-arrow'
                 })
               ]
             }),
             'edit-teams' === f
-              ? (0, Se.jsx)(Mr, {
+              ? (0, Se.jsx)(Ur, {
                   allGirls: a,
                   close: function () {
                     return d('standard');
@@ -36408,23 +36749,23 @@
                   teamsData: p
                 })
               : null,
-            (0, Se.jsx)(kr, {
+            (0, Se.jsx)(Cr, {
               allGirls: a,
               listGirls: D,
-              girl: q,
+              girl: Z,
               activeBlessing: o,
               nextBlessing: s,
               show0Pose: i,
               selectGirl: G,
               openUpgrade: K
             }),
-            q &&
+            Z &&
               H &&
-              q.own &&
+              Z.own &&
               (0, Se.jsx)('div', {
                 className: 'harem-upgrade-panel',
-                children: (0, Se.jsx)($r, {
-                  currentGirl: q,
+                children: (0, Se.jsx)(Yr, {
+                  currentGirl: Z,
                   displayedGirls: r,
                   allGirls: a,
                   show0Pose: i,
@@ -36440,7 +36781,7 @@
           ]
         });
       },
-      oa = function (e) {
+      ca = function (e) {
         var t = e.gameAPI,
           n = e.children,
           r = e.error,
@@ -36509,7 +36850,7 @@
           })
         );
       },
-      sa = function (e) {
+      fa = function (e) {
         var t = e.visibleGirlsCount,
           n = e.totalGirlsCount,
           r = e.activeQuickFilters,
@@ -36532,7 +36873,41 @@
           x = v.setSearchText,
           w = v.restoreDefaultFilter,
           k = v.clearFilters,
-          S = v.isDefaultFilter;
+          S = v.isDefaultFilter,
+          _ = (0, Se.jsxs)('div', {
+            className: 'toolbar-content',
+            children: [
+              (0, Se.jsx)('button', {
+                className: 'hh-action-button clear-filters quick',
+                disabled: 0 === r.length,
+                onClick: a,
+                children: 'Clear quick filters'
+              }),
+              (0, Se.jsx)('button', {
+                className: 'hh-action-button restore-default-filter',
+                disabled: S,
+                onClick: w,
+                children: 'Restore default filters'
+              }),
+              (0, Se.jsx)('button', {
+                className: 'hh-action-button clear-filters',
+                disabled: 0 === r.length && 0 === y.length,
+                onClick: function () {
+                  a(), k();
+                },
+                children: 'Clear all filters'
+              }),
+              (0, Se.jsx)('button', {
+                className: 'hh-action-button edit-teams'.concat(
+                  'edit-teams' === h ? ' active' : ''
+                ),
+                onClick: function () {
+                  m('edit-teams' === h ? 'standard' : 'edit-teams');
+                },
+                children: 'Edit teams'
+              })
+            ]
+          });
         return (0, Se.jsxs)('div', {
           className: 'harem-toolbar',
           children: [
@@ -36546,73 +36921,30 @@
                 value: b
               })
             }),
-            (0, Se.jsx)('div', {
-              className: 'clear-filters quick',
-              children: (0, Se.jsx)('button', {
-                className: 'hh-action-button',
-                disabled: 0 === r.length,
-                onClick: a,
-                children: 'Clear quick filters'
-              })
-            }),
-            (0, Se.jsx)('div', {
-              className: 'restore-default-filter',
-              children: (0, Se.jsx)('button', {
-                className: 'hh-action-button',
-                disabled: S,
-                onClick: w,
-                children: 'Restore default filters'
-              })
-            }),
-            (0, Se.jsx)('div', {
-              className: 'clear-filters',
-              children: (0, Se.jsx)('button', {
-                className: 'hh-action-button',
-                disabled: 0 === r.length && 0 === y.length,
-                onClick: function () {
-                  a(), k();
-                },
-                children: 'Clear all filters'
-              })
-            }),
-            (0, Se.jsx)('div', {
-              className: 'quick-filters',
-              children: (0, Se.jsxs)('p', {
-                className: 'toggle0pose',
-                children: [
-                  (0, Se.jsxs)('label', {
-                    htmlFor: '0pose',
-                    title:
-                      'Show the 0-star pose for each girl. Can be used for screenshots, to avoid spoilers',
-                    children: ['Show 0 Pose:', ' ']
-                  }),
-                  (0, Se.jsx)('input', {
-                    id: '0pose',
-                    type: 'checkbox',
-                    onChange: o,
-                    checked: i
-                  })
-                ]
-              })
+            _,
+            (0, Se.jsxs)('span', {
+              className: 'toggle0pose',
+              children: [
+                (0, Se.jsxs)('label', {
+                  htmlFor: '0pose',
+                  title:
+                    'Show the 0-star pose for each girl. Can be used for screenshots, to avoid spoilers',
+                  children: ['Show 0 Pose:', ' ']
+                }),
+                (0, Se.jsx)('input', {
+                  id: '0pose',
+                  type: 'checkbox',
+                  onChange: o,
+                  checked: i
+                })
+              ]
             }),
             (0, Se.jsx)('div', {
               className: 'owned-gems-summary',
               children: (0, Se.jsx)(ke.Am, { gemsCount: d })
             }),
-            (0, Se.jsx)('div', {
-              className: 'edit-teams',
-              children: (0, Se.jsx)('button', {
-                className: 'hh-action-button'.concat(
-                  'edit-teams' === h ? ' active' : ''
-                ),
-                onClick: function () {
-                  m('edit-teams' === h ? 'standard' : 'edit-teams');
-                },
-                children: 'Edit teams'
-              })
-            }),
             (0, Se.jsx)('div', { className: 'spacer' }),
-            (0, Se.jsx)(oa, {
+            (0, Se.jsx)(ca, {
               gameAPI: p,
               error: function () {
                 return (0, Se.jsx)(ke.u, {
@@ -36636,10 +36968,21 @@
                 });
               }
             }),
+            (0, Se.jsx)(An, {
+              trigger: (0, Se.jsx)('button', {
+                className: 'qh-menu-toggle icon-action'
+              }),
+              position: 'bottom right',
+              children: (0, Se.jsx)('div', {
+                className: 'hamburger-menu-content',
+                children: _
+              })
+            }),
             (0, Se.jsx)('button', {
-              className: 'hh-action-button filter-sort-icon '.concat(
-                f ? 'open' : 'closed'
-              ),
+              className:
+                'hh-action-button icon-action filter-sort-icon '.concat(
+                  f ? 'open' : 'closed'
+                ),
               onClick: c,
               children: (0, Se.jsx)(ke.u, {
                 tooltip: (0, Se.jsx)('span', { children: 'Filter & sort' }),
@@ -36647,7 +36990,7 @@
               })
             }),
             (0, Se.jsx)('button', {
-              className: 'hh-action-button refresh',
+              className: 'hh-action-button icon-action refresh',
               onClick: l,
               disabled: s,
               children: (0, Se.jsx)(ke.u, {
@@ -36661,7 +37004,7 @@
               ? null
               : (0, Se.jsx)(ke.PZ, { title: 'Close harem', close: u }),
             (0, Se.jsx)('div', { className: 'break' }),
-            (0, Se.jsx)(la, {
+            (0, Se.jsx)(da, {
               filter: g,
               quickFilters: r,
               visibleGirlsCount: t,
@@ -36670,7 +37013,7 @@
           ]
         });
       },
-      la = function (e) {
+      da = function (e) {
         var t = e.filter,
           n = e.quickFilters,
           r = e.visibleGirlsCount,
@@ -36682,7 +37025,7 @@
             [t]
           );
         return (0, Se.jsx)(ke.u, {
-          tooltip: (0, Se.jsx)(ua, {
+          tooltip: (0, Se.jsx)(pa, {
             filter: t,
             quickFilters: n,
             totalGirlsCount: a,
@@ -36702,7 +37045,7 @@
           })
         });
       },
-      ua = function (e) {
+      pa = function (e) {
         var t = e.filter,
           n = e.quickFilters,
           r = e.visibleGirlsCount,
@@ -36710,19 +37053,19 @@
         return (0, Se.jsxs)('div', {
           children: [
             (0, Se.jsxs)('p', {
-              children: ['Filter: ', (0, Se.jsx)(ca, { filter: t })]
+              children: ['Filter: ', (0, Se.jsx)(ha, { filter: t })]
             }),
             (0, Se.jsxs)('p', {
               children: [
                 'Quick Filters: ',
-                (0, Se.jsx)(fa, { quickFilters: n })
+                (0, Se.jsx)(ma, { quickFilters: n })
               ]
             }),
             (0, Se.jsxs)('p', { children: ['Matched girls: ', r, '/', a] })
           ]
         });
       },
-      ca = function (e) {
+      ha = function (e) {
         var t = e.filter.label.split('&').map(function (e) {
           return e.trim();
         });
@@ -36740,7 +37083,7 @@
           }, 'None')
         });
       },
-      fa = function (e) {
+      ma = function (e) {
         var t = e.quickFilters;
         return (0, Se.jsx)(Se.Fragment, {
           children: t
@@ -36761,7 +37104,7 @@
             }, 'None')
         });
       };
-    function da(e, t, n) {
+    function va(e, t, n) {
       var r = (0, be.useState)(e.defaultSort),
         a = (0, we.Z)(r, 2),
         i = a[0],
@@ -36784,8 +37127,8 @@
                 return (0, B.Z)((0, B.Z)({}, Lt), {}, { direction: r });
               case Ot:
                 return It(t);
-              case Zt:
-                return qt(n);
+              case qt:
+                return Zt(n);
               case At.id:
                 return At;
               case Ut.id:
@@ -36838,7 +37181,7 @@
         isDefaultSort: p
       };
     }
-    var pa = function (e, t, n, r, i) {
+    var ga = function (e, t, n, r, i) {
       var o = (0, be.useMemo)(
           function () {
             return void 0 === t ? e : t.sort(e);
@@ -36901,7 +37244,7 @@
         );
       return { filteredGirls: s, matchedGirls: u };
     };
-    function ha(n) {
+    function ya(n) {
       var r = (0, be.useState)([]),
         a = (0, we.Z)(r, 2),
         i = a[0],
@@ -36947,7 +37290,7 @@
                     for (;;)
                       switch ((e.prev = e.next)) {
                         case 0:
-                          return c(!0), (e.prev = 1), (e.next = 4), q();
+                          return c(!0), (e.prev = 1), (e.next = 4), Z();
                         case 4:
                           void 0 !== (n = e.sent) && o(n), (e.next = 10);
                           break;
@@ -37002,7 +37345,7 @@
       );
       return { teams: i, loading: u, updateTeam: p, refresh: f };
     }
-    var ma = function (e) {
+    var ba = function (e) {
         var t = e.allGirls,
           n = e.currentBlessings,
           r = e.upcomingBlessings,
@@ -37037,9 +37380,9 @@
             },
             [g]
           ),
-          x = ha(o),
+          x = ya(o),
           w = Kt(c, n, r, x.teams),
-          k = da(c, n, r),
+          k = va(c, n, r),
           S = (function () {
             var e = (0, be.useState)([]),
               t = (0, we.Z)(e, 2),
@@ -37084,7 +37427,7 @@
               clearQuickFilters: o
             };
           })(),
-          _ = pa(
+          _ = ga(
             t,
             k.sorter,
             w.activeFilter,
@@ -37108,9 +37451,9 @@
           D = T[0],
           O = T[1],
           I = (0, be.useState)('standard'),
-          Z = (0, we.Z)(I, 2),
-          q = Z[0],
-          L = Z[1];
+          q = (0, we.Z)(I, 2),
+          Z = q[0],
+          L = q[1];
         void 0 !== v &&
           v !== D &&
           O(function (e) {
@@ -37122,11 +37465,11 @@
             },
             [p, y, v]
           ),
-          G = ['qh-harem', q];
+          G = ['qh-harem', Z];
         return (0, Se.jsx)(Se.Fragment, {
           children: (0, Se.jsx)(Qt.Provider, {
             value: w,
-            children: (0, Se.jsxs)(Vr.Provider, {
+            children: (0, Se.jsxs)(Kr.Provider, {
               value: { show0Pose: P },
               children: [
                 (0, Se.jsxs)(Ne, {
@@ -37172,7 +37515,7 @@
                 (0, Se.jsxs)('div', {
                   className: G.join(' '),
                   children: [
-                    (0, Se.jsx)(sa, {
+                    (0, Se.jsx)(fa, {
                       gameAPI: o,
                       loading: s,
                       refresh: l,
@@ -37186,10 +37529,10 @@
                       toggleTab: B,
                       isOpenTab: void 0 !== v,
                       gemsCount: f,
-                      haremMode: q,
+                      haremMode: Z,
                       setHaremMode: L
                     }),
-                    (0, Se.jsx)(ia, {
+                    (0, Se.jsx)(ua, {
                       allGirls: t,
                       girls: C,
                       currentBlessings: n,
@@ -37199,7 +37542,7 @@
                       gameAPI: o,
                       gemsCount: f,
                       consumeGems: d,
-                      haremMode: q,
+                      haremMode: Z,
                       setHaremMode: L,
                       teamsData: x
                     })
@@ -37210,7 +37553,7 @@
           })
         });
       },
-      va = function (r) {
+      xa = function (r) {
         var i = r.gameAPI,
           o = r.children,
           s = (0, be.useState)(),
@@ -37242,9 +37585,9 @@
           D = T[0],
           O = T[1],
           I = (0, be.useState)(void 0),
-          Z = (0, we.Z)(I, 2),
-          q = Z[0],
-          L = Z[1],
+          q = (0, we.Z)(I, 2),
+          Z = q[0],
+          L = q[1],
           G = (0, be.useState)(),
           z = (0, we.Z)(G, 2),
           W = z[0],
@@ -37395,7 +37738,7 @@
               for (s.s(); !(r = s.n()).done; ) {
                 var l = r.value,
                   u = n.get(l.id);
-                void 0 !== u && ya(u, l) ? i.push(u) : ((o = !0), i.push(l));
+                void 0 !== u && ka(u, l) ? i.push(u) : ((o = !0), i.push(l));
               }
             } catch (c) {
               s.e(c);
@@ -37409,12 +37752,12 @@
         return (
           (0, be.useMemo)(
             function () {
-              if (D && q && W) {
-                var e = { blessings: q, list: D, quests: W };
+              if (D && Z && W) {
+                var e = { blessings: Z, list: D, quests: W };
                 (0, n.g2)(e).then(te);
               }
             },
-            [D, q, W]
+            [D, Z, W]
           ),
           (0, be.useEffect)(function () {
             D ||
@@ -37427,7 +37770,7 @@
                       'Failed to load initial harem data from cache. Private mode or first time?',
                       e
                     ),
-                    ga
+                    wa
                   );
                 })
                 .then(function (e) {
@@ -37445,8 +37788,8 @@
           })
         );
       },
-      ga = { allGirls: [], activeBlessing: [], nextBlessing: [] };
-    function ya(e, t) {
+      wa = { allGirls: [], activeBlessing: [], nextBlessing: [] };
+    function ka(e, t) {
       var n, r, a, i;
       return (
         e.id === t.id &&
@@ -37473,16 +37816,16 @@
           if (void 0 === e || void 0 === t) return !1;
           if (e.items.length !== t.items.length) return !1;
           for (var n = 0; n < e.items.length; n++) {
-            if (!ba(e.items[n], t.items[n])) return !1;
+            if (!Sa(e.items[n], t.items[n])) return !1;
           }
           return !0;
         })(e.equipment, t.equipment)
       );
     }
-    function ba(e, t) {
+    function Sa(e, t) {
       return e.rarity === t.rarity && e.level === t.level && e.uid === t.uid;
     }
-    var xa = function (e) {
+    var _a = function (e) {
         var t = e.visible,
           n = e.setVisible,
           a = (0, be.useState)(void 0),
@@ -37509,7 +37852,7 @@
           className: 'App game-extension '.concat(t ? '' : 'hidden'),
           children: (0, Se.jsx)(Nn.Provider, {
             value: { gameAPI: u },
-            children: (0, Se.jsx)(va, {
+            children: (0, Se.jsx)(xa, {
               gameAPI: u,
               children: function (e) {
                 var n = e.loading,
@@ -37522,7 +37865,7 @@
                   d = o && r && r.length > 0 && a && i;
                 return (0, Se.jsx)(Se.Fragment, {
                   children: d
-                    ? (0, Se.jsx)(ma, {
+                    ? (0, Se.jsx)(ba, {
                         allGirls: r,
                         currentBlessings: a,
                         upcomingBlessings: i,
@@ -37535,14 +37878,14 @@
                         gemsCount: c,
                         consumeGems: f
                       })
-                    : (0, Se.jsx)(wa, { loading: n, close: l })
+                    : (0, Se.jsx)(ja, { loading: n, close: l })
                 });
               }
             })
           })
         });
       },
-      wa = function (e) {
+      ja = function (e) {
         var t = e.loading,
           n = e.close,
           r = (0, be.useState)(!1),
@@ -37600,8 +37943,8 @@
           })
         );
       };
-    function ka() {
-      return (ka = (0, t.Z)(
+    function Ca() {
+      return (Ca = (0, t.Z)(
         (0, e.Z)().mark(function t() {
           var n, r, a, i, o, s;
           return (0, e.Z)().wrap(function (e) {
@@ -37609,12 +37952,12 @@
               switch ((e.prev = e.next)) {
                 case 0:
                   (n = new URLSearchParams(window.location.search)),
-                    (r = Sa()),
+                    (r = Ea()),
                     (a = n.has('harem')),
                     (i = function () {
                       r.render(
                         (0, Se.jsx)(be.StrictMode, {
-                          children: (0, Se.jsx)(xa, {
+                          children: (0, Se.jsx)(_a, {
                             visible: a,
                             setVisible: o
                           })
@@ -37637,29 +37980,29 @@
         })
       )).apply(this, arguments);
     }
-    function Sa() {
+    function Ea() {
       var e = document.getElementById('hh_hentai');
       if (null === e) return xe.createRoot(document.getElementById('root'));
       var t = document.createElement('div');
       return (t.id = 'quick-harem-wrapper'), e.appendChild(t), xe.createRoot(t);
     }
-    function _a() {
-      return (_a = (0, t.Z)(
+    function Fa() {
+      return (Fa = (0, t.Z)(
         (0, e.Z)().mark(function t() {
           var n, r, a, i, o, s;
           return (0, e.Z)().wrap(function (e) {
             for (;;)
               switch ((e.prev = e.next)) {
                 case 0:
-                  (n = Ca()),
+                  (n = Aa()),
                     (r = new URLSearchParams(window.location.search)),
                     void 0 !== n
-                      ? ((a = ja()),
+                      ? ((a = Pa()),
                         (i = r.has('harem')),
                         (o = function () {
                           a.render(
                             (0, Se.jsx)(be.StrictMode, {
-                              children: (0, Se.jsx)(xa, {
+                              children: (0, Se.jsx)(_a, {
                                 visible: i,
                                 setVisible: s
                               })
@@ -37684,64 +38027,64 @@
         })
       )).apply(this, arguments);
     }
-    function ja() {
+    function Pa() {
       var e = document.getElementById('hh_hentai');
       if (null === e) return xe.createRoot(document.getElementById('root'));
       var t = document.createElement('div');
       return (t.id = 'quick-harem-wrapper'), e.appendChild(t), xe.createRoot(t);
     }
-    function Ca() {
+    function Aa() {
       var e = document.getElementById('toggle-harem');
       if (e) return e;
     }
-    var Ea = JSON.parse(
+    var Na = JSON.parse(
         '{"id":"1","name":"Bunny","icon":"https://hh2.hh-content.com/pictures/girls/1/ico3.png?v=5","icon0":"https://hh2.hh-content.com/pictures/girls/1/ico0.png","poseImage":"https://hh2.hh-content.com/pictures/girls/1/ava3.png?v=5","poseImage0":"https://hh2.hh-content.com/pictures/girls/1/ava0.png","level":700,"maxLevel":700,"class":0,"own":true,"rarity":0,"stars":5,"maxStars":5,"shards":100,"recruited":1550254231000,"pose":1,"hairColor":[0],"eyeColor":[0],"zodiac":4,"element":2,"missingAff":0,"currentAffection":4254,"upgradeReady":false,"currentGXP":246456,"currentIcon":3,"salaryTime":21600,"salary":330000,"missingGems":500,"quests":[{"idQuest":14,"done":true,"ready":false},{"idQuest":15,"done":true,"ready":false},{"idQuest":16,"done":true,"ready":false},{"idQuest":885,"done":true,"ready":false},{"idQuest":886,"done":true,"ready":false}],"fullName":"Alice Carott","bio":"Humano\xefde de la famille des lapins-garous, Bunny poss\xe8de, comme tous les lapins-garous, le pouvoir de voyager entre les dimensions. Apr\xe8s \xeatre all\xe9e chercher le H\xe9ros dans notre monde, elle a succomb\xe9 au charme sexuel inattendu de ce dernier. Elle a alors accept\xe9 de faire partie de son harem et en est devenue la directrice. Son plaisir ? Les rapports sauvages et rapides. Et lorsqu\'elle s\'amuse avec les 5 sextoys du chaos, Bunny rev\xeat une forme dor\xe9e. Dans cet \xe9tat, des rapports plus muscl\xe9s sont alors n\xe9cessaires afin de la faire jouir.","sources":["Story"],"variations":["1","34","72","1961491","4469169","102212292","721058035","948443498"],"location":"Ville du Pr\xe9lude","career":"G\xe9rante du harem","hobby":"Poker","birthday":"26 Juillet","favoriteFood":"Carotte","fetish":"Rapports brutaux","stats":{"charm":3150,"knowhow":3850,"hardcore":6475}}'
       ),
-      Fa = JSON.parse(
+      Ra = JSON.parse(
         '{"id":"22","name":"Kimie Halloween","icon":"https://hh2.hh-content.com/pictures/girls/22/ico0.png","icon0":"https://hh2.hh-content.com/pictures/girls/22/ico0.png","poseImage":"https://hh2.hh-content.com/pictures/girls/22/avb0.png","poseImage0":"https://hh2.hh-content.com/pictures/girls/22/avb0.png","class":1,"own":false,"rarity":3,"stars":0,"maxStars":3,"shards":0,"pose":7,"hairColor":[5],"eyeColor":[1],"zodiac":3,"element":2,"missingAff":12285,"currentAffection":0,"upgradeReady":false,"currentIcon":0,"currentGXP":0,"missingGems":5640,"quests":[],"fullName":"Kimie Chiba Komina","bio":"Pr\xeatresse combattante du Vent, on l\'appelle lors des traditionnels rituels pour apporter le beau temps, mais aussi pour repousser les voleurs et criminels qui essaient d\'entrer dans le palais sacr\xe9 du Vent. Petite, timide, r\xe9serv\xe9e et polie, elle n\'a l\'air de rien, jusqu\'au moment o\xf9 elle sort ses armes. Et l\xe0, il faut fuir !","sources":["MP","unknown"],"variations":["9","22","8556167","92391709"],"location":"Inconnu","career":"Pr\xeatresse du vent","hobby":"Arts martiaux","birthday":" 7 Juillet","favoriteFood":"L\xe9gumes grill\xe9s","fetish":"Embrasser"}'
       ),
-      Pa = JSON.parse(
+      Ta = JSON.parse(
         '{"id":"37","name":"Ankyo de No\xebl","icon":"https://hh2.hh-content.com/pictures/girls/37/ico0.png","icon0":"https://hh2.hh-content.com/pictures/girls/37/ico0.png","poseImage":"https://hh2.hh-content.com/pictures/girls/37/avb0.png","poseImage0":"https://hh2.hh-content.com/pictures/girls/37/avb0.png","class":0,"own":false,"rarity":3,"stars":0,"maxStars":3,"shards":20,"pose":4,"hairColor":[7],"eyeColor":[3],"zodiac":9,"element":6,"missingAff":12285,"currentAffection":0,"upgradeReady":false,"currentGXP":0,"currentIcon":0,"missingGems":5640,"quests":[],"fullName":"Ankyo Takanoki","bio":"Engag\xe9e d\xe8s l\u2019enfance dans un programme de pilotes de robots g\xe9ants pour combattre d\u2019autres robots g\xe9ants, elle est plut\xf4t renferm\xe9e. Le sexe et les hommes ne l\u2019int\xe9ressent pas tant que \xe7a. Mais elle dit toujours oui \xe0 un rapport : \xe7a a l\u2019air de vous faire tellement plaisir...","sources":["MP","unknown"],"variations":["15","37","6391374","506006967","609960916","634930584","732266853"],"location":"Inconnu","career":"Pilote de robot g\xe9ant","hobby":"Cin\xe9ma","birthday":"14 Janvier","favoriteFood":"Maki","fetish":"Embrasser"}'
       ),
-      Aa = JSON.parse(
+      Da = JSON.parse(
         '{"id":"225777755","name":"Bunna","icon":"https://hh2.hh-content.com/pictures/girls/225777755/ico6.png?v=2","icon0":"https://hh2.hh-content.com/pictures/girls/225777755/ico0.png","poseImage":"https://hh2.hh-content.com/pictures/girls/225777755/ava6.png?v=2","poseImage0":"https://hh2.hh-content.com/pictures/girls/225777755/ava0.png","level":750,"maxLevel":750,"class":0,"own":true,"rarity":5,"stars":6,"maxStars":6,"shards":100,"recruited":1627203626000,"pose":3,"hairColor":[16,0],"eyeColor":[4],"zodiac":1,"element":6,"missingAff":0,"currentAffection":437625,"upgradeReady":false,"currentGXP":437625,"currentIcon":6,"salaryTime":28800,"salary":44000,"missingGems":0,"quests":[{"idQuest":11516,"done":true,"ready":false},{"idQuest":11517,"done":true,"ready":false},{"idQuest":11518,"done":true,"ready":false},{"idQuest":11519,"done":true,"ready":false},{"idQuest":11520,"done":true,"ready":false},{"idQuest":11521,"done":true,"ready":false}],"fullName":"Bunna","bio":"Comment est-ce possible ? Lupa et Bunny ont fusionn\xe9 ! Mais comment ? Et pour combien de temps ? \xc0 quel point une telle cr\xe9ature peut-elle \xeatre puissante et cochonne ? Bunna est-il son v\xe9ritable nom ? Autant de questions qui restent sans r\xe9ponses. Une seule chose est s\xfbre, c\u2019est qu\u2019elle est capable de vider enti\xe8rement quiconque croise sa route. \xc0 vos marques, pr\xeats\u2026 partez !","sources":["MD","unknown"],"variations":["225777755","525478506"],"location":"Au m\xeame endroit que Lupa et Bunny","career":"D\xe9esse temporaire","hobby":"Poker","birthday":"12 Mai","favoriteFood":"Katsu Kari","fetish":"Rapports brutaux","stats":{"charm":4830,"knowhow":5250,"hardcore":11340}}'
       ),
-      Na = JSON.parse(
+      Oa = JSON.parse(
         '{"id":"226927103","name":"Melisandre Raveneye","icon":"https://hh2.hh-content.com/pictures/girls/226927103/ico5.png","icon0":"https://hh2.hh-content.com/pictures/girls/226927103/ico0.png","poseImage":"https://hh2.hh-content.com/pictures/girls/226927103/ava5.png","poseImage0":"https://hh2.hh-content.com/pictures/girls/226927103/ava0.png","level":252,"maxLevel":300,"class":2,"own":true,"rarity":4,"stars":5,"maxStars":5,"shards":100,"recruited":1645533320000,"pose":9,"hairColor":[15],"eyeColor":[5],"zodiac":11,"element":6,"missingAff":0,"currentAffection":85050,"upgradeReady":true,"currentGXP":15000,"currentIcon":5,"salaryTime":14400,"salary":13641,"missingGems":7360,"quests":[{"idQuest":1001071,"done":true,"ready":false},{"idQuest":1001072,"done":true,"ready":false},{"idQuest":1001073,"done":true,"ready":false},{"idQuest":1001074,"done":true,"ready":false},{"idQuest":1001075,"done":true,"ready":false}],"fullName":"Melisandre Raveneye","bio":"Melisandre est une cumpire qui attend le retour du Ma\xeetre Invaincu afin qu\u2019il la b\xe9nisse de son sperme. Elle souhaite cr\xe9er un harem qui sera digne de lui et le faire p\xe9n\xe9trer dans son ch\xe2teau et dans sa chatte.","sources":["LC"],"variations":["226927103"],"location":"Ch\xe2teau de la cumpire","career":"Directrice","hobby":"Bricolage","birthday":"26 F\xe9vrier","favoriteFood":"Sushi au sperme","fetish":"Fan de sperme","stats":{"charm":1512,"knowhow":3465,"hardcore":1323}}'
       ),
-      Ra = JSON.parse(
+      Ia = JSON.parse(
         '{"id":"225777755","name":"Bunna","icon":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=","icon0":"https://hh2.hh-content.com/pictures/girls/225777755/ico0.png","poseImage":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=","poseImage0":"https://hh2.hh-content.com/pictures/girls/225777755/ava0.png","level":750,"maxLevel":750,"class":0,"own":true,"rarity":5,"stars":6,"maxStars":6,"shards":100,"recruited":1627203626000,"pose":3,"hairColor":[16,0],"eyeColor":[4],"zodiac":1,"element":6,"missingAff":0,"currentAffection":437625,"upgradeReady":false,"currentGXP":437625,"currentIcon":6,"salaryTime":28800,"salary":44000,"missingGems":0,"quests":[{"idQuest":11516,"done":true,"ready":false},{"idQuest":11517,"done":true,"ready":false},{"idQuest":11518,"done":true,"ready":false},{"idQuest":11519,"done":true,"ready":false},{"idQuest":11520,"done":true,"ready":false},{"idQuest":11521,"done":true,"ready":false}],"fullName":"Bunna","bio":"Comment est-ce possible ? Lupa et Bunny ont fusionn\xe9 ! Mais comment ? Et pour combien de temps ? \xc0 quel point une telle cr\xe9ature peut-elle \xeatre puissante et cochonne ? Bunna est-il son v\xe9ritable nom ? Autant de questions qui restent sans r\xe9ponses. Une seule chose est s\xfbre, c\u2019est qu\u2019elle est capable de vider enti\xe8rement quiconque croise sa route. \xc0 vos marques, pr\xeats\u2026 partez !","sources":["MD","unknown"],"variations":["225777755","525478506"],"location":"Au m\xeame endroit que Lupa et Bunny","career":"D\xe9esse temporaire","hobby":"Poker","birthday":"12 Mai","favoriteFood":"Katsu Kari","fetish":"Rapports brutaux","stats":{"charm":4830,"knowhow":5250,"hardcore":11340}}'
       ),
-      Ta = JSON.parse(
+      qa = JSON.parse(
         '{"id":"226927103","name":"Melisandre Raveneye","icon":"invalid","icon0":"https://hh2.hh-content.com/pictures/girls/226927103/ico0.png","poseImage":"invalid","poseImage0":"https://hh2.hh-content.com/pictures/girls/226927103/ava0.png","level":252,"maxLevel":300,"class":2,"own":true,"rarity":4,"stars":5,"maxStars":5,"shards":100,"recruited":1645533320000,"pose":9,"hairColor":[15],"eyeColor":[5],"zodiac":11,"element":6,"missingAff":0,"currentAffection":85050,"upgradeReady":true,"currentGXP":15000,"currentIcon":5,"salaryTime":14400,"salary":13641,"missingGems":7360,"quests":[{"idQuest":1001071,"done":true,"ready":false},{"idQuest":1001072,"done":true,"ready":false},{"idQuest":1001073,"done":true,"ready":false},{"idQuest":1001074,"done":true,"ready":false},{"idQuest":1001075,"done":true,"ready":false}],"fullName":"Melisandre Raveneye","bio":"Melisandre est une cumpire qui attend le retour du Ma\xeetre Invaincu afin qu\u2019il la b\xe9nisse de son sperme. Elle souhaite cr\xe9er un harem qui sera digne de lui et le faire p\xe9n\xe9trer dans son ch\xe2teau et dans sa chatte.","sources":["LC"],"variations":["226927103"],"location":"Ch\xe2teau de la cumpire","career":"Directrice","hobby":"Bricolage","birthday":"26 F\xe9vrier","favoriteFood":"Sushi au sperme","fetish":"Fan de sperme","stats":{"charm":1512,"knowhow":3465,"hardcore":1323}}'
       ),
-      Da = Ea,
-      Oa = Fa,
-      Ia = Pa,
-      Za = Aa,
-      qa = Na,
+      Za = Na,
       La = Ra,
-      Ma = Ta;
-    function Ba() {
+      Ma = Ta,
+      Ba = Da,
+      Ga = Oa,
+      za = Ia,
+      Ua = qa;
+    function Ha() {
       var e = document.getElementById('hh_hentai');
       if (null === e) return xe.createRoot(document.getElementById('root'));
       var t = document.createElement('div');
       return (t.id = 'quick-harem-wrapper'), e.appendChild(t), xe.createRoot(t);
     }
-    var Ga = function (e) {
+    var Wa = function (e) {
         var t = e.gameAPI,
           n = (0, be.useRef)(function () {}),
-          r = ha(t);
+          r = ya(t);
         return (0, Se.jsx)('div', {
           style: { pointerEvents: 'initial' },
           children: (0, Se.jsx)(Nn.Provider, {
             value: { gameAPI: t },
-            children: (0, Se.jsx)(va, {
+            children: (0, Se.jsx)(xa, {
               gameAPI: t,
               children: function (e) {
                 var t = e.allGirls;
                 return void 0 !== t
-                  ? (0, Se.jsx)(Mr, {
+                  ? (0, Se.jsx)(Ur, {
                       allGirls: t,
                       girlListener: n,
                       show0Pose: !1,
@@ -37755,9 +38098,9 @@
           })
         });
       },
-      za = __webpack_require__(9696);
-    function Ua() {
-      return (Ua = (0, t.Z)(
+      Va = __webpack_require__(9696);
+    function $a() {
+      return ($a = (0, t.Z)(
         (0, e.Z)().mark(function n() {
           return (0, e.Z)().wrap(function (n) {
             for (;;)
@@ -37795,7 +38138,7 @@
       ? window.location.search.includes('testTiles')
         ? (function () {
             var e = function () {};
-            Ba().render(
+            Ha().render(
               (0, Se.jsx)(be.StrictMode, {
                 children: (0, Se.jsxs)('div', {
                   className: 'test-container',
@@ -37803,26 +38146,26 @@
                     (0, Se.jsxs)('div', {
                       className: 'test-simple-tiles',
                       children: [
-                        (0, Se.jsx)(mr, {
-                          girl: Da,
+                        (0, Se.jsx)(yr, {
+                          girl: Za,
                           selected: !1,
                           show0Pose: !1,
                           onClick: e
                         }),
-                        (0, Se.jsx)(mr, {
-                          girl: Da,
+                        (0, Se.jsx)(yr, {
+                          girl: Za,
                           selected: !0,
                           show0Pose: !1,
                           onClick: e
                         }),
-                        (0, Se.jsx)(mr, {
-                          girl: Oa,
+                        (0, Se.jsx)(yr, {
+                          girl: La,
                           selected: !1,
                           show0Pose: !1,
                           onClick: e
                         }),
-                        (0, Se.jsx)(mr, {
-                          girl: Ia,
+                        (0, Se.jsx)(yr, {
+                          girl: Ma,
                           selected: !1,
                           show0Pose: !1,
                           onClick: e
@@ -37832,64 +38175,64 @@
                     (0, Se.jsxs)('div', {
                       className: 'test-harem-tiles',
                       children: [
-                        (0, Se.jsx)(yr, {
-                          girl: Da,
+                        (0, Se.jsx)(kr, {
+                          girl: Za,
                           selectGirl: e,
                           selected: !0,
                           collectSalary: e,
                           payAt: Date.now() + 6e4,
                           show0Pose: !1
                         }),
-                        (0, Se.jsx)(yr, {
-                          girl: Ia,
+                        (0, Se.jsx)(kr, {
+                          girl: Ma,
                           selectGirl: e,
                           selected: !1,
                           collectSalary: e,
                           payAt: void 0,
                           show0Pose: !1
                         }),
-                        (0, Se.jsx)(yr, {
-                          girl: Oa,
-                          selectGirl: e,
-                          selected: !1,
-                          collectSalary: e,
-                          payAt: void 0,
-                          show0Pose: !1
-                        }),
-                        (0, Se.jsx)(yr, {
-                          girl: Za,
-                          selectGirl: e,
-                          selected: !1,
-                          collectSalary: e,
-                          payAt: void 0,
-                          show0Pose: !1
-                        }),
-                        (0, Se.jsx)(yr, {
-                          girl: qa,
-                          selectGirl: e,
-                          selected: !1,
-                          collectSalary: e,
-                          payAt: void 0,
-                          show0Pose: !1
-                        }),
-                        (0, Se.jsx)(yr, {
-                          girl: qa,
-                          selectGirl: e,
-                          selected: !1,
-                          collectSalary: e,
-                          payAt: Date.now(),
-                          show0Pose: !1
-                        }),
-                        (0, Se.jsx)(yr, {
+                        (0, Se.jsx)(kr, {
                           girl: La,
                           selectGirl: e,
                           selected: !1,
                           collectSalary: e,
+                          payAt: void 0,
+                          show0Pose: !1
+                        }),
+                        (0, Se.jsx)(kr, {
+                          girl: Ba,
+                          selectGirl: e,
+                          selected: !1,
+                          collectSalary: e,
+                          payAt: void 0,
+                          show0Pose: !1
+                        }),
+                        (0, Se.jsx)(kr, {
+                          girl: Ga,
+                          selectGirl: e,
+                          selected: !1,
+                          collectSalary: e,
+                          payAt: void 0,
+                          show0Pose: !1
+                        }),
+                        (0, Se.jsx)(kr, {
+                          girl: Ga,
+                          selectGirl: e,
+                          selected: !1,
+                          collectSalary: e,
                           payAt: Date.now(),
                           show0Pose: !1
                         }),
-                        (0, Se.jsx)(yr, {
-                          girl: Ma,
+                        (0, Se.jsx)(kr, {
+                          girl: za,
+                          selectGirl: e,
+                          selected: !1,
+                          collectSalary: e,
+                          payAt: Date.now(),
+                          show0Pose: !1
+                        }),
+                        (0, Se.jsx)(kr, {
+                          girl: Ua,
                           selectGirl: e,
                           selected: !1,
                           collectSalary: e,
@@ -37905,24 +38248,24 @@
           })()
         : window.location.search.includes('girlTooltip')
         ? (function () {
-            var e = Ba(),
+            var e = Ha(),
               t = (0, Se.jsxs)('div', {
                 children: [
-                  (0, Se.jsx)(cr, { girl: Da, classNames: ['show-border'] }),
-                  (0, Se.jsx)(cr, { girl: Oa, classNames: ['show-border'] })
+                  (0, Se.jsx)(pr, { girl: Za, classNames: ['show-border'] }),
+                  (0, Se.jsx)(pr, { girl: La, classNames: ['show-border'] })
                 ]
               });
             e.render(t);
           })()
         : window.location.search.includes('teams')
         ? (function () {
-            var e = Ba(),
+            var e = Ha(),
               t = new ne(),
-              n = (0, Se.jsx)(Ga, { gameAPI: t });
+              n = (0, Se.jsx)(Wa, { gameAPI: t });
             e.render(n);
           })()
         : (function () {
-            _a.apply(this, arguments);
+            Fa.apply(this, arguments);
           })()
       : (window.$("a[href='/harem.html']").each(function () {
           window.$(this).attr('href', 'home.html?harem');
@@ -37940,17 +38283,17 @@
         })),
       window.location.pathname.startsWith('/home.html')
         ? (function () {
-            ka.apply(this, arguments);
+            Ca.apply(this, arguments);
           })()
         : window.location.pathname.startsWith('/harem')
         ? (function () {
             le.apply(this, arguments);
           })()
         : window.location.pathname.startsWith('/quest/')
-        ? (0, za.U)()
+        ? (0, Va.U)()
         : window.location.pathname.startsWith('/teams.html') &&
           (function () {
-            Ua.apply(this, arguments);
+            $a.apply(this, arguments);
           })();
   })();
 })();
@@ -37972,6 +38315,6 @@
   }
 
   addStyle(`
-        .elementIcon{width:1.5em}.gems-count-details{align-items:flex-start;display:flex;flex-direction:column;gap:5px}.gems-count-details>hr{align-self:stretch;color:#d17d16;margin:0}.gems-count-details>span{align-items:center;display:flex;flex-direction:row;gap:.5ch}.upgrade-girl{background-image:url(https://hh2.hh-content.com/design_v2/affstar_upgrade.png);background-position:50%;background-size:cover;height:35px;width:35px}.react-tooltip.qh-tooltip{--rt-opacity:0.95;border:1px solid #daa520;font-size:1.25em;text-align:left;z-index:99999}.react-tooltip__place-bottom>.qh-tooltip-arrow{border-left:1px solid #daa520;border-top:1px solid #daa520}.react-tooltip__place-left>.qh-tooltip-arrow{border-right:1px solid #daa520;border-top:1px solid #daa520}.react-tooltip__place-top>.qh-tooltip-arrow{border-bottom:1px solid #daa520;border-right:1px solid #daa520}.react-tooltip__place-right>.qh-tooltip-arrow{border-bottom:1px solid #daa520;border-left:1px solid #daa520}.filler{height:100%;width:100%}.stats-description,.stats-description>.qh-tooltip-wrapper>.stat-icon{height:3em;width:3em}.stat-icon{background-size:cover;display:inline-block;height:1em;vertical-align:top;width:1em}.stat-icon.blessed{-webkit-filter:drop-shadow(3px 3px 5px #006400);filter:drop-shadow(3px 3px 5px darkgreen)}.stat-icon.class_0{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/1.png)}.stat-icon.class_1{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/2.png)}.stat-icon.class_2{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/3.png)}.stat-icon.class_rainbow{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/16.svg)}.pose-icon{background-size:cover;display:inline-block;height:3.5em;width:3.5em}.pose-icon.doggie{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/1.png)}.pose-icon.dolphin{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/2.png)}.pose-icon.missionary{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/3.png)}.pose-icon.sodomy{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/4.png)}.pose-icon.sixnine{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/5.png)}.pose-icon.jackhammer{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/6.png)}.pose-icon.nosedive{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/7.png)}.pose-icon.column{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/8.png)}.pose-icon.indian{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/9.png)}.pose-icon.suspended{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/10.png)}.pose-icon.splitting{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/11.png)}.pose-icon.bridge{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/12.png)}.close-popup{background-image:url(https://hh2.hh-content.com/clubs/ic_xCross.png);background-size:cover;cursor:pointer;height:2.5em;width:2.5em}.element{background-position:50%;background-repeat:no-repeat;background-size:contain;height:2em;min-height:1.2em;min-width:1.2em;width:2em}.element.dark{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Dominatrix.png)}.element.white{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Submissive.png)}.element.purple{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Voyeurs.png)}.element.red{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Eccentric.png)}.element.blue{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Sensual.png)}.element.green{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Exhibitionist.png)}.element.orange{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Physical.png)}.element.yellow{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Playful.png)}.element.rainbow{background-image:url(https://hh2.hh-content.com/pictures/girls_elements/Multicolored.png)}.tile img.tileImg{background-repeat:no-repeat;background-size:cover;border:var(--border-width) solid #fff;border-radius:10px;box-shadow:0 0 5px 1px rgba(52,0,15,.75),inset 0 0 8px rgba(55,30,103,.4);height:var(--image-size);width:var(--image-size)}.tile.common img.tileImg,.tile.starting img.tileImg{background-color:#8d8e9f}.tile.rare img.tileImg{background-color:#23b56b}.tile.epic img.tileImg{background-color:#ffb244}.rarity-bg.common,.rarity-bg.starting{background-color:#8d8e9f}.rarity-bg.rare{background-color:#23b56b}.rarity-bg.epic{background-color:#ffb244}.rarity-bg.legendary{background-color:#8e36a9;background-image:url(https://hh2.hh-content.com/legendary.png)}.rarity-bg.mythic{background-color:#ec0039;background-image:radial-gradient(closest-side at 50% 50%,#f5a866 0,#ec0039 51%,#9e0e27 100%)}.tile.legendary img.tileImg{background-color:#8e36a9;background-image:url(https://hh2.hh-content.com/legendary.png)}.tile.mythic img.tileImg{background-color:#ec0039;background-image:radial-gradient(closest-side at 50% 50%,#f5a866 0,#ec0039 51%,#9e0e27 100%)}.tile.selected{background-color:#61dafb}.tile:hover{background-color:pink}.tile{border-radius:10px;padding:10px}.qh-progress-bar{--main-track-color:rgba(100,149,237,.6);--extra-track-color:#23b56b;--raw-track-color:#2658b5;--raw-track-color-extra-full:#d17d16;--main-track-color-full:rgba(100,149,237,.6);--main-track-color-extra-full:rgba(255,140,0,.6);--extra-track-color-extra-full:rgba(255,140,0,.6);--raw-track-speed:0.15s;--track-speed:0.5s;--track-radius:6px;align-items:stretch;background-color:#000;border:1px solid #fff;border-radius:calc(var(--track-radius) + 1px);display:flex;flex-direction:row;gap:0;min-height:1.2em;padding:0;position:relative;width:14rem}.qh-progress-bar.full{--main-track-color:var(--main-track-color-full)}.qh-progress-bar.extra-full{--main-track-color:var(--main-track-color-extra-full);--raw-track-color:var(--raw-track-color-extra-full);--extra-track-color:var(--extra-track-color-extra-full)}.qh-progress-bar>.main-track{background:var(--main-track-color);border-radius:var(--track-radius) 0 0 var(--track-radius);height:100%;position:absolute}.qh-progress-bar.full>.main-track,.qh-progress-bar.full>.raw-track{border-radius:var(--track-radius)}.qh-progress-bar>.raw-track{background:var(--raw-track-color);border-radius:var(--track-radius) 0 0 var(--track-radius);flex-shrink:0;transition:width var(--raw-track-speed) linear}.qh-progress-bar>.extra-track,.qh-progress-bar>.main-track{transition:width var(--track-speed) ease-in}.qh-progress-bar>.extra-track{background:var(--extra-track-color);border-radius:0 var(--track-radius) var(--track-radius) 0}.qh-progress-bar>.track-label{left:50%;position:absolute;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}.soft_currency{background-image:url(https://hh2.hh-content.com/pictures/design/ic_soft_currency.png);background-size:cover;height:1.5em;width:1.5em}.stats-list>.stat{background-position:0;background-repeat:no-repeat;background-size:1.2em 1.2em;padding-left:1.4em}.stats-list>.stat.hc-stat{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/1.png)}.stats-list>.stat.ch-stat{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/2.png)}.stats-list>.stat.kh-stat{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/3.png)}:root{--rt-color-white:#fff;--rt-color-dark:#222;--rt-color-success:#8dc572;--rt-color-error:#be6464;--rt-color-warning:#f0ad4e;--rt-color-info:#337ab7;--rt-opacity:0.9}.react-tooltip__tooltip_KtSkBq{border-radius:3px;font-size:90%;left:0;opacity:0;padding:8px 16px;pointer-events:none;position:absolute;top:0;transition:opacity .3s ease-out;visibility:hidden;width:-webkit-max-content;width:max-content;will-change:opacity,visibility}.react-tooltip__fixed_KtSkBq{position:fixed}.react-tooltip__arrow_KtSkBq{background:inherit;height:8px;position:absolute;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:8px}.react-tooltip__no-arrow_KtSkBq{display:none}.react-tooltip__clickable_KtSkBq{pointer-events:auto}.react-tooltip__show_KtSkBq{opacity:.9;opacity:var(--rt-opacity);visibility:visible}.react-tooltip__dark_KtSkBq{background:#222;background:var(--rt-color-dark);color:#fff;color:var(--rt-color-white)}.react-tooltip__light_KtSkBq{background-color:#fff;background-color:var(--rt-color-white);color:#222;color:var(--rt-color-dark)}.react-tooltip__success_KtSkBq{background-color:#8dc572;background-color:var(--rt-color-success);color:#fff;color:var(--rt-color-white)}.react-tooltip__warning_KtSkBq{background-color:#f0ad4e;background-color:var(--rt-color-warning);color:#fff;color:var(--rt-color-white)}.react-tooltip__error_KtSkBq{background-color:#be6464;background-color:var(--rt-color-error);color:#fff;color:var(--rt-color-white)}.react-tooltip__info_KtSkBq{background-color:#337ab7;background-color:var(--rt-color-info);color:#fff;color:var(--rt-color-white)}.qh-harem{grid-column-gap:5px;-webkit-column-gap:5px;column-gap:5px;display:grid;grid-auto-rows:minmax(auto,-webkit-max-content);grid-auto-rows:minmax(auto,max-content);grid-template-columns:1.2fr .8fr 1fr;height:100%;width:100%}@media only screen and (max-width:1000px){.qh-harem{grid-template-columns:1.6fr .6fr 1.4fr}}.qh-harem>*{margin-bottom:15px;min-height:0;min-width:0;padding:0 15px}.qh-harem>.harem-toolbar{grid-column:1/4;grid-row:1;padding:10px 15px 0}.qh-harem>.girlsList{grid-column:1/2;grid-row:2}.qh-harem>.pose{grid-column:2;grid-row:2}.qh-harem>.details{grid-column:3;grid-row:2}.harem-toolbar{align-content:center;align-items:center;-webkit-column-gap:15px;column-gap:15px;display:flex;flex-direction:row;flex-wrap:wrap;justify-items:center;margin-bottom:8px}.harem-toolbar>.break{flex-basis:100%;height:0}.quick-search>input.hh-text-input{background-image:url(https://hh2.hh-content.com/pictures/design/form/search_field_L.png);background-position:100% 50%;background-repeat:no-repeat;background-size:40px;font-size:.8em;width:18em}.harem-toolbar>.quick-filters{margin-left:60px}.harem-toolbar>.quick-filters>p{margin:0;padding:0}.harem-toolbar>.quick-filters>.toggle0pose{align-items:center;display:flex;flex-direction:row;font-size:.8em;gap:.5ch}.harem-toolbar>.clear-filters>.hh-action-button{padding:5px;width:10em}.harem-toolbar>.owned-gems-summary>.gems-count>.elementIcon{height:2em;width:2em}.scenes-browser{align-items:middle;display:flex;flex-direction:row;justify-content:left}.scenes-browser img{vertical-align:middle;width:2em}.harem-toolbar>.refresh{margin-right:clamp(1rem,calc(5vw - 3rem),2.5rem)}.harem-toolbar>.refresh[disabled]{-webkit-animation:refresh-blink-animation .75s ease-in-out infinite alternate;animation:refresh-blink-animation .75s ease-in-out infinite alternate}.hh-action-button.filter-sort-icon{background:50%/contain content-box no-repeat url(https://hh2.hh-content.com/design_v2/search_open.png),linear-gradient(180deg,rgba(60,60,60,.7) 0,hsla(0,0%,4%,.9))}.harem-toolbar>.hh-action-button{height:1.5em;width:1.5em}.harem-toolbar>.spacer{margin-left:auto}.harem-toolbar>.filter-sort-icon{padding:.3rem}.harem-toolbar>.filter-sort-icon.closed,.harem-toolbar>.filter-sort-icon.closed>.react-tooltip{-webkit-transform:scaleX(-1);transform:scaleX(-1)}@-webkit-keyframes refresh-blink-animation{0%{-webkit-filter:grayscale(100%);filter:grayscale(100%)}to{-webkit-filter:grayscale(50%);filter:grayscale(50%)}}@keyframes refresh-blink-animation{0%{-webkit-filter:grayscale(100%);filter:grayscale(100%)}to{-webkit-filter:grayscale(50%);filter:grayscale(50%)}}.variations-list{flex-wrap:wrap;gap:10px}.missing-gems,.variations-list{display:flex;flex-direction:row}.missing-gems{align-items:center;gap:.5ch}.girlsList{overflow:auto;padding-left:10px;padding-right:8px;scroll-behavior:smooth}.girlsList>.owned{margin-bottom:15px}.girlsList>div{-webkit-column-gap:5px;column-gap:5px;display:flex;flex-wrap:wrap;row-gap:5px}@media only screen and (max-width:860px){.girlsList>div{-webkit-column-gap:0;column-gap:0}}.pose{align-items:center;display:flex;flex-direction:column;justify-content:baseline;padding-bottom:3%}.pose>img{flex:1 1;min-height:0}.pose-switcher{display:flex;flex-direction:row;gap:1.5ch;margin-top:3%}.pose-switcher>.pose-selector{background-color:#1f2958;border:3px solid #fff;height:1.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:1.5em}@media only screen and (max-width:1000px){.pose-switcher{gap:1ch}.pose-switcher>.pose-selector{border:1px solid #fff;height:.8em;width:.8em}}.pose-switcher>.pose-selector.solid{cursor:pointer}.pose-switcher>.pose-selector.solid.current{background:radial-gradient(#ff0,#ff8c00);box-shadow:0 0 7px #ff8c00;cursor:auto}.pose-switcher>.pose-selector.empty{background-color:grey}.details{display:flex;flex-direction:column}.bio{text-align:justify}.blessed{color:green}.icon-link{align-items:center;-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row}.icon-link>.qh-tooltip-wrapper>img,.icon-link>img{height:1.5em}.harem-upgrade-panel{background-color:#452129;border:1px solid #000;border-radius:15px;bottom:.5rem;box-shadow:0 0 7px #000;box-sizing:border-box;display:flex;flex-direction:column;height:calc(100vh - 1rem - 30px);justify-content:stretch;margin:0;opacity:98%;padding:15px;position:absolute;right:.5rem;width:calc(100vw - 1rem - 30px);z-index:2}@media screen and (min-width:901px) and (min-height:741px){.harem-upgrade-panel{bottom:.5rem;height:80vh;right:2rem;width:30vw}}.lore>p>.soft_currency{display:inline-block}.missing-aff-details,.missing-gems-details,.missing-gxp-details{grid-column-gap:.5em;-webkit-column-gap:.5em;column-gap:.5em;display:grid}.missing-aff-details,.missing-gxp-details{grid-template-columns:repeat(2,auto)}.missing-gems-details{grid-template-columns:repeat(3,auto)}.missing-aff-details>.row-separator,.missing-gems-details>.row-separator,.missing-gxp-details>.row-separator{border-bottom:1px solid #daa520;grid-column-end:-1;grid-column-start:1;margin-block:.5rem}.missing-aff-details>.missing-affection,.missing-gems-details>.gems-count,.missing-gxp-details>.missing-gxp{text-align:right}.qh-harem.edit-teams>.pose{display:none}@media screen and (max-width:1199px){.qh-harem.edit-teams>.details{display:none}.qh-harem.edit-teams>.teams-section{grid-column:2/4}}.hide-tooltips>#harem-tooltip{display:none}@media screen and (max-width:960px){.clear-filters,.edit-teams,.owned-gems-summary,.restore-default-filters{display:none}}@media screen and (max-width:1199px){.details-content>.details-section .qh-progress-bar{width:12rem}}.hh-action-button{background:linear-gradient(180deg,rgba(60,60,60,.7) 0,hsla(0,0%,4%,.9));border:1px solid #ffa23e;border-radius:4px;box-shadow:0 2px 0 #c61f52,0 0 13px rgba(159,7,58,.6),0 0 13px rgba(159,7,58,.95);color:#fff;cursor:pointer;font-size:.8em;outline:none}.hh-action-button.active{background:rgba(60,60,60,.7)}.hh-action-button:hover{border:1px solid #edb273}.hh-action-button:active{border:1px solid #f4c99b}.hh-action-button:disabled,.hh-action-button[disabled]{background:none;background-color:rgba(0,0,0,.3);border:1px solid #ffa23e;box-shadow:none;color:grey;cursor:auto}input.hh-text-input{background-color:rgba(0,0,0,.3);border:1px solid #ffa23e;border-radius:4px;box-shadow:0 2px 0 #c61f52,0 0 13px rgba(159,7,58,.6),0 0 13px rgba(159,7,58,.95);color:#fff;outline:none}input.hh-text-input.number{width:7ch}button.toggle.pressed{background-image:linear-gradient(180deg,#ffa23e 0,#c41b53)}.inactive>button.toggle.pressed{background-image:linear-gradient(180deg,rgba(0,0,0,.3) 0,rgba(88,88,88,.3));color:#a9a9a9}.hh-game-action{background-image:linear-gradient(0deg,#619f00 0,#570);border:1px solid #000;border-radius:15px;box-shadow:0 3px 0 rgba(23,33,7,.6),inset 0 3px 0 #95ed3f;color:#fff;cursor:pointer}.hh-game-action:active{box-shadow:none;outline:0;transition:box-shadow 90ms ease-in-out}.tab-folder{display:flex;flex-direction:column;position:absolute;right:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:3}.tab-folder>.tab{align-items:center;background-color:#000;border:1px solid #fff;border-radius:5px;border-right:none;cursor:pointer;display:flex;justify-content:center;min-height:115px;min-width:1.5em;padding:3px}.tab-folder>.tab.active{background-color:#00bfff}.tab-folder>.tab>.tab-label{-webkit-user-select:none;user-select:none;-webkit-writing-mode:vertical-rl;writing-mode:vertical-rl}.qh-panel{background-color:#452129;border:1px solid #000;border-radius:15px;box-shadow:0 0 7px #000;height:80%;max-width:calc(100vw - 2em);min-width:35%;opacity:98%;padding:15px 30px;position:absolute;right:1em;top:50%;transition:visibility .5s ease-in,-webkit-transform .5s ease-in;transition:transform .5s ease-in,visibility .5s ease-in;transition:transform .5s ease-in,visibility .5s ease-in,-webkit-transform .5s ease-in;z-index:2}.App.game-extension>.qh-panel{box-sizing:border-box}.qh-panel.visible{-webkit-transform:translateY(-50%);transform:translateY(-50%);visibility:visible}.qh-panel.hidden{-webkit-transform:translateY(-50%) translateX(105%);transform:translateY(-50%) translateX(105%);visibility:hidden}.qh-panel>.panel{overflow:auto}.qh-panel>.panel.hidden{display:none}.qh-panel>.panel-tab-folder{align-items:center;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;justify-content:flex-end}.panel-tab-folder>.tab{color:#d08467;cursor:pointer;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000}.panel-tab-folder>.tab.active{color:#ffb827;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,-2px -2px 5px rgba(255,159,0,.4),2px -2px 5px rgba(255,159,0,.4),-2px 2px 5px rgba(255,159,0,.4),2px 2px 5px rgba(255,159,0,.4),0 0 10px rgba(255,159,0,.4)}.qh-panel>.panel>h2{font-size:1.5em}.qh-panel>.panel>p{margin:8px}.panel.summary{min-width:55vw}.panel.summary,.summary-content{align-items:center;display:flex;flex-direction:column}.summary-content{align-self:stretch;margin-bottom:20px;overflow:auto}.game-extension.hidden>.qh-panel{transition:none;visibility:inherit}.qh-panel{display:flex;flex-direction:column;row-gap:1em}.qh-panel>.panel>.close-popup{position:absolute;right:65px;top:15px}.panel.filters,.panel.filters>.filters-list,.panel.sort{display:flex;flex-direction:column}.panel.filters>.filters-list{align-items:flex-start;gap:5px;margin-top:10px;overflow-x:clip;overflow-y:auto}.filter-entry{display:flex;flex-direction:row;gap:5px}.filter-entry>.filter-label{display:inline-block;min-width:14ch;text-align:left}.filter-entry button.toggle{min-width:10ch}.filter-entry.power>button.toggle,.filter-entry.rarity>button.toggle{min-width:0;min-width:auto;padding-left:8px;padding-right:8px}.qh-filter-status{background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;height:30px;margin-right:5px;width:30px}.qh-filter-status.active{background-image:url(https://hh2.hh-content.com/design/green_tick.png)}.qh-filter-status.ready{background-image:url(https://hh2.hh-content.com/design/green_tick_empty.png)}.qh-filter-status.invalid{background-image:url(https://hh2.hh-content.com/clubs/ic_xCross.png);cursor:auto}.manage-filters{display:flex;flex-direction:row;gap:10px;justify-content:center}.sort-list>button.hh-action-button.active{background:linear-gradient(180deg,#ffa23e 0,#c41b53)}.sort-list{align-items:flex-start;display:flex;flex-direction:column;gap:10px;overflow:auto}.sort-list>*{min-width:30%}.element-blessing,.toggle-filter.Element{align-items:center;display:flex;flex-direction:row;flex-wrap:nowrap;gap:.5ch}.element-blessing>.element{display:inline}.resources-summary{width:100%}.resources-summary>.gems-summary{-webkit-column-gap:2em;column-gap:2em;display:inline-grid;grid-template-columns:repeat(auto-fit,15ch);justify-content:center;justify-items:left;width:100%}@media screen and (min-width:900px){.resources-summary>.gems-summary{grid-template-columns:repeat(4,15ch)}}.resources-summary>.gems-summary>*{align-items:center;-webkit-column-gap:.8em;column-gap:.8em;display:flex;flex-direction:row}.blessing-summary-entry.Pose{-webkit-column-gap:.5em;column-gap:.5em}.blessing-summary-entry.Pose,.blessing-summary-entry.Pose span{align-items:center;display:flex;flex-direction:row}.blessing-summary-entry.Pose .unknown-pose{display:inline-block;height:1.8em;line-height:1.8em;text-align:center;vertical-align:center;width:1.8em}.blessing-summary-entry.Pose .pose-icon{height:2.5em;margin:-.35em;width:2.5em}.summary-content>p>.ego-bonus{align-items:center;display:inline-flex;flex-direction:row}.summary-content>p>.ego-bonus>.endurance-icon{height:1.25em;margin-left:.4em}button.toggle.qh-class{background-image:var(--class-image),linear-gradient(to bottom,rgba(60,60,60,.7) 0,hsla(0,0%,4%,.9) 100%);background-position:10px,0 0;background-repeat:no-repeat;background-size:auto 80%,auto auto;padding-left:20px}button.toggle.qh-class.pressed{background-image:var(--class-image),linear-gradient(to bottom,#ffa23e 0,#c41b53 100%)}.inactive>button.toggle.qh-class.pressed{background-image:var(--class-image),linear-gradient(to bottom,rgba(0,0,0,.3) 0,rgba(88,88,88,.3) 100%)}button.toggle.qh-class.hardcore{--class-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/1.png)}button.toggle.qh-class.charm{--class-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/2.png)}button.toggle.qh-class.knowhow{--class-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/3.png)}:root{--var-color-common:#8d8e9f;--var-color-rare:#23b56b;--var-color-epic:#ffb244;--var-color-legendary:#8e36a9;--var-color-mythic:#ec0039}.color>span{--var-color:#fff;--var-shadow-color:#000;color:var(--var-color);font-weight:700;text-shadow:1px 1px 0 var(--var-shadow-color),-1px 1px 0 var(--var-shadow-color),-1px -1px 0 var(--var-shadow-color),1px -1px 0 var(--var-shadow-color)}.color>.blue{--var-color:#24a0ff}.color>.golden{--var-color:#ffb923}.color>.green{--var-color:#00e772}.color>.brown{--var-color:#cb6f2b}.color>.pink{--var-color:#ff5a81}.color>.red{--var-color:#ff2a52}.color>.purple{--var-color:#e42eff}.color>.orange{--var-color:#ff9600}.color>.silver{--var-color:#ccc}.color>.darkPink{--var-color:#ca0080}.color>.black{--var-shadow-color:#24a0ff;--var-color:#000}.color>.grey{--var-color:#999}.color>.unknown{--var-color:#fff}.color>.dark{--var-color:#67422a;--var-shadow-color:#fff}.color>.darkBlond{--var-color:#cb6f2b}.color>.strawberryBlond{--var-color:#ffa792}.color>.blond{--var-color:#fff049}.color>.rarity.starter,.color>.white{--var-color:#fff}.color>.rarity.common{--var-color:var(--var-color-common)}.color>.rarity.rare{--var-color:var(--var-color-rare)}.color>.rarity.epic{--var-color:var(--var-color-epic)}.color>.rarity.legendary{--var-color:var(--var-color-legendary)}.color>.rarity.mythic{--var-color:var(--var-color-mythic)}:root{--border-width:1px;--image-size:55px}.girlTile,.tile{display:inline-block;position:relative;text-align:center;-webkit-user-select:none;user-select:none}@media only screen and (min-width:1281px) and (min-height:721px){:root{--border-width:2px;--image-size:75px}}@media only screen and (min-width:1921px) and (min-height:901px){:root{--border-width:3px;--image-size:120px}}@media only screen and (min-width:2561px) and (min-height:1201px){:root{--border-width:4px;--image-size:145px}}.girlTile>.avatar-area>.lazyload-wrapper>.tile-avatar{vertical-align:middle}.girlTile>.avatar-area{padding:5px 10px 0;position:relative}.tile-avatar{border:1px solid #fff;border:var(--border-width) solid #fff;border-radius:8px;display:block;height:55px;height:var(--image-size);overflow:hidden;width:55px;width:var(--image-size)}.girlTile>.grade{align-items:stretch;display:flex;flex-direction:row;flex-wrap:nowrap;height:1em;justify-content:center;margin-bottom:3%;margin-top:15%;width:100%}.grade>.star{background-repeat:no-repeat;background-size:contain;margin-inline:-1.8%;width:16%}.star.empty{background-image:url(https://hh.hh-content.com/design_v2/affstar_empty_S.png)}.star.solid{background-image:url(https://hh.hh-content.com/design_v2/affstar_S.png)}.star.solid.current{-webkit-filter:drop-shadow(0 0 3px orange);filter:drop-shadow(0 0 3px orange)}.avatar-area>.element{bottom:0;height:30%;left:50%;position:absolute;-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%);width:30%}.qh_shards{background-image:url(https://hh2.hh-content.com/shards.png);background-position:0;background-repeat:no-repeat;background-size:40px 40px;color:#80058b;font-weight:700;left:50%;padding-left:36px;position:absolute;text-align:center;text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,-1px -1px 0 #fff,1px -1px 0 #fff;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);z-index:1}.qh_shards>img{height:40px;width:40px}.girlTile>.avatar-area>.lazyload-wrapper>.tile-avatar{background-repeat:no-repeat;background-size:cover;box-shadow:0 0 5px 1px rgba(52,0,15,.75),inset 0 0 8px rgba(55,30,103,.4)}.girlTile.common>.avatar-area>.lazyload-wrapper>.tile-avatar,.girlTile.starting>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#8d8e9f}.girlTile.rare>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#23b56b}.girlTile.epic>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#ffb244}.girlTile.legendary>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#8e36a9;background-image:url(https://hh2.hh-content.com/legendary.png)}.girlTile.mythic>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#ec0039;background-image:radial-gradient(closest-side at 50% 50%,#f5a866 0,#ec0039 51%,#9e0e27 100%)}.girlTile>.avatar-area>.soft_currency{bottom:-10px;height:2em;left:-5px;position:absolute;visibility:hidden;width:2em}.girlTile.salary>.avatar-area>.soft_currency{visibility:inherit}.girlTile>.upgrade-girl{height:2.5em;position:absolute;right:0;top:35%;-webkit-transform:translate(30%,-50%);transform:translate(30%,-50%);width:2.5em;z-index:1}.girlTile{border-radius:10px}.girlTile.not-owned>.avatar-area>.lazyload-wrapper{opacity:.5}.girlTile:hover{background-color:pink}.girlTile.selected{background-color:#61dafb}@media screen and (max-width:1199px){.girlTile>.avatar-area{padding:.25rem .5rem 0}}@media screen and (max-width:960px){.girlTile>.girl-header{font-size:.8em;left:50%;position:absolute;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000;top:5px;top:calc(var(--border-width) + 4px);-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:1}.girlTile>.avatar-area>.equipment-decorators{top:18px}}.qh-girls-equipment{-webkit-column-gap:.8rem;column-gap:.8rem;display:flex;flex-direction:row;flex-wrap:wrap;row-gap:.4rem}button.item-action,img.girls-equipment-icon{border:var(--border-width) solid #fff;border-radius:8px;cursor:pointer;height:calc(var(--image-size)/2);width:calc(var(--image-size)/2)}button.item-action:disabled,button.unequip-one-decorator:disabled{cursor:default;-webkit-filter:grayscale(1);filter:grayscale(1)}.App button.item-action{padding:0}button.item-action{background-position:50%;background-repeat:no-repeat;background-size:contain;border-color:#d3d3d3}.girl-item-icon-wrapper{position:relative}button.item-action.unequip-one{background-color:initial;background-image:url(https://hh.hh-content.com/clubs/ic_xCross.png);background-position:50%;background-repeat:no-repeat;background-size:contain;border:none;border-radius:0;height:calc(var(--image-size)/5);position:absolute;right:max(5px,calc(var(--image-size)/20));top:max(5px,calc(var(--image-size)/20));width:calc(var(--image-size)/5)}button.equip-all{background-image:url(https://hh.hh-content.com/pictures/design/equip_all_icon.png)}button.unequip-all{background-image:url(https://hh.hh-content.com/clubs/ic_xCross.png)}button.open-inventory{background-image:url(https://hh2.hh-content.com/design/resource_backpack.png);background-origin:content-box;background-size:75% 75%}.rarity-bg.none,button.item-action{background-color:#662034}.equipment-decorators{-webkit-column-gap:3px;column-gap:3px;display:flex;flex-direction:row;left:50%;position:absolute;top:1rem;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.equipment-decorator{--item-rarity-color:#fff;background-color:rgba(50,50,50,.8);height:.5em;position:relative;width:.3em}.equipment-decorator,.equipment-decorator.level0{border:1px solid #000}.equipment-decorator.level10{border:1px solid var(--item-rarity-color)}.equipment-decorator.mythic{--item-rarity-color:var(--var-color-mythic)}.equipment-decorator.legendary{--item-rarity-color:var(--var-color-legendary)}.equipment-decorator.epic{--item-rarity-color:var(--var-color-epic)}.equipment-decorator.rare{--item-rarity-color:var(--var-color-rare)}.equipment-decorator.common{--item-rarity-color:var(--var-color-common)}.equipment-decorator>.track{background-color:var(--item-rarity-color);bottom:0;position:absolute;width:100%}.qh-equipment-tooltip{--rarity-background:transparent;padding-bottom:1rem}.qh-equipment-tooltip.mythic{--rarity-background:var(--var-color-mythic)}.qh-equipment-tooltip.legendary{--rarity-background:var(--var-color-legendary)}.qh-equipment-tooltip.epic{--rarity-background:var(--var-color-epic)}.qh-equipment-tooltip.rare{--rarity-background:var(--var-color-rare)}.qh-equipment-tooltip.common{--rarity-background:var(--var-color-common)}.qh-equipment-tooltip>h2{font-size:1.25em;margin-bottom:.5em;padding:.25em}.qh-equipment-resonance,.qh-equipment-stats{display:flex;flex-direction:column;padding-left:2rem;row-gap:.25em}.qh-equipment-resonance>span,.qh-equipment-stats>span{align-items:center;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;justify-content:left}.qh-equipment-resonance>span>.attack-icon,.qh-equipment-resonance>span>.defense-icon,.qh-equipment-resonance>span>.ego-icon,.qh-equipment-resonance>span>.element,.qh-equipment-resonance>span>.pose-icon,.qh-equipment-resonance>span>.stat-icon,.qh-equipment-stats>span>.attack-icon,.qh-equipment-stats>span>.defense-icon,.qh-equipment-stats>span>.ego-icon,.qh-equipment-stats>span>.stat-icon{height:2em;width:2em}.active-resonance{color:green}.disabled-resonance,.inactive-resonance{color:#d3d3d3}.disabled-resonance>.element,.disabled-resonance>.pose-icon,.disabled-resonance>.stat-icon{-webkit-filter:grayscale(1);filter:grayscale(1)}.stats-diff.positive{color:green}.stats-diff.negative{color:red}.item-level-decorator{align-items:center;background-color:#b14;border:min(2px,var(--border-width)) solid #f70;border-radius:100%;bottom:3px;display:flex;font-size:.7em;height:30%;justify-content:center;left:3px;line-height:100%;pointer-events:none;position:absolute;text-align:center;width:30%}.qh-quick-equipment{background-color:hsla(0,0%,8%,.8);border:2px solid #daa520;border-radius:15px;display:flex;flex-direction:column;height:30vh;padding:.5em;row-gap:1em;width:30vw}@media screen and (max-width:1280px){.qh-quick-equipment{height:80vh;width:80vw}}.qh-quick-inventory{-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row;flex-wrap:wrap;justify-self:center;overflow:auto;row-gap:1em}.girls-inventory{background-color:rgba(30,30,30,.9);border:1px solid #daa520;border-radius:10px;display:flex;flex-direction:column;height:60vh;width:80vw}.girls-inventory-content{-webkit-column-gap:1rem;column-gap:1rem;display:flex;flex-direction:row;font-size:1.25em;min-height:0}.girls-inventory-content>.girls-list>div.inv-placeholder{display:none}.item-slot.selected img.girls-equipment-icon{border-color:#1e90ff}.girls-inventory-content>*{overflow-x:hidden;overflow-y:auto}.girls-inventory-content>.girls-list{--icon-height:1.8em;align-content:start;align-items:stretch;display:grid;flex-direction:column;grid-template-columns:repeat(14,auto);grid-template-rows:auto calc(var(--image-size)/2);min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;padding-inline:1rem;padding-right:30px}.girls-inventory-content>.girls-list>.inv-placeholder,.girls-inventory-content>.girls-list>.item-slot{box-sizing:border-box;padding-right:4px}.girls-inventory-content>.girls-list>.stat,.girls-inventory-content>.girls-list>.stat-res{-webkit-column-gap:.25em;column-gap:.25em;display:flex;flex-direction:row;row-gap:.25em}.girls-inventory-content>.girls-list>.stat-res.header{flex-direction:row}.girls-inventory-content>.girls-list>div.stat,.girls-inventory-content>.girls-list>div.stat-res{padding:0;width:4ch}.girls-inventory-content>.girls-list>div.stat-res{width:5.5ch}.girls-inventory-content>.girls-list>.stat-res>.stat-bonus.pos:before,.girls-inventory-content>.girls-list>.stat>.stat-bonus.pos:before{content:"+"}.stat-bonus.pos{color:green}.stat-bonus.neg{color:red}@media screen and (max-width:1800px){.girls-inventory-content>.girls-list{grid-template-columns:repeat(9,auto)}.girls-inventory-content>.girls-list>.item-slot{display:none}.girls-inventory-content>.girls-list>.item-slot.selected,.girls-inventory-content>.girls-list>div.inv-placeholder{display:flex}.item-slot.selected img.girls-equipment-icon{border-color:#fff}}@media screen and (max-width:1100px){.girls-inventory{height:90vh;width:85vw}.girls-inventory-content>.girls-list{grid-template-columns:repeat(6,auto)}.girls-inventory-content>.girls-list>.stat{display:none}.girls-inventory-content>.girls-list>.total-stats{display:flex}}.girls-inventory-content>.girls-list>*>.stat-value{display:none}.girls-inventory-content>.girls-list>.equipment>.stat-value{display:inline;display:initial}.girls-inventory-content>.girls-list>div{align-items:center;display:flex;justify-content:center}.girls-inventory-content>.girls-list>div.stat,.girls-inventory-content>.girls-list>div.stat-res{border:1px dashed grey;border-radius:0}.girls-inventory-content>.girls-list>div.header{height:var(--icon-height)}.girls-inventory-content>.girls-list>div.equipment,.girls-inventory-content>.girls-list>div.header{background-color:rgba(30,30,30,.9);border:none;position:-webkit-sticky;position:sticky;top:0;z-index:50}.girls-inventory-content>.girls-list>div.equipment{top:var(--icon-height)}.girls-inventory-content>.girls-list>div>.attack-icon,.girls-inventory-content>.girls-list>div>.defense-icon,.girls-inventory-content>.girls-list>div>.ego-icon,.girls-inventory-content>.girls-list>div>.stat-icon{height:var(--icon-height);width:var(--icon-height)}.girls-inventory-content>.girls-list .qh-girls-equipment{flex-wrap:nowrap}.girls-inventory-content>.girls-list .tile-avatar{height:calc(var(--image-size)*.5);width:calc(var(--image-size)*.5)}.girls-inventory-content>.qh-inventory{align-content:flex-start;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;flex-wrap:wrap;padding:.5rem;row-gap:.5em}.girl-tooltip{align-items:center;display:flex;flex-direction:column;padding:.5rem;row-gap:.5rem;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.girl-tooltip.show-border{border:2px solid #fff;border-radius:1em}.element-and-pose{--var-icon-size:3.5em;align-items:center;display:flex;flex-direction:row}.element-and-pose>.element{height:calc(var(--var-icon-size)*.657);width:calc(var(--var-icon-size)*.657)}.element-and-pose>.pose-icon{height:var(--var-icon-size);width:var(--var-icon-size)}.girl-tooltip>h2,.girl-tooltip>h3{margin:0;padding:0}.girl-tooltip.common,.girl-tooltip.starting{border-color:#8d8e9f}.girl-tooltip.rare{border-color:#23b56b}.girl-tooltip.epic{border-color:#ffb244}.girl-tooltip.legendary{border-color:#8e36a9}.girl-tooltip.mythic{border-color:#ec0039}.girl-tooltip.common>.qh-girl-name,.girl-tooltip.starting>.qh-girl-name{color:#8d8e9f}.girl-tooltip.rare>.qh-girl-name{color:#23b56b}.girl-tooltip.epic>.qh-girl-name{color:#ffb244}.girl-tooltip.legendary>.qh-girl-name{color:#8e36a9}.girl-tooltip.mythic>.qh-girl-name{color:#ec0039}.girl-tooltip>.grade{align-items:stretch;display:flex;flex-direction:row;flex-wrap:nowrap;height:2.2rem;justify-content:center;width:100%}.girl-tooltip>.grade>.star{margin-inline:0;width:2.2rem}.girl-tooltip>.stats-section{align-items:center;display:flex;flex-direction:column}.qh-scene-viewer{background-color:#452129;border-radius:15px;box-shadow:0 0 7px #000;display:flex;flex-direction:column;height:98vh;position:relative;width:98vw}.qh-scene-viewer>h2{font-size:1.5em;padding-inline:2em}.qh-scene-viewer>.close-popup{position:absolute;right:2.5rem;top:2rem}.qh-scene-content{display:flex;flex-direction:row;flex-grow:1;min-height:0;min-width:0;overflow:clip}.qh-scene-content>.qh-scene-area{flex-grow:1;flex-shrink:1;padding:3px 3px 1em;position:relative}.qh-scene-area>img{-webkit-filter:drop-shadow(0 3px 0 #fff) drop-shadow(0 -3px 0 #fff) drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff);filter:drop-shadow(0 3px 0 white) drop-shadow(0 -3px 0 white) drop-shadow(-3px 0 0 white) drop-shadow(3px 0 0 white);height:100%;object-fit:contain;object-position:bottom;width:100%}.qh-scene-content>.side-bar{align-items:stretch;display:flex;flex-direction:column;justify-content:flex-end;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;padding:1rem;row-gap:1rem;width:10%}.qh-scene-content>.side-bar>.navigate{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row;justify-content:center}.qh-scene-content>.side-bar>.navigate>button{background-origin:content-box,border-box;background-position:50%;background-repeat:no-repeat;background-size:contain;border:1px solid #000;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;cursor:pointer;height:4em;padding:.5em;width:4em}.qh-scene-content>.side-bar>.navigate>button:active{box-shadow:none}.qh-scene-content>.side-bar>.navigate>button.previous{background-image:url(https://hh2.hh-content.com/design/ic_arrow-left-ffffff.svg),linear-gradient(0deg,#008ed5 0,#05719c)}.qh-scene-content>.side-bar>.navigate>button.next{background-image:url(https://hh2.hh-content.com/design/ic_arrow-right-ffffff.svg),linear-gradient(0deg,#008ed5 0,#05719c)}.qh-scene-content>.side-bar>button.hh-game-action{font-size:1.5em;min-height:4em;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;padding-inline:.5em}.qh-scene-area>.overlay{position:absolute}.qh-scene-area>.qh-scene-dialogue{bottom:1rem;font-family:Kalam,cursive;font-size:2em;left:50%;text-shadow:0 0 10px #000;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:80%}.qh-scene-area>.toggle-text{background-color:initial;background-image:url(https://hh2.hh-content.com/quest/ic_eyeclosed.svg);background-position:50%;background-repeat:no-repeat;background-size:contain;border:none;bottom:2rem;cursor:pointer;min-height:4rem;min-width:4rem;opacity:0;right:calc(10% - 4rem);transition:opacity .3s ease-in}.qh-scene-area:hover>.toggle-text{opacity:1}.qh-scene-area>.toggle-text.show{background-image:url(https://hh2.hh-content.com/quest/ic_eyeopen.svg)}button.hh-game-action.upgrade{align-items:center;-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row;justify-content:center;padding-inline:1em}button.hh-game-action.upgrade>.currency-icon{background-image:url(https://hh2.hh-content.com/pictures/design/ic_soft_currency.png);background-size:cover;height:1.5em;width:1.5em}@media (min-aspect-ratio:7/3){.qh-scene-area>.qh-scene-dialogue{width:60%}.qh-scene-area>.toggle-text{right:calc(18% - 4rem)}}@media (min-aspect-ratio:26/9){.qh-scene-area>.qh-scene-dialogue{width:40%}.qh-scene-area>.toggle-text{right:calc(28% - 4rem)}}@media (min-aspect-ratio:4/1){.qh-scene-area>.qh-scene-dialogue{width:20%}.qh-scene-area>.toggle-text{right:calc(38% - 4rem)}}.team{align-items:center;display:flex;flex-direction:column}.team-girls-list{--hex-image-size:calc(var(--image-size)*0.8);--hex-border-width:max(calc(var(--border-width)*1.5),2px);--hex-horizontal-shift:min(0.8rem,0.15 * var(--hex-image-size));--hex-clip-path:polygon(98.66025% 45%,99.39693% 46.5798%,99.84808% 48.26352%,100% 50%,99.84808% 51.73648%,99.39693% 53.4202%,98.66025% 55%,78.66025% 89.64102%,77.66044% 91.06889%,76.42788% 92.30146%,75% 93.30127%,73.4202% 94.03794%,71.73648% 94.48909%,70% 94.64102%,30% 94.64102%,28.26352% 94.48909%,26.5798% 94.03794%,25% 93.30127%,23.57212% 92.30146%,22.33956% 91.06889%,21.33975% 89.64102%,1.33975% 55%,0.60307% 53.4202%,0.15192% 51.73648%,0% 50%,0.15192% 48.26352%,0.60307% 46.5798%,1.33975% 45%,21.33975% 10.35898%,22.33956% 8.93111%,23.57212% 7.69854%,25% 6.69873%,26.5798% 5.96206%,28.26352% 5.51091%,30% 5.35898%,70% 5.35898%,71.73648% 5.51091%,73.4202% 5.96206%,75% 6.69873%,76.42788% 7.69854%,77.66044% 8.93111%,78.66025% 10.35898%);display:grid}.team-participant img{height:var(--hex-image-size);width:var(--hex-image-size)}.qh-hexagon-outer{align-content:center;background-color:#fff;box-sizing:border-box;-webkit-clip-path:var(--hex-clip-path);clip-path:var(--hex-clip-path);cursor:pointer;display:flex;justify-content:center;padding:var(--hex-border-width)}.qh-hexagon-outer.selected{background-color:#b85374}.qh-hexagon{-webkit-clip-path:var(--hex-clip-path);clip-path:var(--hex-clip-path)}.qh-hexagon.empty-slot{background:transparent linear-gradient(180deg,#370012,#652438) 0 0 no-repeat padding-box}.team-overview{cursor:pointer;min-height:2rem;padding-bottom:1.35em;position:relative}.team-overview>.avatar-area>.elements{bottom:0;-webkit-column-gap:.3rem;column-gap:.3rem;display:flex;flex-direction:row;justify-content:center;left:50%;position:absolute;-webkit-transform:translateX(-50%) translateY(50%);transform:translateX(-50%) translateY(50%)}.team-overview.inactive{cursor:default}.teams-list{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center}.tile.team-overview.inactive .bg{align-items:center;background-color:#300912;border:none;border:var(--hex-border-width) solid transparent;border-radius:10px;box-shadow:none;display:flex;height:var(--image-size);justify-content:center;width:var(--image-size)}.team-editor{display:flex;flex-direction:column;row-gap:1em}.team-editor>.actions{align-items:center;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;justify-content:center}.team-editor>.actions>button{min-height:2em;min-width:8em}.team-stats{grid-row-gap:.25rem;grid-column-gap:2rem;align-self:stretch;-webkit-column-gap:2rem;column-gap:2rem;display:grid;grid-template-columns:repeat(2,auto);min-width:10em;row-gap:.25rem}.team-stats>span{background-color:#4f222e;background-position:0;background-repeat:no-repeat;background-size:contain;border:1px solid #dc659c;border-radius:4px;box-shadow:0 3px rgba(13,22,25,.35);padding-block:3px;padding-left:3rem;padding-right:1rem;text-align:right}.team-stats>.attack{background-image:url(https://hh2.hh-content.com/caracs/damage.png)}.team-stats>.defense{background-image:url(https://hh2.hh-content.com/caracs/deff_undefined.png)}.team-stats>.ego{background-image:url(https://hh2.hh-content.com/caracs/ego.png)}.team-stats>.harmony{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/5.png)}.team>.team-elements{-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row}.team-header{align-items:center;display:flex;flex-direction:row}.team-header>.close-popup{height:2em;margin-left:auto;margin-right:2rem;width:2em}.hex-tile{display:flex;flex-direction:row;margin-bottom:1rem;position:relative}.hex-tile>.element{bottom:0;height:min(2em,2rem);left:50%;position:absolute;-webkit-transform:translateX(-50%) translateY(calc(50% - var(--hex-border-width)));transform:translateX(-50%) translateY(calc(50% - var(--hex-border-width)));width:min(2em,2rem)}.team-girls-list>.item_6,.team-girls-list>.item_7{grid-column:1;-webkit-transform:translateX(calc(var(--hex-horizontal-shift)*1));transform:translateX(calc(var(--hex-horizontal-shift)*1))}.team-girls-list>.item_1,.team-girls-list>.item_2,.team-girls-list>.item_5{grid-column:2}.team-girls-list>.item_3,.team-girls-list>.item_4{grid-column:3;-webkit-transform:translateX(calc(var(--hex-horizontal-shift)*-1));transform:translateX(calc(var(--hex-horizontal-shift)*-1))}.team-girls-list>.item_1{grid-row:3/5}.team-girls-list>.item_2{grid-row:1/3}.team-girls-list>.item_5{grid-row:5/7}.team-girls-list>.item_3,.team-girls-list>.item_7{grid-row:2/4}.team-girls-list>.item_4,.team-girls-list>.item_6{grid-row:4/6}.team-overview.tile.inactive>.bg>.lock-icon{width:2em}.team{-webkit-column-gap:.75em;column-gap:.75em;row-gap:1em}@media screen and (max-width:1199px){.team-stats{align-self:center;grid-template-columns:repeat(1,auto)}.team{flex-direction:row}}.harem-upgrade{display:flex;flex-direction:column;height:100%;position:relative;row-gap:.3em;width:100%}.harem-upgrade>.close-popup{position:absolute;right:.5rem;top:.5rem}.harem-upgrade>.items-and-actions{gap:1em}.harem-upgrade>.items-and-actions,.qh-inventory{display:flex;flex-direction:column;min-height:1rem}.qh-inventory{row-gap:.5rem}.qh-inventory>h3{margin:0;padding:0}.upgrade-items-list{-webkit-column-gap:.5rem;column-gap:.5rem;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;overflow:auto;row-gap:.2em}.itemTile>.tile-image-area{position:relative}.itemTile>.tile-image-area>.item-count{background-color:#3c1f24;border-radius:3px 3px 3px 3px;bottom:0;left:0;min-width:1em;padding:0 .2em;position:absolute}.harem-upgrade-actions{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row}.harem-upgrade-actions>.hh-action-button{font-size:1.2em;padding:.4em .8em}.harem-upgrade-actions>.spacer{margin-left:auto}.harem-upgrade-pages{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row;justify-content:center}.harem-upgrade-pages>*{color:#d08467;cursor:pointer;font-size:1.3em;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000}.harem-upgrade-pages>.active{color:#ffb827;cursor:auto;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,-2px -2px 5px rgba(255,159,0,.4),2px -2px 5px rgba(255,159,0,.4),-2px 2px 5px rgba(255,159,0,.4),2px 2px 5px rgba(255,159,0,.4),0 0 10px rgba(255,159,0,.4)}.girls-selector{-webkit-column-gap:1rem;column-gap:1rem;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;row-gap:.5em}.girls-selector>.girl-rank{flex-basis:100%}.girls-selector .next-girl,.girls-selector .previous-girl{opacity:.6}.aff-status,.xp-status{align-items:center;border-block:1px solid #fff;-webkit-column-gap:1rem;column-gap:1rem;display:flex;flex-direction:row;flex-wrap:wrap;font-size:.9em;justify-content:center;min-height:4rem;padding-bottom:.5rem}.aff-status .qh-progress-bar,.xp-status .qh-progress-bar{font-size:.9em}.xp-status .gems-awakening{margin-top:.5em;min-width:14rem}.xp-status>span{display:flex;flex-direction:column}@media screen and (max-height:500px){.harem-upgrade{grid-gap:1em;display:grid;gap:1em;grid-template-columns:repeat(2,1fr)}}.popup-overlay{background-color:rgba(0,0,0,.5)}.qh-popup{background-color:rgba(32,3,7,.95);border:2px solid #905312;border-radius:15px;box-shadow:0 0 7px #000;display:flex;flex-direction:column;height:50vh;padding:2rem;width:40vw}@media screen and (max-width:1920px){.qh-popup{height:70vh;width:70vw}}@media screen and (max-width:1280px){.qh-popup{height:95vh;width:95vw}}.qh-popup>.close-popup{position:absolute;right:1.5rem;top:1.5rem}.awaken-summary{display:flex;flex-direction:row;gap:.3em;justify-content:center}button.awaken{background-image:url(https://hh2.hh-content.com/design/ic_gem.svg);background-origin:content-box;background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;padding:.2em}button.awaken.overlay{background-image:url(https://hh2.hh-content.com/design/ic_gem.svg),linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;border:none;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;height:1.5rem;position:absolute;right:0;top:50%;-webkit-transform:translateX(30%) translateY(-50%);transform:translateX(30%) translateY(-50%);width:1.5rem}button.awaken.overlay:active{box-shadow:none}.awakening-popup{display:flex;flex-direction:column}.awakening-popup-content{display:grid;flex-shrink:1;font-size:1.5em;grid-template-columns:.5fr .7fr;min-height:0;overflow:auto}.awakening-popup-content>.pose{display:flex;min-height:0;min-width:0}.hh-game-action.do-awaken{display:flex;flex-direction:column;padding:.5rem 2rem}.hh-game-action.do-awaken>.gems-cost{display:flex;flex-direction:row;gap:.5em}.awakening-details{align-items:flex-start;display:flex;flex-direction:column;gap:2em}.awakening-details>h2{color:#ffb827;font-size:2em}.awakening-description{display:flex;flex-direction:row}.awakening-details .highlight-value{color:#ffb827}.chevron-right{align-self:center;background-image:url(https://hh2.hh-content.com/clubs/ic_FilterBtnUP.png);background-origin:content-box;height:1.5em;-webkit-transform:rotate(90deg);transform:rotate(90deg);width:1.5em}.chevron-right,button.upgrade.overlay{background-position:50%;background-repeat:no-repeat;background-size:contain}button.upgrade.overlay{background-image:url(https://hh2.hh-content.com/design_v2/upgrade_icn.png),linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;border:1px solid #000;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;cursor:pointer;height:1.5rem;padding:.2em;position:absolute;right:0;top:50%;-webkit-transform:translateX(30%) translateY(-50%);transform:translateX(30%) translateY(-50%);width:1.5rem}button.upgrade.overlay:active{box-shadow:none}.max-content-popup{display:flex;flex-direction:column;font-size:1.2em}.max-content-popup>h2{border-bottom:1px solid #8e0333;font-size:1.5em;padding-bottom:.6em}.max-content-popup>.qh-inventory{flex-grow:1;padding-top:1em}.max-content-popup>.note{border-block:1px solid #8e0333;padding-block:1em;text-align:center}.max-content-popup>.note>.value{color:#ffb918}.max-out-actions{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;row-gap:1em}.max-out-actions>span{flex-basis:100%;text-align:center}.max-out-actions button{min-height:4rem;min-width:8rem}body.qh-local{background-color:#452129;color:#fff}.App{color:#fff;text-align:center}@media screen and (max-width:960px){#popup-root,.App{font-size:.6em}}@media screen and (min-width:961px) and (max-width:1280px){#popup-root,.App{font-size:.8em}}@media screen and (min-width:1281px) and (max-width:1920px){#popup-root,.App{font-size:1em}}@media screen and (min-width:1921px){#popup-root,.App{font-size:1.35em}}@media screen and (min-width:2561px){#popup-root,.App{font-size:1.5em}}.app-title{background-image:url(https://hh.hh-content.com/pictures/design/symbol_shadow.svg);background-position-x:left;background-position-y:center;background-repeat:no-repeat;cursor:pointer;padding-left:60px}.App-logo{height:10vmin;pointer-events:none}.App-header{align-items:center;display:flex;flex-direction:column;justify-content:center}.App-link{color:#61dafb}.data-input{height:200px;width:60%}.blessings-summary{-webkit-column-gap:5px;column-gap:5px;display:flex;flex-flow:row wrap;justify-content:center;padding-left:1rem;padding-right:1rem;row-gap:5px;text-align:left}.blessings-summary>div{display:flex;flex-flow:column;padding:1rem;row-gap:5px}.blessings-summary>div>h2{color:#d3d3d3;font-size:1.2em}.missing-girls-blessing>span>.owned{color:#c93e3e;font-weight:700}.toggle-filter{cursor:pointer}.filter-enabled{-webkit-filter:drop-shadow(0 0 3px #fff);filter:drop-shadow(0 0 3px white);text-decoration:underline}.rare-blessing>span>.total{color:#c93e3e;font-weight:700}.details-content>.details-section>div,.details-content>.details-section>p,.details-content>p{margin-block:.8em;text-align:left}.icon-link>.qh-tooltip-wrapper>img{background-image:linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;border:none;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;padding:2px}.icon-link:active>.qh-tooltip-wrapper>img{box-shadow:none}.details-content>p>.grade{justify-content:left}.upgrade-link{-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row}.section-switch{display:flex;gap:30px;justify-content:left;margin-bottom:8px}.section-switch>span{color:#d08467;cursor:pointer;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000}.section-switch>span.active{color:#ffb827;cursor:auto;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,-2px -2px 5px rgba(255,159,0,.4),2px -2px 5px rgba(255,159,0,.4),-2px 2px 5px rgba(255,159,0,.4),2px 2px 5px rgba(255,159,0,.4),0 0 10px rgba(255,159,0,.4)}.general-attributes{gap:15px}.general-attributes,.pose-and-stats{align-items:center;display:flex;flex-direction:row}.qh_description>.details{display:flex;flex-direction:column;height:100%;padding-right:15px;width:55%}.details-header{height:3em;margin-bottom:8px}.details-content{overflow:auto}.App a{color:#fff}.blessings-list{display:flex;flex-direction:row;justify-content:center;row-gap:10px}.blessing-item{background-color:#c93e3e;border:1px solid transparent;border-radius:10px;margin:10px;padding:10px}.blessing-item>h4,.blessing-item>p{cursor:pointer;margin:0;padding:0}div.pop{display:flex;justify-content:center}ul.pop{text-align:left}li.ok{color:green}li.nok{color:red}.App button,.App input{padding:5px}.action{cursor:pointer}#popup-root a{color:#fff}#quick-harem-wrapper{display:flex;flex-direction:column;height:100%;left:0;overflow:hidden;pointer-events:none;position:absolute;top:0;width:100%;z-index:3}#quick-harem-wrapper>.App{pointer-events:auto}.App.game-extension{background-color:#452129;border-radius:20px;box-shadow:0 0 7px #000;display:flex;flex-direction:column;height:calc(100% - 8em);margin:5em auto 3em;padding:0;width:95%}@media only screen and (max-height:600px){.App.game-extension{height:95%;margin:auto}}.App.game-extension.hidden{visibility:hidden}.game-extension *{box-sizing:initial;vertical-align:auto}.harem-popup-error{position:relative}.harem-popup-error>.close-popup{position:absolute;right:1rem;top:0}#toggle-harem{cursor:pointer}.test-container{border:1px solid red;border-radius:15px;margin-top:50px;overflow:auto;padding:50px}#quick-harem-wrapper>.test-container{pointer-events:auto}
+        .elementIcon{width:1.5em}.gems-count-details{align-items:flex-start;display:flex;flex-direction:column;gap:5px}.gems-count-details>hr{align-self:stretch;color:#d17d16;margin:0}.gems-count-details>span{align-items:center;display:flex;flex-direction:row;gap:.5ch}.upgrade-girl{background-image:url(https://hh2.hh-content.com/design_v2/affstar_upgrade.png);background-position:50%;background-size:cover;height:35px;width:35px}.react-tooltip.qh-tooltip{--rt-opacity:0.95;border:1px solid #daa520;font-size:1.25em;text-align:left;z-index:99999}.react-tooltip__place-bottom>.qh-tooltip-arrow{border-left:1px solid #daa520;border-top:1px solid #daa520}.react-tooltip__place-left>.qh-tooltip-arrow{border-right:1px solid #daa520;border-top:1px solid #daa520}.react-tooltip__place-top>.qh-tooltip-arrow{border-bottom:1px solid #daa520;border-right:1px solid #daa520}.react-tooltip__place-right>.qh-tooltip-arrow{border-bottom:1px solid #daa520;border-left:1px solid #daa520}.filler{height:100%;width:100%}.stats-description,.stats-description>.qh-tooltip-wrapper>.stat-icon{height:3em;width:3em}.stat-icon{background-size:cover;display:inline-block;height:1em;vertical-align:top;width:1em}.stat-icon.blessed{-webkit-filter:drop-shadow(3px 3px 5px #006400);filter:drop-shadow(3px 3px 5px darkgreen)}.stat-icon.class_0{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/1.png)}.stat-icon.class_1{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/2.png)}.stat-icon.class_2{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/3.png)}.stat-icon.class_rainbow{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/16.svg)}.pose-icon{background-size:cover;display:inline-block;height:3.5em;width:3.5em}.pose-icon.doggie{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/1.png)}.pose-icon.dolphin{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/2.png)}.pose-icon.missionary{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/3.png)}.pose-icon.sodomy{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/4.png)}.pose-icon.sixnine{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/5.png)}.pose-icon.jackhammer{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/6.png)}.pose-icon.nosedive{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/7.png)}.pose-icon.column{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/8.png)}.pose-icon.indian{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/9.png)}.pose-icon.suspended{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/10.png)}.pose-icon.splitting{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/11.png)}.pose-icon.bridge{background-image:url(https://hh2.hh-content.com/pictures/design/battle_positions/12.png)}.close-popup{background-image:url(https://hh2.hh-content.com/clubs/ic_xCross.png);background-size:cover;cursor:pointer;height:2.5em;width:2.5em}.element{background-position:50%;background-repeat:no-repeat;background-size:contain;height:2em;min-height:1.2em;min-width:1.2em;width:2em}.element.dark{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Dominatrix.png)}.element.white{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Submissive.png)}.element.purple{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Voyeurs.png)}.element.red{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Eccentric.png)}.element.blue{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Sensual.png)}.element.green{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Exhibitionist.png)}.element.orange{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Physical.png)}.element.yellow{background-image:url(https://hh.hh-content.com/pictures/girls_elements/Playful.png)}.element.rainbow{background-image:url(https://hh2.hh-content.com/pictures/girls_elements/Multicolored.png)}.tile img.tileImg{background-repeat:no-repeat;background-size:cover;border:var(--border-width) solid #fff;border-radius:10px;box-shadow:0 0 5px 1px rgba(52,0,15,.75),inset 0 0 8px rgba(55,30,103,.4);height:var(--image-size);width:var(--image-size)}.tile.common img.tileImg,.tile.starting img.tileImg{background-color:#8d8e9f}.tile.rare img.tileImg{background-color:#23b56b}.tile.epic img.tileImg{background-color:#ffb244}.rarity-bg.common,.rarity-bg.starting{background-color:#8d8e9f}.rarity-bg.rare{background-color:#23b56b}.rarity-bg.epic{background-color:#ffb244}.rarity-bg.legendary{background-color:#8e36a9;background-image:url(https://hh2.hh-content.com/legendary.png)}.rarity-bg.mythic{background-color:#ec0039;background-image:radial-gradient(closest-side at 50% 50%,#f5a866 0,#ec0039 51%,#9e0e27 100%)}.tile.legendary img.tileImg{background-color:#8e36a9;background-image:url(https://hh2.hh-content.com/legendary.png)}.tile.mythic img.tileImg{background-color:#ec0039;background-image:radial-gradient(closest-side at 50% 50%,#f5a866 0,#ec0039 51%,#9e0e27 100%)}.tile.selected{background-color:#61dafb}.tile:hover{background-color:pink}.tile{border-radius:10px;padding:10px}.qh-progress-bar{--main-track-color:rgba(100,149,237,.6);--extra-track-color:#23b56b;--raw-track-color:#2658b5;--raw-track-color-extra-full:#d17d16;--main-track-color-full:rgba(100,149,237,.6);--main-track-color-extra-full:rgba(255,140,0,.6);--extra-track-color-extra-full:rgba(255,140,0,.6);--raw-track-speed:0.15s;--track-speed:0.5s;--track-radius:6px;align-items:stretch;background-color:#000;border:1px solid #fff;border-radius:calc(var(--track-radius) + 1px);display:flex;flex-direction:row;gap:0;min-height:1.2em;padding:0;position:relative;width:14em}.qh-progress-bar.full{--main-track-color:var(--main-track-color-full)}.qh-progress-bar.extra-full{--main-track-color:var(--main-track-color-extra-full);--raw-track-color:var(--raw-track-color-extra-full);--extra-track-color:var(--extra-track-color-extra-full)}.qh-progress-bar>.main-track{background:var(--main-track-color);border-radius:var(--track-radius) 0 0 var(--track-radius);height:100%;position:absolute}.qh-progress-bar.full>.main-track,.qh-progress-bar.full>.raw-track{border-radius:var(--track-radius)}.qh-progress-bar>.raw-track{background:var(--raw-track-color);border-radius:var(--track-radius) 0 0 var(--track-radius);flex-shrink:0;transition:width var(--raw-track-speed) linear}.qh-progress-bar>.extra-track,.qh-progress-bar>.main-track{transition:width var(--track-speed) ease-in}.qh-progress-bar>.extra-track{background:var(--extra-track-color);border-radius:0 var(--track-radius) var(--track-radius) 0}.qh-progress-bar>.track-label{left:50%;position:absolute;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}.soft_currency{background-image:url(https://hh2.hh-content.com/pictures/design/ic_soft_currency.png);background-size:cover;height:1.5em;width:1.5em}.stats-list>.stat{background-position:0;background-repeat:no-repeat;background-size:1.2em 1.2em;padding-left:1.4em}.stats-list>.stat.hc-stat{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/1.png)}.stats-list>.stat.ch-stat{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/2.png)}.stats-list>.stat.kh-stat{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/3.png)}:root{--rt-color-white:#fff;--rt-color-dark:#222;--rt-color-success:#8dc572;--rt-color-error:#be6464;--rt-color-warning:#f0ad4e;--rt-color-info:#337ab7;--rt-opacity:0.9}.react-tooltip__tooltip_KtSkBq{border-radius:3px;font-size:90%;left:0;opacity:0;padding:8px 16px;pointer-events:none;position:absolute;top:0;transition:opacity .3s ease-out;visibility:hidden;width:-webkit-max-content;width:max-content;will-change:opacity,visibility}.react-tooltip__fixed_KtSkBq{position:fixed}.react-tooltip__arrow_KtSkBq{background:inherit;height:8px;position:absolute;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:8px}.react-tooltip__no-arrow_KtSkBq{display:none}.react-tooltip__clickable_KtSkBq{pointer-events:auto}.react-tooltip__show_KtSkBq{opacity:.9;opacity:var(--rt-opacity);visibility:visible}.react-tooltip__dark_KtSkBq{background:#222;background:var(--rt-color-dark);color:#fff;color:var(--rt-color-white)}.react-tooltip__light_KtSkBq{background-color:#fff;background-color:var(--rt-color-white);color:#222;color:var(--rt-color-dark)}.react-tooltip__success_KtSkBq{background-color:#8dc572;background-color:var(--rt-color-success);color:#fff;color:var(--rt-color-white)}.react-tooltip__warning_KtSkBq{background-color:#f0ad4e;background-color:var(--rt-color-warning);color:#fff;color:var(--rt-color-white)}.react-tooltip__error_KtSkBq{background-color:#be6464;background-color:var(--rt-color-error);color:#fff;color:var(--rt-color-white)}.react-tooltip__info_KtSkBq{background-color:#337ab7;background-color:var(--rt-color-info);color:#fff;color:var(--rt-color-white)}.qh-harem{grid-column-gap:5px;-webkit-column-gap:5px;column-gap:5px;display:grid;grid-auto-rows:minmax(auto,-webkit-max-content);grid-auto-rows:minmax(auto,max-content);grid-template-columns:1.2fr .8fr 1fr;height:100%;width:100%}@media only screen and (max-width:1000px){.qh-harem{grid-template-columns:1.6fr .6fr 1.4fr}}.qh-harem>*{margin-bottom:1em;min-height:0;min-width:0;padding:0 1em}.qh-harem>.harem-toolbar{grid-column:1/4;grid-row:1;padding:10px 15px 0}.qh-harem>.girlsList{grid-column:1/2;grid-row:2}.qh-harem>.pose{grid-column:2;grid-row:2}.qh-harem>.details{grid-column:3;grid-row:2}.harem-toolbar{align-content:center;align-items:center;-webkit-column-gap:15px;column-gap:15px;display:flex;flex-direction:row;flex-wrap:wrap;justify-items:center;margin-bottom:8px}.harem-toolbar>.break{flex-basis:100%;height:0}.quick-search>input.hh-text-input{background-image:url(https://hh2.hh-content.com/pictures/design/form/search_field_L.png);background-position:100% 50%;background-repeat:no-repeat;background-size:2.5em;font-size:.8em;width:18em}.harem-toolbar>.hh-action-button,.toolbar-content>.hh-action-button{height:1.5em;min-width:1.5em}.harem-toolbar>.icon-action{padding:.3em}.toggle0pose{align-items:center;display:flex;flex-direction:row;font-size:.8em;gap:.5ch;margin-left:4em}.qh-menu-toggle{margin-right:2em}.toolbar-content>.hh-action-button.clear-filters{padding:5px;width:10em}.harem-toolbar>.owned-gems-summary>.gems-count>.elementIcon{height:2em;width:2em}.scenes-browser{align-items:middle;display:flex;flex-direction:row;justify-content:left}.scenes-browser img{vertical-align:middle;width:2em}.harem-toolbar>.refresh{margin-right:clamp(1rem,calc(5vw - 3rem),2.5rem)}.harem-toolbar>.refresh[disabled]{-webkit-animation:refresh-blink-animation .75s ease-in-out infinite alternate;animation:refresh-blink-animation .75s ease-in-out infinite alternate}.hh-action-button.filter-sort-icon{background:50%/contain content-box no-repeat url(https://hh2.hh-content.com/design_v2/search_open.png),linear-gradient(180deg,rgba(60,60,60,.7) 0,hsla(0,0%,4%,.9))}.harem-toolbar>.spacer{margin-left:auto}.harem-toolbar>.filter-sort-icon.closed,.harem-toolbar>.filter-sort-icon.closed>.react-tooltip{-webkit-transform:scaleX(-1);transform:scaleX(-1)}@-webkit-keyframes refresh-blink-animation{0%{-webkit-filter:grayscale(100%);filter:grayscale(100%)}to{-webkit-filter:grayscale(50%);filter:grayscale(50%)}}@keyframes refresh-blink-animation{0%{-webkit-filter:grayscale(100%);filter:grayscale(100%)}to{-webkit-filter:grayscale(50%);filter:grayscale(50%)}}.variations-list{flex-wrap:wrap;gap:10px}.missing-gems,.variations-list{display:flex;flex-direction:row}.missing-gems{align-items:center;gap:.5ch}.girlsList{overflow:auto;padding-left:10px;padding-right:8px;scroll-behavior:smooth}.girlsList>.owned{margin-bottom:15px}.girlsList>div{-webkit-column-gap:5px;column-gap:5px;display:flex;flex-wrap:wrap;row-gap:5px}@media only screen and (max-width:860px){.girlsList>div{-webkit-column-gap:0;column-gap:0}}.pose{align-items:center;display:flex;flex-direction:column;justify-content:baseline;padding-bottom:3%}.pose>img{flex:1 1;min-height:0}.pose-switcher{display:flex;flex-direction:row;gap:1.5ch;margin-top:3%}.pose-switcher>.pose-selector{background-color:#1f2958;border:3px solid #fff;height:1.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:1.5em}@media only screen and (max-width:1000px){.pose-switcher{gap:1ch}.pose-switcher>.pose-selector{border:1px solid #fff;height:.8em;width:.8em}}.pose-switcher>.pose-selector.solid{cursor:pointer}.pose-switcher>.pose-selector.solid.current{background:radial-gradient(#ff0,#ff8c00);box-shadow:0 0 7px #ff8c00;cursor:auto}.pose-switcher>.pose-selector.empty{background-color:grey}.details{display:flex;flex-direction:column}.bio{text-align:justify}.blessed{color:green}.icon-link{align-items:center;-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row}.icon-link>.qh-tooltip-wrapper>img,.icon-link>img{height:1.5em}.harem-upgrade-panel{background-color:#452129;border:1px solid #000;border-radius:15px;bottom:.5rem;box-shadow:0 0 7px #000;box-sizing:border-box;display:flex;flex-direction:column;height:calc(100vh - 1rem - 30px);justify-content:stretch;margin:0;opacity:98%;padding:15px;position:absolute;right:.5rem;width:calc(100vw - 1rem - 30px);z-index:2}@media screen and (min-width:901px) and (min-height:741px){.harem-upgrade-panel{bottom:.5rem;height:80vh;right:2rem;width:30vw}}.lore>p>.soft_currency{display:inline-block}.missing-aff-details,.missing-gems-details,.missing-gxp-details{grid-column-gap:.5em;-webkit-column-gap:.5em;column-gap:.5em;display:grid}.missing-aff-details,.missing-gxp-details{grid-template-columns:repeat(2,auto)}.missing-gems-details{grid-template-columns:repeat(3,auto)}.missing-aff-details>.row-separator,.missing-gems-details>.row-separator,.missing-gxp-details>.row-separator{border-bottom:1px solid #daa520;grid-column-end:-1;grid-column-start:1;margin-block:.5rem}.missing-aff-details>.missing-affection,.missing-gems-details>.gems-count,.missing-gxp-details>.missing-gxp{text-align:right}.qh-harem.edit-teams>.pose{display:none}@media screen and (max-width:1199px){.qh-harem.edit-teams>.details{display:none}.qh-harem.edit-teams>.teams-section{grid-column:2/4}}.hide-tooltips>#harem-tooltip{display:none}.hh-action-button{background:linear-gradient(180deg,rgba(60,60,60,.7) 0,hsla(0,0%,4%,.9));border:1px solid #ffa23e;border-radius:.25em;box-shadow:0 2px 0 #c61f52,0 0 13px rgba(159,7,58,.6),0 0 13px rgba(159,7,58,.95);color:#fff;cursor:pointer;font-size:.8em;outline:none}.hh-action-button.active{background:rgba(60,60,60,.7)}.hh-action-button:hover{border:1px solid #edb273}.hh-action-button:active{border:1px solid #f4c99b}.hh-action-button:disabled,.hh-action-button[disabled]{background:none;background-color:rgba(0,0,0,.3);border:1px solid #ffa23e;box-shadow:none;color:grey;cursor:auto}input.hh-text-input{background-color:rgba(0,0,0,.3);border:1px solid #ffa23e;border-radius:4px;box-shadow:0 2px 0 #c61f52,0 0 13px rgba(159,7,58,.6),0 0 13px rgba(159,7,58,.95);color:#fff;outline:none}input.hh-text-input.number{width:7ch}button.toggle.pressed{background-image:linear-gradient(180deg,#ffa23e 0,#c41b53)}.inactive>button.toggle.pressed{background-image:linear-gradient(180deg,rgba(0,0,0,.3) 0,rgba(88,88,88,.3));color:#a9a9a9}.hh-game-action{background-image:linear-gradient(0deg,#619f00 0,#570);border:1px solid #000;border-radius:15px;box-shadow:0 3px 0 rgba(23,33,7,.6),inset 0 3px 0 #95ed3f;color:#fff;cursor:pointer}.hh-game-action:active{box-shadow:none;outline:0;transition:box-shadow 90ms ease-in-out}.tab-folder{display:flex;flex-direction:column;position:absolute;right:0;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:3}.tab-folder>.tab{align-items:center;background-color:#000;border:1px solid #fff;border-radius:5px;border-right:none;cursor:pointer;display:flex;justify-content:center;min-height:115px;min-width:1.5em;padding:3px}.tab-folder>.tab.active{background-color:#00bfff}.tab-folder>.tab>.tab-label{-webkit-user-select:none;user-select:none;-webkit-writing-mode:vertical-rl;writing-mode:vertical-rl}.qh-panel{background-color:#452129;border:1px solid #000;border-radius:15px;box-shadow:0 0 7px #000;height:80%;max-width:calc(100vw - 2em);min-width:35%;opacity:98%;padding:15px 30px;position:absolute;right:1em;top:50%;transition:visibility .5s ease-in,-webkit-transform .5s ease-in;transition:transform .5s ease-in,visibility .5s ease-in;transition:transform .5s ease-in,visibility .5s ease-in,-webkit-transform .5s ease-in;z-index:2}@media screen and (max-height:500px){.qh-panel{height:95%}}.App.game-extension>.qh-panel{box-sizing:border-box}.qh-panel.visible{-webkit-transform:translateY(-50%);transform:translateY(-50%);visibility:visible}.qh-panel.hidden{-webkit-transform:translateY(-50%) translateX(105%);transform:translateY(-50%) translateX(105%);visibility:hidden}.qh-panel>.panel{overflow:auto}.qh-panel>.panel.hidden{display:none}.qh-panel>.panel-tab-folder{align-items:center;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;justify-content:flex-end}.panel-tab-folder>.tab{color:#d08467;cursor:pointer;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000}.panel-tab-folder>.tab.active{color:#ffb827;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,-2px -2px 5px rgba(255,159,0,.4),2px -2px 5px rgba(255,159,0,.4),-2px 2px 5px rgba(255,159,0,.4),2px 2px 5px rgba(255,159,0,.4),0 0 10px rgba(255,159,0,.4)}.qh-panel>.panel>h2{font-size:1.5em}.qh-panel>.panel>p{margin:8px}.panel.summary{min-width:55vw}.panel.summary,.summary-content{align-items:center;display:flex;flex-direction:column}.summary-content{align-self:stretch;margin-bottom:20px;overflow:auto}.game-extension.hidden>.qh-panel{transition:none;visibility:inherit}.qh-panel{display:flex;flex-direction:column}.qh-panel>.panel>.close-popup{position:absolute;right:65px;top:15px}.panel.filters,.panel.filters>.filters-list,.panel.sort{display:flex;flex-direction:column}.panel.filters>.filters-list{align-items:flex-start;gap:5px;margin-top:10px;overflow-x:clip;overflow-y:auto}.filter-entry{align-items:center;display:flex;flex-direction:row;gap:5px}.filter-entry>.filter-label{display:inline-block;min-width:14ch;text-align:left}.filter-entry button.toggle{min-width:10ch}.filter-entry.power>button.toggle,.filter-entry.rarity>button.toggle{min-width:0;min-width:auto;padding-left:8px;padding-right:8px}.qh-filter-status{background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;height:1.5em;margin-right:5px;width:1.5em}.qh-filter-status.active{background-image:url(https://hh2.hh-content.com/design/green_tick.png)}.qh-filter-status.ready{background-image:url(https://hh2.hh-content.com/design/green_tick_empty.png)}.qh-filter-status.invalid{background-image:url(https://hh2.hh-content.com/clubs/ic_xCross.png);cursor:auto}.manage-filters{display:flex;flex-direction:row;gap:10px;justify-content:center}.sort-list>button.hh-action-button.active{background:linear-gradient(180deg,#ffa23e 0,#c41b53)}.sort-list{align-items:flex-start;display:flex;flex-direction:column;gap:.4em;overflow:auto}.sort-list>*{min-width:30%}.element-blessing,.toggle-filter.Element{align-items:center;display:flex;flex-direction:row;flex-wrap:nowrap;gap:.5ch}.element-blessing>.element{display:inline}.resources-summary{width:100%}.resources-summary>.gems-summary{-webkit-column-gap:2em;column-gap:2em;display:inline-grid;grid-template-columns:repeat(auto-fit,15ch);justify-content:center;justify-items:left;width:100%}@media screen and (min-width:900px){.resources-summary>.gems-summary{grid-template-columns:repeat(4,15ch)}}.resources-summary>.gems-summary>*{align-items:center;-webkit-column-gap:.8em;column-gap:.8em;display:flex;flex-direction:row}.blessing-summary-entry.Pose{-webkit-column-gap:.5em;column-gap:.5em}.blessing-summary-entry.Pose,.blessing-summary-entry.Pose span{align-items:center;display:flex;flex-direction:row}.blessing-summary-entry.Pose .unknown-pose{display:inline-block;height:1.8em;line-height:1.8em;text-align:center;vertical-align:center;width:1.8em}.blessing-summary-entry.Pose .pose-icon{height:2.5em;margin:-.35em;width:2.5em}.summary-content>p>.ego-bonus{align-items:center;display:inline-flex;flex-direction:row}.summary-content>p>.ego-bonus>.endurance-icon{height:1.25em;margin-left:.4em}button.toggle.qh-class{background-image:var(--class-image),linear-gradient(to bottom,rgba(60,60,60,.7) 0,hsla(0,0%,4%,.9) 100%);background-position:10px,0 0;background-repeat:no-repeat;background-size:auto 80%,auto auto;padding-left:20px}button.toggle.qh-class.pressed{background-image:var(--class-image),linear-gradient(to bottom,#ffa23e 0,#c41b53 100%)}.inactive>button.toggle.qh-class.pressed{background-image:var(--class-image),linear-gradient(to bottom,rgba(0,0,0,.3) 0,rgba(88,88,88,.3) 100%)}button.toggle.qh-class.hardcore{--class-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/1.png)}button.toggle.qh-class.charm{--class-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/2.png)}button.toggle.qh-class.knowhow{--class-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/3.png)}:root{--var-color-common:#8d8e9f;--var-color-rare:#23b56b;--var-color-epic:#ffb244;--var-color-legendary:#8e36a9;--var-color-mythic:#ec0039}.color>span{--var-color:#fff;--var-shadow-color:#000;color:var(--var-color);font-weight:700;text-shadow:1px 1px 0 var(--var-shadow-color),-1px 1px 0 var(--var-shadow-color),-1px -1px 0 var(--var-shadow-color),1px -1px 0 var(--var-shadow-color)}.color>.blue{--var-color:#24a0ff}.color>.golden{--var-color:#ffb923}.color>.green{--var-color:#00e772}.color>.brown{--var-color:#cb6f2b}.color>.pink{--var-color:#ff5a81}.color>.red{--var-color:#ff2a52}.color>.purple{--var-color:#e42eff}.color>.orange{--var-color:#ff9600}.color>.silver{--var-color:#ccc}.color>.darkPink{--var-color:#ca0080}.color>.black{--var-shadow-color:#24a0ff;--var-color:#000}.color>.grey{--var-color:#999}.color>.unknown{--var-color:#fff}.color>.dark{--var-color:#67422a;--var-shadow-color:#fff}.color>.darkBlond{--var-color:#cb6f2b}.color>.strawberryBlond{--var-color:#ffa792}.color>.blond{--var-color:#fff049}.color>.rarity.starter,.color>.white{--var-color:#fff}.color>.rarity.common{--var-color:var(--var-color-common)}.color>.rarity.rare{--var-color:var(--var-color-rare)}.color>.rarity.epic{--var-color:var(--var-color-epic)}.color>.rarity.legendary{--var-color:var(--var-color-legendary)}.color>.rarity.mythic{--var-color:var(--var-color-mythic)}:root{--border-width:1px;--image-size:55px}.girlTile,.tile{display:inline-block;position:relative;text-align:center;-webkit-user-select:none;user-select:none}@media only screen and (min-width:1281px) and (min-height:721px){:root{--border-width:2px;--image-size:75px}}@media only screen and (min-width:1921px) and (min-height:901px){:root{--border-width:3px;--image-size:120px}}@media only screen and (min-width:2561px) and (min-height:1201px){:root{--border-width:4px;--image-size:145px}}.girlTile>.avatar-area>.lazyload-wrapper>.tile-avatar{vertical-align:middle}.girlTile>.avatar-area{padding:5px 10px 0;position:relative}.tile-avatar{border:1px solid #fff;border:var(--border-width) solid #fff;border-radius:8px;display:block;height:55px;height:var(--image-size);overflow:hidden;width:55px;width:var(--image-size)}.girlTile>.grade{align-items:stretch;display:flex;flex-direction:row;flex-wrap:nowrap;height:1em;justify-content:center;margin-bottom:3%;margin-top:15%;width:100%}.grade>.star{background-repeat:no-repeat;background-size:contain;margin-inline:-1.8%;width:16%}.star.empty{background-image:url(https://hh.hh-content.com/design_v2/affstar_empty_S.png)}.star.solid{background-image:url(https://hh.hh-content.com/design_v2/affstar_S.png)}.star.solid.current{-webkit-filter:drop-shadow(0 0 3px orange);filter:drop-shadow(0 0 3px orange)}.avatar-area>.element{bottom:0;height:30%;left:50%;position:absolute;-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%);width:30%}.qh_shards{background-image:url(https://hh2.hh-content.com/shards.png);background-position:0;background-repeat:no-repeat;background-size:40px 40px;color:#80058b;font-weight:700;left:50%;padding-left:36px;position:absolute;text-align:center;text-shadow:1px 1px 0 #fff,-1px 1px 0 #fff,-1px -1px 0 #fff,1px -1px 0 #fff;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);z-index:1}.qh_shards>img{height:40px;width:40px}.girlTile>.avatar-area>.lazyload-wrapper>.tile-avatar{background-repeat:no-repeat;background-size:cover;box-shadow:0 0 5px 1px rgba(52,0,15,.75),inset 0 0 8px rgba(55,30,103,.4)}.girlTile.placeholder{--header-font-size:1em;border:1px solid #fff;border:var(--border-width) solid #fff;height:55px;height:var(--image-size);margin-inline:10px;margin-bottom:calc(1em + 18%);margin-top:calc(var(--header-font-size) + 5px);width:55px;width:var(--image-size)}.girlTile.placeholder.not-owned{margin-top:5px}.girlTile.common>.avatar-area>.lazyload-wrapper>.tile-avatar,.girlTile.placeholder.common,.girlTile.placeholder.starting,.girlTile.starting>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#8d8e9f}.girlTile.placeholder.rare,.girlTile.rare>.avatar-area>.lazyload-wrapper>.tile-avatar{background-color:#23b56b}.girlTile.epic>.avatar-area>.lazyload-wrapper>.tile-avatar,.girlTile.placeholder.epic{background-color:#ffb244}.girlTile.legendary>.avatar-area>.lazyload-wrapper>.tile-avatar,.girlTile.placeholder.legendary{background-color:#8e36a9;background-image:url(https://hh2.hh-content.com/legendary.png)}.girlTile.mythic>.avatar-area>.lazyload-wrapper>.tile-avatar,.girlTile.placeholder.mythic{background-color:#ec0039;background-image:radial-gradient(closest-side at 50% 50%,#f5a866 0,#ec0039 51%,#9e0e27 100%)}.girlTile>.avatar-area>.soft_currency{bottom:-10px;height:2em;left:-5px;position:absolute;visibility:hidden;width:2em}.girlTile.salary>.avatar-area>.soft_currency{visibility:inherit}.girlTile>.upgrade-girl{height:2.5em;position:absolute;right:0;top:35%;-webkit-transform:translate(30%,-50%);transform:translate(30%,-50%);width:2.5em;z-index:1}.girlTile{border-radius:10px}.girlTile.not-owned>.avatar-area>.lazyload-wrapper,.girlTile.placeholder.not-owned{opacity:.5}.girlTile:hover{background-color:pink}.girlTile.selected{background-color:#61dafb}@media screen and (max-width:1199px){.girlTile>.avatar-area{padding:.3em .5em 0}}@media screen and (max-width:960px){.girlTile>.girl-header{font-size:.8em;left:50%;position:absolute;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000;top:5px;top:calc(var(--border-width) + 4px);-webkit-transform:translateX(-50%);transform:translateX(-50%);z-index:1}.girlTile>.avatar-area>.equipment-decorators{top:18px}}.qh-girls-equipment{-webkit-column-gap:.8rem;column-gap:.8rem;display:flex;flex-direction:row;flex-wrap:wrap;row-gap:.4rem}button.item-action,img.girls-equipment-icon{border:var(--border-width) solid #fff;border-radius:8px;cursor:pointer;height:calc(var(--image-size)/2);width:calc(var(--image-size)/2)}button.item-action:disabled,button.unequip-one-decorator:disabled{cursor:default;-webkit-filter:grayscale(1);filter:grayscale(1)}#popup-root button.item-action,.App button.item-action{padding:0}button.item-action{background-position:50%;background-repeat:no-repeat;background-size:contain;border-color:#d3d3d3}.girl-item-icon-wrapper{position:relative}button.item-action.unequip-one{background-color:initial;background-image:url(https://hh.hh-content.com/clubs/ic_xCross.png);background-position:50%;background-repeat:no-repeat;background-size:contain;border:none;border-radius:0;height:calc(var(--image-size)/5);position:absolute;right:max(5px,calc(var(--image-size)/20));top:max(5px,calc(var(--image-size)/20));width:calc(var(--image-size)/5)}button.equip-all{background-image:url(https://hh.hh-content.com/pictures/design/equip_all_icon.png)}button.unequip-all{background-image:url(https://hh.hh-content.com/clubs/ic_xCross.png)}button.open-inventory{background-image:url(https://hh2.hh-content.com/design/resource_backpack.png);background-origin:content-box;background-size:75% 75%}.rarity-bg.none,button.item-action{background-color:#662034}.equipment-decorators{-webkit-column-gap:3px;column-gap:3px;display:flex;flex-direction:row;left:50%;position:absolute;top:1rem;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.equipment-decorator{--item-rarity-color:#fff;background-color:rgba(50,50,50,.8);height:.5em;position:relative;width:.3em}.equipment-decorator,.equipment-decorator.level0{border:1px solid #000}.equipment-decorator.level10{border:1px solid var(--item-rarity-color)}.equipment-decorator.mythic{--item-rarity-color:var(--var-color-mythic)}.equipment-decorator.legendary{--item-rarity-color:var(--var-color-legendary)}.equipment-decorator.epic{--item-rarity-color:var(--var-color-epic)}.equipment-decorator.rare{--item-rarity-color:var(--var-color-rare)}.equipment-decorator.common{--item-rarity-color:var(--var-color-common)}.equipment-decorator>.track{background-color:var(--item-rarity-color);bottom:0;position:absolute;width:100%}.qh-equipment-tooltip{--rarity-background:transparent;padding-bottom:1rem}.qh-equipment-tooltip.mythic{--rarity-background:var(--var-color-mythic)}.qh-equipment-tooltip.legendary{--rarity-background:var(--var-color-legendary)}.qh-equipment-tooltip.epic{--rarity-background:var(--var-color-epic)}.qh-equipment-tooltip.rare{--rarity-background:var(--var-color-rare)}.qh-equipment-tooltip.common{--rarity-background:var(--var-color-common)}.qh-equipment-tooltip>h2{font-size:1.25em;margin-bottom:.5em;padding:.25em}.qh-equipment-resonance,.qh-equipment-stats{display:flex;flex-direction:column;padding-left:2rem;row-gap:.25em}.qh-equipment-resonance>span,.qh-equipment-stats>span{align-items:center;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;justify-content:left}.qh-equipment-resonance>span>.attack-icon,.qh-equipment-resonance>span>.defense-icon,.qh-equipment-resonance>span>.ego-icon,.qh-equipment-resonance>span>.element,.qh-equipment-resonance>span>.pose-icon,.qh-equipment-resonance>span>.stat-icon,.qh-equipment-stats>span>.attack-icon,.qh-equipment-stats>span>.defense-icon,.qh-equipment-stats>span>.ego-icon,.qh-equipment-stats>span>.stat-icon{height:2em;width:2em}.active-resonance{color:green}.disabled-resonance,.inactive-resonance{color:#d3d3d3}.disabled-resonance>.element,.disabled-resonance>.pose-icon,.disabled-resonance>.stat-icon{-webkit-filter:grayscale(1);filter:grayscale(1)}.stats-diff.positive{color:green}.stats-diff.negative{color:red}.item-level-decorator{align-items:center;background-color:#b14;border:min(2px,var(--border-width)) solid #f70;border-radius:100%;bottom:3px;display:flex;font-size:.7em;height:30%;justify-content:center;left:3px;line-height:100%;pointer-events:none;position:absolute;text-align:center;width:30%}.qh-quick-equipment{background-color:hsla(0,0%,8%,.8);border:2px solid #daa520;border-radius:15px;display:flex;flex-direction:column;height:30vh;padding:.5em;row-gap:1em;width:30vw}@media screen and (max-width:1280px){.qh-quick-equipment{height:80vh;width:80vw}}.qh-quick-inventory{-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row;flex-wrap:wrap;justify-self:center;overflow:auto;row-gap:1em}.girls-inventory{background-color:rgba(30,30,30,.9);border:1px solid #daa520;border-radius:10px;display:flex;flex-direction:column;height:60vh;width:80vw}.girls-inventory-content{-webkit-column-gap:1rem;column-gap:1rem;display:flex;flex-direction:row;font-size:1.25em;min-height:0}.girls-inventory-content>.girls-list>div.inv-placeholder{display:none}.item-slot.selected img.girls-equipment-icon{border-color:#1e90ff}.girls-inventory-content>*{overflow-x:hidden;overflow-y:auto}.girls-inventory-content>.girls-list{--icon-height:1.5em;align-content:start;align-items:stretch;display:grid;flex-direction:column;grid-template-columns:repeat(14,auto);grid-template-rows:auto calc(var(--image-size)/2);margin-bottom:.5rem;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;padding-left:1rem;padding-right:2rem}.girls-inventory-content>.girls-list>div.inventory-footer.total{grid-column:1/8;justify-content:end;padding-right:1ch}.girls-inventory-content>.girls-list>.inv-placeholder,.girls-inventory-content>.girls-list>.item-slot{box-sizing:border-box;padding-right:4px}.girls-inventory-content>.girls-list>.stat,.girls-inventory-content>.girls-list>.stat-res{-webkit-column-gap:.25em;column-gap:.25em;display:flex;flex-direction:row;row-gap:.25em}.girls-inventory-content>.girls-list>.stat-res.header{flex-direction:row}.girls-inventory-content>.girls-list>div.stat,.girls-inventory-content>.girls-list>div.stat-res{padding:0;width:4ch}.girls-inventory-content>.girls-list>div.stat-res{width:5.5ch}.girls-inventory-content>.girls-list>.stat-res>.stat-bonus.pos:before,.girls-inventory-content>.girls-list>.stat>.stat-bonus.pos:before{content:"+"}.stat-bonus.pos{color:green}.stat-bonus.neg{color:red}@media screen and (max-width:1800px){.girls-inventory-content>.girls-list{grid-template-columns:repeat(9,auto)}.girls-inventory-content>.girls-list>div.inventory-footer.total{grid-column:1/3}.girls-inventory-content>.girls-list>.item-slot{display:none}.girls-inventory-content>.girls-list>.item-slot.selected,.girls-inventory-content>.girls-list>div.inv-placeholder{display:flex}}@media screen and (max-width:1100px){.girls-inventory{height:90vh;width:85vw}.girls-inventory-content>.girls-list{grid-template-columns:repeat(6,auto)}.girls-inventory-content>.girls-list>.stat{display:none}.girls-inventory-content>.girls-list>.total-stats{display:flex}}.girls-inventory-content>.girls-list>.stat-diff>.stat-value{display:none}.girls-inventory-content>.girls-list>div{align-items:center;display:flex;justify-content:center}.girls-inventory-content>.girls-list>div.stat,.girls-inventory-content>.girls-list>div.stat-res{border:1px dashed grey;border-radius:0}.girls-inventory-content>.girls-list>div.header{height:var(--icon-height)}.girls-inventory-content>.girls-list>div.equipment,.girls-inventory-content>.girls-list>div.header{background-color:rgba(30,30,30,.9);border:none;position:-webkit-sticky;position:sticky;top:0;z-index:50}.girls-inventory-content>.girls-list>div.equipment{top:var(--icon-height)}.girls-inventory-content>.girls-list>div>.attack-icon,.girls-inventory-content>.girls-list>div>.defense-icon,.girls-inventory-content>.girls-list>div>.ego-icon,.girls-inventory-content>.girls-list>div>.stat-icon{height:var(--icon-height);width:var(--icon-height)}.girls-inventory-content>.girls-list .qh-girls-equipment{flex-wrap:nowrap}.girls-inventory-content>.girls-list .tile-avatar{height:calc(var(--image-size)*.5);width:calc(var(--image-size)*.5)}.girls-inventory-content>.qh-inventory{align-items:flex-start;display:flex;flex-direction:column;justify-content:baseline;row-gap:0}.girls-inventory-content>.qh-inventory>.qh-inventory-items{align-content:flex-start;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;flex-wrap:wrap;overflow:auto;padding:.5rem;row-gap:.5em}.girls-inventory-content>.qh-inventory>.qh-inventory-actions{margin-top:auto;padding:.75rem}.unequip-all-confirm-popup{background-color:rgba(30,30,30,.9);border:1px solid #daa520;border-radius:10px;display:flex;flex-direction:column;max-width:60vw;padding:1em}.unequip-all-confirm-popup>h2{font-size:1.2em}.unequip-all-confirm-popup>.qh-actions{-webkit-column-gap:2rem;column-gap:2rem;display:flex;flex-direction:row}.unequip-all-confirm-popup>.qh-actions>.hh-action-button{height:3rem;width:max(8rem,20%)}.girl-tooltip{align-items:center;display:flex;flex-direction:column;padding:.5rem;row-gap:.5rem;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.girl-tooltip.show-border{border:2px solid #fff;border-radius:1em}.element-and-pose{--var-icon-size:3.5em;align-items:center;display:flex;flex-direction:row}.element-and-pose>.element{height:calc(var(--var-icon-size)*.657);width:calc(var(--var-icon-size)*.657)}.element-and-pose>.pose-icon{height:var(--var-icon-size);width:var(--var-icon-size)}.girl-tooltip>h2,.girl-tooltip>h3{margin:0;padding:0}.girl-tooltip.common,.girl-tooltip.starting{border-color:#8d8e9f}.girl-tooltip.rare{border-color:#23b56b}.girl-tooltip.epic{border-color:#ffb244}.girl-tooltip.legendary{border-color:#8e36a9}.girl-tooltip.mythic{border-color:#ec0039}.girl-tooltip.common>.qh-girl-name,.girl-tooltip.starting>.qh-girl-name{color:#8d8e9f}.girl-tooltip.rare>.qh-girl-name{color:#23b56b}.girl-tooltip.epic>.qh-girl-name{color:#ffb244}.girl-tooltip.legendary>.qh-girl-name{color:#8e36a9}.girl-tooltip.mythic>.qh-girl-name{color:#ec0039}.girl-tooltip>.grade{align-items:stretch;display:flex;flex-direction:row;flex-wrap:nowrap;height:2.2rem;justify-content:center;width:100%}.girl-tooltip>.grade>.star{margin-inline:0;width:2.2rem}.girl-tooltip>.stats-section{align-items:center;display:flex;flex-direction:column}.qh-scene-viewer{background-color:#452129;border-radius:15px;box-shadow:0 0 7px #000;display:flex;flex-direction:column;font-size:.8em;height:98vh;position:relative;width:98vw}.qh-scene-viewer>h2{font-size:1.5em;padding-inline:2em}.qh-scene-viewer>.close-popup{position:absolute;right:2.5em;top:2em}.qh-scene-content{display:flex;flex-direction:row;flex-grow:1;min-height:0;min-width:0;overflow:clip}.qh-scene-content>.qh-scene-area{flex-grow:1;flex-shrink:1;padding:3px 3px 1em;position:relative}.qh-scene-area>img{-webkit-filter:drop-shadow(0 3px 0 #fff) drop-shadow(0 -3px 0 #fff) drop-shadow(-3px 0 0 #fff) drop-shadow(3px 0 0 #fff);filter:drop-shadow(0 3px 0 white) drop-shadow(0 -3px 0 white) drop-shadow(-3px 0 0 white) drop-shadow(3px 0 0 white);height:100%;object-fit:contain;object-position:bottom;width:100%}.qh-scene-content>.side-bar{align-items:stretch;display:flex;flex-direction:column;justify-content:flex-end;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;padding:1rem;row-gap:1rem;width:10%}.qh-scene-content>.side-bar>.navigate{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row;justify-content:center}.qh-scene-content>.side-bar>.navigate>button{background-origin:content-box,border-box;background-position:50%;background-repeat:no-repeat;background-size:contain;border:1px solid #000;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;cursor:pointer;height:4em;padding:.5em;width:4em}.qh-scene-content>.side-bar>.navigate>button:active{box-shadow:none}.qh-scene-content>.side-bar>.navigate>button.previous{background-image:url(https://hh2.hh-content.com/design/ic_arrow-left-ffffff.svg),linear-gradient(0deg,#008ed5 0,#05719c)}.qh-scene-content>.side-bar>.navigate>button.next{background-image:url(https://hh2.hh-content.com/design/ic_arrow-right-ffffff.svg),linear-gradient(0deg,#008ed5 0,#05719c)}.qh-scene-content>.side-bar>button.hh-game-action{font-size:1.5em;min-height:4em;min-width:-webkit-fit-content;min-width:-moz-fit-content;min-width:fit-content;padding-inline:.5em}.qh-scene-area>.overlay{position:absolute}.qh-scene-area>.qh-scene-dialogue{bottom:1rem;font-family:Kalam,cursive;font-size:2em;left:50%;text-shadow:0 0 10px #000;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:80%}.qh-scene-area>.toggle-text{background-color:initial;background-image:url(https://hh2.hh-content.com/quest/ic_eyeclosed.svg);background-position:50%;background-repeat:no-repeat;background-size:contain;border:none;bottom:2rem;cursor:pointer;min-height:4rem;min-width:4rem;opacity:0;right:calc(10% - 4rem);transition:opacity .3s ease-in}.qh-scene-area:hover>.toggle-text{opacity:1}.qh-scene-area>.toggle-text.show{background-image:url(https://hh2.hh-content.com/quest/ic_eyeopen.svg)}button.hh-game-action.upgrade{align-items:center;-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row;justify-content:center;padding-inline:1em}button.hh-game-action.upgrade>.currency-icon{background-image:url(https://hh2.hh-content.com/pictures/design/ic_soft_currency.png);background-size:cover;height:1.5em;width:1.5em}@media (min-aspect-ratio:7/3){.qh-scene-area>.qh-scene-dialogue{width:60%}.qh-scene-area>.toggle-text{right:calc(18% - 4rem)}}@media (min-aspect-ratio:26/9){.qh-scene-area>.qh-scene-dialogue{width:40%}.qh-scene-area>.toggle-text{right:calc(28% - 4rem)}}@media (min-aspect-ratio:4/1){.qh-scene-area>.qh-scene-dialogue{width:20%}.qh-scene-area>.toggle-text{right:calc(38% - 4rem)}}.team{align-items:center;display:flex;flex-direction:column}.team-girls-list{--hex-image-size:calc(var(--image-size)*0.8);--hex-border-width:max(calc(var(--border-width)*1.5),2px);--hex-horizontal-shift:min(0.8rem,0.15 * var(--hex-image-size));--hex-clip-path:polygon(98.66025% 45%,99.39693% 46.5798%,99.84808% 48.26352%,100% 50%,99.84808% 51.73648%,99.39693% 53.4202%,98.66025% 55%,78.66025% 89.64102%,77.66044% 91.06889%,76.42788% 92.30146%,75% 93.30127%,73.4202% 94.03794%,71.73648% 94.48909%,70% 94.64102%,30% 94.64102%,28.26352% 94.48909%,26.5798% 94.03794%,25% 93.30127%,23.57212% 92.30146%,22.33956% 91.06889%,21.33975% 89.64102%,1.33975% 55%,0.60307% 53.4202%,0.15192% 51.73648%,0% 50%,0.15192% 48.26352%,0.60307% 46.5798%,1.33975% 45%,21.33975% 10.35898%,22.33956% 8.93111%,23.57212% 7.69854%,25% 6.69873%,26.5798% 5.96206%,28.26352% 5.51091%,30% 5.35898%,70% 5.35898%,71.73648% 5.51091%,73.4202% 5.96206%,75% 6.69873%,76.42788% 7.69854%,77.66044% 8.93111%,78.66025% 10.35898%);display:grid}.team-participant img{height:var(--hex-image-size);width:var(--hex-image-size)}.qh-hexagon-outer{align-content:center;background-color:#fff;box-sizing:border-box;-webkit-clip-path:var(--hex-clip-path);clip-path:var(--hex-clip-path);cursor:pointer;display:flex;justify-content:center;padding:var(--hex-border-width)}.qh-hexagon-outer.selected{background-color:#b85374}.qh-hexagon{-webkit-clip-path:var(--hex-clip-path);clip-path:var(--hex-clip-path)}.qh-hexagon.empty-slot{background:transparent linear-gradient(180deg,#370012,#652438) 0 0 no-repeat padding-box}.team-overview{cursor:pointer;min-height:2rem;padding-bottom:1.35em;position:relative}.team-overview>.avatar-area>.elements{bottom:0;-webkit-column-gap:.3rem;column-gap:.3rem;display:flex;flex-direction:row;justify-content:center;left:50%;position:absolute;-webkit-transform:translateX(-50%) translateY(50%);transform:translateX(-50%) translateY(50%)}.team-overview.inactive{cursor:default}.teams-list{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center}.tile.team-overview.inactive .bg{align-items:center;background-color:#300912;border:none;border:var(--hex-border-width) solid transparent;border-radius:10px;box-shadow:none;display:flex;height:var(--image-size);justify-content:center;width:var(--image-size)}.team-editor{display:flex;flex-direction:column;row-gap:1em}.team-editor>.actions{align-items:center;-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row;justify-content:center}.team-editor>.actions>button{min-height:2em;min-width:8em}.team-stats{grid-row-gap:.25rem;grid-column-gap:2rem;align-self:stretch;-webkit-column-gap:2rem;column-gap:2rem;display:grid;grid-template-columns:repeat(2,auto);min-width:10em;row-gap:.25rem}.team-stats>span{background-color:#4f222e;background-position:0;background-repeat:no-repeat;background-size:contain;border:1px solid #dc659c;border-radius:4px;box-shadow:0 3px rgba(13,22,25,.35);padding-block:3px;padding-left:3rem;padding-right:1rem;text-align:right}.team-stats>.attack{background-image:url(https://hh2.hh-content.com/caracs/damage.png)}.team-stats>.defense{background-image:url(https://hh2.hh-content.com/caracs/deff_undefined.png)}.team-stats>.ego{background-image:url(https://hh2.hh-content.com/caracs/ego.png)}.team-stats>.harmony{background-image:url(https://hh2.hh-content.com/pictures/misc/items_icons/5.png)}.team>.team-elements{-webkit-column-gap:.5em;column-gap:.5em;display:flex;flex-direction:row}.team-header{align-items:center;display:flex;flex-direction:row}.team-header>.close-popup{height:2em;margin-left:auto;margin-right:2rem;width:2em}.hex-tile{display:flex;flex-direction:row;margin-bottom:1em;position:relative}.hex-tile>.element{bottom:0;height:min(2em,2rem);left:50%;position:absolute;-webkit-transform:translateX(-50%) translateY(calc(50% - var(--hex-border-width)));transform:translateX(-50%) translateY(calc(50% - var(--hex-border-width)));width:min(2em,2rem)}.team-girls-list>.item_6,.team-girls-list>.item_7{grid-column:1;-webkit-transform:translateX(calc(var(--hex-horizontal-shift)*1));transform:translateX(calc(var(--hex-horizontal-shift)*1))}.team-girls-list>.item_1,.team-girls-list>.item_2,.team-girls-list>.item_5{grid-column:2}.team-girls-list>.item_3,.team-girls-list>.item_4{grid-column:3;-webkit-transform:translateX(calc(var(--hex-horizontal-shift)*-1));transform:translateX(calc(var(--hex-horizontal-shift)*-1))}.team-girls-list>.item_1{grid-row:3/5}.team-girls-list>.item_2{grid-row:1/3}.team-girls-list>.item_5{grid-row:5/7}.team-girls-list>.item_3,.team-girls-list>.item_7{grid-row:2/4}.team-girls-list>.item_4,.team-girls-list>.item_6{grid-row:4/6}.team-overview.tile.inactive>.bg>.lock-icon{width:2em}.team{-webkit-column-gap:.75em;column-gap:.75em;row-gap:1em}@media screen and (max-width:1199px){.team-stats{align-self:center;grid-template-columns:repeat(1,auto)}.team{flex-direction:row}}.teams-section{overflow:auto}.harem-upgrade{display:flex;flex-direction:column;height:100%;position:relative;row-gap:.3em;width:100%}.harem-upgrade>.close-popup{position:absolute;right:.5rem;top:.5rem}.harem-upgrade>.items-and-actions{gap:1em}.harem-upgrade>.items-and-actions,.qh-inventory{display:flex;flex-direction:column;min-height:1rem}.qh-inventory{row-gap:.5rem}.qh-inventory>h3{margin:0;padding:0}.upgrade-items-list{-webkit-column-gap:.5rem;column-gap:.5rem;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;overflow:auto;row-gap:.2em}.itemTile>.tile-image-area{position:relative}.itemTile>.tile-image-area>.item-count{background-color:#3c1f24;border-radius:3px 3px 3px 3px;bottom:0;left:0;min-width:1em;padding:0 .2em;position:absolute}.harem-upgrade-actions{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row}.harem-upgrade-actions>.hh-action-button{font-size:1.2em;padding:.4em .8em}.harem-upgrade-actions>.spacer{margin-left:auto}.harem-upgrade-pages{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row;justify-content:center}.harem-upgrade-pages>*{color:#d08467;cursor:pointer;font-size:1.3em;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000}.harem-upgrade-pages>.active{color:#ffb827;cursor:auto;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,-2px -2px 5px rgba(255,159,0,.4),2px -2px 5px rgba(255,159,0,.4),-2px 2px 5px rgba(255,159,0,.4),2px 2px 5px rgba(255,159,0,.4),0 0 10px rgba(255,159,0,.4)}.girls-selector{-webkit-column-gap:1rem;column-gap:1rem;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;row-gap:.5em}.girls-selector>.girl-rank{flex-basis:100%}.girls-selector .next-girl,.girls-selector .previous-girl{opacity:.6}.aff-status,.xp-status{align-items:center;border-block:1px solid #fff;-webkit-column-gap:1rem;column-gap:1rem;display:flex;flex-direction:row;flex-wrap:wrap;font-size:.9em;justify-content:center;min-height:4rem;padding-bottom:.5rem}.aff-status .qh-progress-bar,.xp-status .qh-progress-bar{font-size:.9em}.xp-status .gems-awakening{margin-top:.5em;min-width:14rem}.xp-status>span{display:flex;flex-direction:column}@media screen and (max-height:500px){.harem-upgrade{grid-gap:1em;display:grid;gap:1em;grid-template-columns:repeat(2,1fr)}}.popup-overlay{background-color:rgba(0,0,0,.5)}.qh-popup{background-color:rgba(32,3,7,.95);border:2px solid #905312;border-radius:15px;box-shadow:0 0 7px #000;display:flex;flex-direction:column;height:50vh;padding:2rem;width:40vw}@media screen and (max-width:1920px){.qh-popup{height:70vh;width:70vw}}@media screen and (max-width:1280px){.qh-popup{height:95vh;width:95vw}}.qh-popup>.close-popup{position:absolute;right:1.5rem;top:1.5rem}.awaken-summary{display:flex;flex-direction:row;gap:.3em;justify-content:center}button.awaken{background-image:url(https://hh2.hh-content.com/design/ic_gem.svg);background-origin:content-box;background-position:50%;background-repeat:no-repeat;background-size:contain;cursor:pointer;padding:.2em}button.awaken.overlay{background-image:url(https://hh2.hh-content.com/design/ic_gem.svg),linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;border:none;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;height:1.5rem;position:absolute;right:0;top:50%;-webkit-transform:translateX(30%) translateY(-50%);transform:translateX(30%) translateY(-50%);width:1.5rem}button.awaken.overlay:active{box-shadow:none}.awakening-popup{display:flex;flex-direction:column}.awakening-popup-content{display:grid;flex-shrink:1;font-size:1.5em;grid-template-columns:.5fr .7fr;min-height:0;overflow:auto}.awakening-popup-content>.pose{display:flex;min-height:0;min-width:0}.hh-game-action.do-awaken{display:flex;flex-direction:column;padding:.5rem 2rem}.hh-game-action.do-awaken>.gems-cost{display:flex;flex-direction:row;gap:.5em}.awakening-details{align-items:flex-start;display:flex;flex-direction:column;gap:2em}.awakening-details>h2{color:#ffb827;font-size:2em}.awakening-description{display:flex;flex-direction:row}.awakening-details .highlight-value{color:#ffb827}.chevron-right{align-self:center;background-image:url(https://hh2.hh-content.com/clubs/ic_FilterBtnUP.png);background-origin:content-box;height:1.5em;-webkit-transform:rotate(90deg);transform:rotate(90deg);width:1.5em}.chevron-right,button.upgrade.overlay{background-position:50%;background-repeat:no-repeat;background-size:contain}button.upgrade.overlay{background-image:url(https://hh2.hh-content.com/design_v2/upgrade_icn.png),linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;border:1px solid #000;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;cursor:pointer;height:1.5rem;padding:.2em;position:absolute;right:0;top:50%;-webkit-transform:translateX(30%) translateY(-50%);transform:translateX(30%) translateY(-50%);width:1.5rem}button.upgrade.overlay:active{box-shadow:none}.max-content-popup{display:flex;flex-direction:column;font-size:1.2em}.max-content-popup>h2{border-bottom:1px solid #8e0333;font-size:1.5em;padding-bottom:.6em}.max-content-popup>.qh-inventory{flex-grow:1;padding-top:1em}.max-content-popup>.note{border-block:1px solid #8e0333;padding-block:1em;text-align:center}.max-content-popup>.note>.value{color:#ffb918}.max-out-actions{-webkit-column-gap:2em;column-gap:2em;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;row-gap:1em}.max-out-actions>span{flex-basis:100%;text-align:center}.max-out-actions button{min-height:4rem;min-width:8rem}.hamburger-menu-content{background-color:#1e261e;border:1px solid #ffa23e;border-radius:.25em;box-shadow:0 0 7px 0 #c61f52,0 0 0 0 rgba(159,7,58,.6);min-width:20vw;overflow:auto;padding-block:.5em}.toolbar-content{align-items:center;display:flex;flex-direction:row;gap:1em}.hamburger-menu-content>.toolbar-content{align-items:stretch;flex-direction:column;padding:0}@media screen and (max-width:1020px){.harem-toolbar>.toolbar-content{display:none}}.qh-menu-toggle{background-image:url(https://hh2.hh-content.com/design/ic_menu.svg),linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;background-position:50%;background-repeat:no-repeat;background-size:contain;border:1px solid transparent;border-radius:5px;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;height:1.5em;padding:.25em;width:1.5em}.qh-menu-toggle:active{box-shadow:none}.hamburger-menu-content>.toolbar-content>.hh-action-button{background:transparent;border:none;border-radius:0;box-shadow:none;color:#fff;min-width:0;width:auto}.hamburger-menu-content>.toolbar-content>.hh-action-button[disabled]{color:#666}body.qh-local{background-color:#452129;color:#fff}.App{color:#fff;text-align:center}@media screen and (max-width:960px){#popup-root,.App{font-size:.6em}}@media screen and (min-width:961px) and (max-width:1280px){#popup-root,.App{font-size:.8em}}@media screen and (min-width:1281px) and (max-width:1920px){#popup-root,.App{font-size:1em}}@media screen and (min-width:1921px){#popup-root,.App{font-size:1.35em}}@media screen and (min-width:2561px){#popup-root,.App{font-size:1.5em}}.app-title{background-image:url(https://hh.hh-content.com/pictures/design/symbol_shadow.svg);background-position-x:left;background-position-y:center;background-repeat:no-repeat;cursor:pointer;padding-left:60px}.App-logo{height:10vmin;pointer-events:none}.App-header{align-items:center;display:flex;flex-direction:column;justify-content:center}.App-link{color:#61dafb}.data-input{height:200px;width:60%}.blessings-summary{-webkit-column-gap:5px;column-gap:5px;display:flex;flex-flow:row wrap;justify-content:center;padding-left:1rem;padding-right:1rem;row-gap:5px;text-align:left}.blessings-summary>div{display:flex;flex-flow:column;padding:1rem;row-gap:.25em}.blessings-summary>div>h2{color:#d3d3d3;font-size:1.2em}.missing-girls-blessing>span>.owned{color:#c93e3e;font-weight:700}.toggle-filter{cursor:pointer}.filter-enabled{-webkit-filter:drop-shadow(0 0 3px #fff);filter:drop-shadow(0 0 3px white);text-decoration:underline}.rare-blessing>span>.total{color:#c93e3e;font-weight:700}.details-content>.details-section>div,.details-content>.details-section>p,.details-content>p{margin-block:.8em;text-align:left}.icon-link>.qh-tooltip-wrapper>img{background-image:linear-gradient(0deg,#008ed5 0,#05719c);background-origin:content-box,border-box;border:none;border-radius:100%;box-shadow:0 3px 0 rgba(13,22,25,.35),inset 0 3px 0 #6df0ff;padding:2px}.icon-link:active>.qh-tooltip-wrapper>img{box-shadow:none}.details-content>p>.grade{justify-content:left}.upgrade-link{-webkit-column-gap:1em;column-gap:1em;display:flex;flex-direction:row}.section-switch{display:flex;gap:30px;justify-content:left;margin-bottom:8px}.section-switch>span{color:#d08467;cursor:pointer;text-shadow:1px 1px 0 #000,-1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000}.section-switch>span.active{color:#ffb827;cursor:auto;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,-2px -2px 5px rgba(255,159,0,.4),2px -2px 5px rgba(255,159,0,.4),-2px 2px 5px rgba(255,159,0,.4),2px 2px 5px rgba(255,159,0,.4),0 0 10px rgba(255,159,0,.4)}.general-attributes{gap:15px}.general-attributes,.pose-and-stats{align-items:center;display:flex;flex-direction:row}.qh_description>.details{display:flex;flex-direction:column;height:100%;padding-right:15px;width:55%}.details-header{height:3em;margin-bottom:8px}.details-content{overflow:auto}.App a{color:#fff}.blessings-list{display:flex;flex-direction:row;justify-content:center;row-gap:10px}.blessing-item{background-color:#c93e3e;border:1px solid transparent;border-radius:10px;margin:10px;padding:10px}.blessing-item>h4,.blessing-item>p{cursor:pointer;margin:0;padding:0}div.pop{display:flex;justify-content:center}ul.pop{text-align:left}li.ok{color:green}li.nok{color:red}#popup-root button,#popup-root input,.App button,.App input{padding-block:.25em;padding-inline:.5em}.action{cursor:pointer}#popup-root a{color:#fff}#quick-harem-wrapper{display:flex;flex-direction:column;height:100%;left:0;overflow:hidden;pointer-events:none;position:absolute;top:0;width:100%;z-index:3}#quick-harem-wrapper>.App{pointer-events:auto}.App.game-extension{background-color:#452129;border-radius:20px;box-shadow:0 0 7px #000;display:flex;flex-direction:column;height:calc(100% - 8em);margin:5em auto 3em;padding:0;width:95%}@media only screen and (max-height:600px){.App.game-extension{height:95%;margin:auto}}.App.game-extension.hidden{visibility:hidden}.game-extension *{box-sizing:initial;vertical-align:auto}.harem-popup-error{position:relative}.harem-popup-error>.close-popup{position:absolute;right:1rem;top:0}#toggle-harem{cursor:pointer}.test-container{border:1px solid red;border-radius:15px;margin-top:50px;overflow:auto;padding:50px}#quick-harem-wrapper>.test-container{pointer-events:auto}
     `);
 })();
